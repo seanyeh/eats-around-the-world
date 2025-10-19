@@ -1,0 +1,58 @@
+---
+layout: layouts/base.liquid
+pagination:
+  data: dishes
+  size: 1
+  alias: dish
+permalink: "/dishes/{{ dish.id }}/"
+eleventyComputed:
+  title: "{{ dish.name }}"
+---
+
+<div class="dish-header">
+  <h1>{{ dish.name }}{% if dish.links.wiki %}<a href="{{ dish.links.wiki }}" target="_blank" class="wiki-icon" title="Learn more on Wikipedia">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+      </svg>
+    </a>{% endif %}</h1>
+  {% if dish.original %}
+    <p class="original-name">
+      <strong>Also known as:</strong> {{ dish.original }}
+    </p>
+  {% endif %}
+  
+  {% comment %} Find cities that serve this dish {% endcomment %}
+  {% assign dish_cities = cities | where_exp: "city", "city.dishes contains dish.id" %}
+  {% if dish_cities.size > 0 %}
+    <p class="locations">
+      <strong>Found in:</strong>
+      {% for city in dish_cities %}
+        <a href="/cities/{{ city.name | slugify }}/">{{ city.name }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </p>
+  {% endif %}
+</div>
+
+<div class="dish-content">
+  <div class="dish-image">
+    {% if dish.image %}
+      <img src="{{ dish.image }}" alt="{{ dish.name }}" loading="lazy">
+    {% else %}
+      <img src="/images/no_image_placeholder.svg" alt="{{ dish.name }}" loading="lazy">
+    {% endif %}
+  </div>
+  
+  <div class="dish-description">
+    <p>{{ dish.description }}</p>
+  </div>
+</div>
+
+<nav class="dish-navigation">
+  {% if pagination.href.previous %}
+    <a href="{{ pagination.href.previous }}" class="nav-link prev">← Previous Dish</a>
+  {% endif %}
+  
+  {% if pagination.href.next %}
+    <a href="{{ pagination.href.next }}" class="nav-link next">Next Dish →</a>
+  {% endif %}
+</nav>

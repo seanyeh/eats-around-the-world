@@ -1,0 +1,1891 @@
+[
+  {
+    "id": "ramen",
+    "name": "Ramen",
+    "original": "ラーメン",
+    "description": "Japanese noodle soup with rich broth, wheat noodles, and toppings like chashu pork, ajitsuke egg, nori seaweed, and green onions.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Ramen"
+    },
+    "image": "/images/dishes/ramen.jpg"
+  },
+  {
+    "id": "sushi",
+    "name": "Sushi",
+    "original": "寿司",
+    "description": "Vinegared rice topped with fresh fish, seafood, or vegetables featuring precise knife work and minimal seasoning.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Sushi"
+    },
+    "image": "/images/dishes/sushi.jpg"
+  },
+  {
+    "id": "tempura",
+    "name": "Tempura",
+    "original": "天ぷら",
+    "description": "Light, crispy battered and fried seafood and vegetables known for its delicate, almost transparent batter.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Tempura"
+    },
+    "image": "/images/dishes/tempura.jpg"
+  },
+  {
+    "id": "monjayaki",
+    "name": "Monjayaki",
+    "original": "もんじゃ焼き",
+    "description": "Signature savory pancake made with a runny batter, cabbage, and various toppings, cooked on a hot plate.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Monjayaki"
+    },
+    "image": "/images/dishes/monjayaki.jpg"
+  },
+  {
+    "id": "chanko-nabe",
+    "name": "Chanko Nabe",
+    "original": "ちゃんこ鍋",
+    "description": "Hearty hot pot traditionally eaten by sumo wrestlers, with chicken, vegetables, and tofu in a rich broth.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Chankonabe"
+    },
+    "image": "/images/dishes/chanko-nabe.jpg"
+  },
+  {
+    "id": "takoyaki",
+    "name": "Takoyaki",
+    "original": "たこ焼き",
+    "description": "Signature street food - round balls of wheat flour batter filled with diced octopus, topped with takoyaki sauce and bonito flakes.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Takoyaki"
+    },
+    "image": "/images/dishes/takoyaki.jpg"
+  },
+  {
+    "id": "okonomiyaki",
+    "name": "Okonomiyaki",
+    "original": "お好み焼き",
+    "description": "Savory pancake with cabbage, meat or seafood, topped with okonomiyaki sauce, mayo, and bonito flakes.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Okonomiyaki"
+    },
+    "image": "/images/dishes/okonomiyaki.jpg"
+  },
+  {
+    "id": "kushikatsu",
+    "name": "Kushikatsu",
+    "original": "串カツ",
+    "description": "Deep-fried skewered meat and vegetables in panko breadcrumbs. Traditional rule: no double-dipping in the communal sauce!",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Kushikatsu"
+    },
+    "image": "/images/dishes/kushikatsu.jpg"
+  },
+  {
+    "id": "ikayaki",
+    "name": "Ikayaki",
+    "original": "いか焼き",
+    "description": "Street food of grilled squid pressed between two metal plates, often served with special sauce.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Ikayaki"
+    },
+    "image": "/images/dishes/ikayaki.jpg"
+  },
+  {
+    "id": "butaman",
+    "name": "Butaman",
+    "original": "豚まん",
+    "description": "Steamed pork buns, larger and juicier than typical Chinese versions. A convenience store staple.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Butaman"
+    },
+    "image": "/images/dishes/butaman.jpg"
+  },
+  {
+    "id": "butter-chicken",
+    "name": "Butter Chicken",
+    "original": "Murgh Makhani",
+    "description": "Creamy tomato-based curry with tender chicken pieces, invented in the 1950s. Rich with butter, cream, and aromatic spices.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Butter_chicken"
+    },
+    "image": "/images/dishes/butter-chicken.jpg"
+  },
+  {
+    "id": "chole-bhature",
+    "name": "Chole Bhature",
+    "description": "Popular North Indian dish of spicy chickpea curry served with deep-fried bread. A breakfast staple.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Chole_bhature"
+    },
+    "image": "/images/dishes/chole-bhature.jpg"
+  },
+  {
+    "id": "kebabs",
+    "name": "Kebabs",
+    "original": "कबाब",
+    "description": "Famous grilled meat skewers, especially seekh kebabs and galouti kebabs from Mughlai cuisine.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Kebabs"
+    },
+    "image": "/images/dishes/kebabs.jpg"
+  },
+  {
+    "id": "parathas",
+    "name": "Parathas",
+    "original": "पराठा",
+    "description": "Flaky, buttery flatbreads stuffed with potatoes, cauliflower, or other fillings. Best from traditional street vendors.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Paratha"
+    },
+    "image": "/images/dishes/parathas.jpg"
+  },
+  {
+    "id": "chaat",
+    "name": "Chaat",
+    "original": "चाट",
+    "description": "Famous street snacks like bhel puri, aloo tikki, and golgappa with tangy tamarind and mint chutneys.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Chaat"
+    },
+    "image": "/images/dishes/chaat.jpg"
+  },
+  {
+    "id": "vada-pav",
+    "name": "Vada Pav",
+    "original": "वडा पाव",
+    "description": "Beloved street food - spiced potato fritter served in a bread roll with chutneys. Often called the Indian burger.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Vada_pav"
+    },
+    "image": "/images/dishes/vada-pav.jpg"
+  },
+  {
+    "id": "pav-bhaji",
+    "name": "Pav Bhaji",
+    "original": "पाव भाजी",
+    "description": "Street food of spiced mashed vegetables served with buttered bread rolls. Originated as fast food for mill workers.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Pav_bhaji"
+    },
+    "image": "/images/dishes/pav-bhaji.jpg"
+  },
+  {
+    "id": "bombay-duck-curry",
+    "name": "Bombay Duck Curry",
+    "description": "Traditional Maharashtrian curry made with bombay duck fish (actually a lizardfish), cooked in coconut and spices.",
+    "links": {}
+  },
+  {
+    "id": "bhel-puri",
+    "name": "Bhel Puri",
+    "original": "भेल पुरी",
+    "description": "Signature chaat made with puffed rice, vegetables, tamarind, and mint chutneys. Best eaten at beachside stalls.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Bhel_Puri"
+    },
+    "image": "/images/dishes/bhel-puri.jpg"
+  },
+  {
+    "id": "misal-pav",
+    "name": "Misal Pav",
+    "original": "मिसळ पाव",
+    "description": "Spicy curry made with sprouted lentils, topped with onions, tomatoes, and served with bread. Breakfast favorite.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Misal_pav"
+    },
+    "image": "/images/dishes/misal-pav.jpg"
+  },
+  {
+    "id": "xiaolongbao",
+    "name": "Xiaolongbao",
+    "original": "小笼包",
+    "description": "Soup dumplings with thin dough wrapping pork filling and hot broth. Eaten carefully to avoid spilling the soup.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Xiaolongbao"
+    },
+    "image": "/images/dishes/xiaolongbao.jpg"
+  },
+  {
+    "id": "shengjianbao",
+    "name": "Shengjianbao",
+    "original": "生煎包",
+    "description": "Pan-fried pork buns with crispy bottom and soft top, filled with pork and gelatin that melts into soup. A breakfast favorite.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Shengjianbao"
+    },
+    "image": "/images/dishes/shengjianbao.jpg"
+  },
+  {
+    "id": "red-braised-pork-belly",
+    "name": "Red-Braised Pork Belly",
+    "original": "红烧肉",
+    "description": "Hong shao rou - pork belly braised in soy sauce, rice wine, and rock sugar until tender and glossy.",
+    "links": {}
+  },
+  {
+    "id": "scallion-oil-noodles",
+    "name": "Scallion Oil Noodles",
+    "original": "葱油拌面",
+    "description": "Simple noodles tossed with fragrant scallion oil, soy sauce, and sugar. Comfort food that showcases technique over ingredients.",
+    "links": {}
+  },
+  {
+    "id": "white-cut-chicken",
+    "name": "White Cut Chicken",
+    "original": "白切鸡",
+    "description": "Poached whole chicken served cold, sliced and eaten with ginger-scallion sauce. A classic cold dish.",
+    "links": {}
+  },
+  {
+    "id": "peking-duck",
+    "name": "Peking Duck",
+    "original": "北京烤鸭",
+    "description": "Famous roasted duck with crispy skin, served with thin pancakes, scallions, cucumber, and hoisin sauce.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Peking_duck"
+    },
+    "image": "/images/dishes/peking-duck.jpg"
+  },
+  {
+    "id": "jianbing",
+    "name": "Jianbing",
+    "original": "煎饼",
+    "description": "Street breakfast crepe with egg, crispy wonton crackers, scallions, cilantro, and sweet and savory sauces.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Jianbing"
+    },
+    "image": "/images/dishes/jianbing.jpg"
+  },
+  {
+    "id": "zhajiangmian",
+    "name": "Zhajiangmian",
+    "original": "炸酱面",
+    "description": "Noodles with fermented soybean paste sauce, diced pork, and julienned vegetables. A beloved comfort food.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Zhajiangmian"
+    },
+    "image": "/images/dishes/zhajiangmian.jpg"
+  },
+  {
+    "id": "beijing-lamb-hot-pot",
+    "name": "Beijing Lamb Hot Pot",
+    "original": "北京涮羊肉",
+    "description": "Traditional hot pot with paper-thin sliced lamb cooked in clear broth, served with sesame sauce.",
+    "links": {}
+  },
+  {
+    "id": "donkey-burger",
+    "name": "Donkey Burger",
+    "original": "驴肉火烧",
+    "description": "Traditional street food - slow-cooked donkey meat in a crispy fired bread pocket. Considered a local delicacy.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Donkey_Burger"
+    },
+    "image": "/images/dishes/donkey-burger.jpg"
+  },
+  {
+    "id": "dim-sum",
+    "name": "Dim Sum",
+    "original": "点心",
+    "description": "Cantonese tradition of small plates served with tea. Includes dumplings, buns, rolls, and pastries from teahouse culture.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Dim_sum"
+    },
+    "image": "/images/dishes/dim-sum.jpg"
+  },
+  {
+    "id": "wonton-noodle-soup",
+    "name": "Wonton Noodle Soup",
+    "original": "云吞面",
+    "description": "Cantonese soup with thin egg noodles and wontons filled with shrimp and pork in a clear, light broth.",
+    "links": {}
+  },
+  {
+    "id": "char-siu",
+    "name": "Char Siu",
+    "original": "叉烧",
+    "description": "Cantonese barbecued pork with a sweet and savory glaze, traditionally roasted on skewers over an open fire.",
+    "links": {}
+  },
+  {
+    "id": "steamed-spare-ribs-with-black-bean",
+    "name": "Steamed Spare Ribs with Black Bean",
+    "original": "豉汁排骨",
+    "description": "Classic Cantonese dim sum dish of pork ribs marinated in fermented black bean sauce and steamed until tender.",
+    "links": {}
+  },
+  {
+    "id": "mapo-tofu",
+    "name": "Mapo Tofu",
+    "original": "麻婆豆腐",
+    "description": "Iconic Sichuan dish of silky tofu in spicy, numbing sauce with ground pork and Sichuan peppercorns.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Mapo_tofu"
+    },
+    "image": "/images/dishes/mapo-tofu.jpg"
+  },
+  {
+    "id": "kung-pao-chicken",
+    "name": "Kung Pao Chicken",
+    "original": "宫保鸡丁",
+    "description": "Classic Sichuan stir-fry with diced chicken, peanuts, vegetables, and dried chilies in a sweet and spicy sauce.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Kung_Pao_chicken"
+    },
+    "image": "/images/dishes/kung-pao-chicken.jpg"
+  },
+  {
+    "id": "dandan-noodles",
+    "name": "Dandan Noodles",
+    "original": "担担面",
+    "description": "Sichuan street food noodles in spicy sesame sauce with preserved vegetables, minced pork, and Sichuan peppercorns.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Dandan_noodles"
+    },
+    "image": "/images/dishes/dandan-noodles.jpg"
+  },
+  {
+    "id": "hot-pot",
+    "name": "Hot Pot",
+    "original": "火锅",
+    "description": "Sichuan-style spicy hot pot with numbingly spicy broth, featuring raw ingredients cooked at the table.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Hot_pot"
+    },
+    "image": "/images/dishes/hot-pot.jpg"
+  },
+  {
+    "id": "twice-cooked-pork",
+    "name": "Twice-Cooked Pork",
+    "original": "回锅肉",
+    "description": "Sichuan dish of pork belly first boiled then stir-fried with cabbage, peppers, and fermented bean paste.",
+    "links": {}
+  },
+  {
+    "id": "biang-biang-noodles",
+    "name": "Biang Biang Noodles",
+    "original": "Biáng biáng面",
+    "description": "Signature hand-pulled belt noodles, wide and thick, served with spicy chili oil and vegetables.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Biang_biang_noodles"
+    },
+    "image": "/images/dishes/biang-biang-noodles.jpg"
+  },
+  {
+    "id": "roujiamo",
+    "name": "Roujiamo",
+    "original": "肉夹馍",
+    "description": "Chinese hamburger with slow-cooked spiced pork stuffed in a crispy flatbread.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Roujiamo"
+    },
+    "image": "/images/dishes/roujiamo.jpg"
+  },
+  {
+    "id": "liangpi-cold-noodles",
+    "name": "Liangpi Cold Noodles",
+    "original": "凉皮",
+    "description": "Cold noodles made from wheat or rice starch, served with cucumber, bean sprouts, and spicy sauce.",
+    "links": {}
+  },
+  {
+    "id": "yangrou-paomo",
+    "name": "Yangrou Paomo",
+    "original": "羊肉泡馍",
+    "description": "Traditional soup with mutton and hand-torn bread soaked in rich, flavorful broth.",
+    "links": {}
+  },
+  {
+    "id": "persimmon-cake",
+    "name": "Persimmon Cake",
+    "original": "柿子饼",
+    "description": "Sweet treat made from persimmon pulp and flour, pan-fried until golden and filled with sweet paste.",
+    "links": {}
+  },
+  {
+    "id": "pad-thai",
+    "name": "Pad Thai",
+    "original": "ผัดไทย",
+    "description": "Thailand's national dish - stir-fried rice noodles with eggs, tofu or shrimp, bean sprouts, and sweet-tangy tamarind sauce.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Pad_thai"
+    },
+    "image": "/images/dishes/pad-thai.jpg"
+  },
+  {
+    "id": "tom-yum-goong",
+    "name": "Tom Yum Goong",
+    "original": "ต้มยำกุ้ง",
+    "description": "Iconic Thai hot and sour soup with shrimp, lemongrass, kaffir lime leaves, galangal, and chili peppers.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Tom_yum"
+    },
+    "image": "/images/dishes/tom-yum-goong.jpg"
+  },
+  {
+    "id": "green-curry",
+    "name": "Green Curry",
+    "original": "แกงเขียวหวาน",
+    "description": "Spicy Thai curry with green chilies, coconut milk, Thai basil, and chicken or beef. The most popular curry variety.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Green_curry"
+    },
+    "image": "/images/dishes/green-curry.jpg"
+  },
+  {
+    "id": "mango-sticky-rice",
+    "name": "Mango Sticky Rice",
+    "original": "ข้าวเหนียวมะม่วง",
+    "description": "Classic Thai dessert of sweet coconut sticky rice served with ripe mango slices. Perfect street food.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Mango_sticky_rice"
+    },
+    "image": "/images/dishes/mango-sticky-rice.jpg"
+  },
+  {
+    "id": "som-tam",
+    "name": "Som Tam",
+    "original": "ส้มตำ",
+    "description": "Spicy green papaya salad with tomatoes, green beans, peanuts, and lime dressing. Street food staple.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Green_papaya_salad"
+    },
+    "image": "/images/dishes/som-tam.jpg"
+  },
+  {
+    "id": "kimchi-jjigae",
+    "name": "Kimchi Jjigae",
+    "original": "김치찌개",
+    "description": "Spicy Korean stew made with fermented kimchi, pork, tofu, and vegetables. A comfort food staple.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Kimchi-jjigae"
+    },
+    "image": "/images/dishes/kimchi-jjigae.jpg"
+  },
+  {
+    "id": "bulgogi",
+    "name": "Bulgogi",
+    "original": "불고기",
+    "description": "Marinated grilled beef with soy sauce, sugar, sesame oil, and garlic. The most famous Korean BBQ dish.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Bulgogi"
+    },
+    "image": "/images/dishes/bulgogi.jpg"
+  },
+  {
+    "id": "bibimbap",
+    "name": "Bibimbap",
+    "original": "비빔밥",
+    "description": "Mixed rice bowl with vegetables, meat, egg, and gochujang sauce. Healthy comfort food.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Bibimbap"
+    },
+    "image": "/images/dishes/bibimbap.jpg"
+  },
+  {
+    "id": "korean-fried-chicken",
+    "name": "Korean Fried Chicken",
+    "original": "치킨",
+    "description": "Double-fried crispy chicken with sweet and spicy glaze. Modern comfort food, perfect with beer.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Korean_fried_chicken"
+    },
+    "image": "/images/dishes/korean-fried-chicken.jpg"
+  },
+  {
+    "id": "tteokbokki",
+    "name": "Tteokbokki",
+    "original": "떡볶이",
+    "description": "Chewy rice cakes in spicy gochujang sauce. Popular street food, especially around universities.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Tteokbokki"
+    },
+    "image": "/images/dishes/tteokbokki.jpg"
+  },
+  {
+    "id": "fish-and-chips",
+    "name": "Fish and Chips",
+    "description": "Britain's national dish - battered and deep-fried white fish served with thick-cut chips, mushy peas, and malt vinegar.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Fish_and_chips"
+    },
+    "image": "/images/dishes/fish-and-chips.jpg"
+  },
+  {
+    "id": "bangers-and-mash",
+    "name": "Bangers and Mash",
+    "description": "Traditional British comfort food of sausages with mashed potatoes and onion gravy. A pub classic.",
+    "links": {}
+  },
+  {
+    "id": "beef-wellington",
+    "name": "Beef Wellington",
+    "description": "Elegant dish of beef tenderloin coated with pâté and wrapped in puff pastry. Associated with upscale dining.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Beef_Wellington"
+    },
+    "image": "/images/dishes/beef-wellington.jpg"
+  },
+  {
+    "id": "full-english-breakfast",
+    "name": "Full English Breakfast",
+    "description": "Traditional breakfast with eggs, bacon, sausages, baked beans, grilled tomatoes, mushrooms, and toast.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Full_English_Breakfast"
+    },
+    "image": "/images/dishes/full-english-breakfast.jpg"
+  },
+  {
+    "id": "chicken-tikka-masala",
+    "name": "Chicken Tikka Masala",
+    "description": "Britain's most popular curry - roasted chicken in spiced tomato-cream sauce. Invented by Bangladeshi chefs.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Chicken_tikka_masala"
+    },
+    "image": "/images/dishes/chicken-tikka-masala.jpg"
+  },
+  {
+    "id": "croissant",
+    "name": "Croissant",
+    "description": "Buttery, flaky pastry that's the symbol of French breakfast culture. Best enjoyed fresh from a boulangerie with coffee.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Croissant"
+    },
+    "image": "/images/dishes/croissant.jpg"
+  },
+  {
+    "id": "coq-au-vin",
+    "name": "Coq au Vin",
+    "description": "Classic French dish of chicken braised in red wine with mushrooms, bacon, and pearl onions. A bistro favorite.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Coq_au_vin"
+    },
+    "image": "/images/dishes/coq-au-vin.jpg"
+  },
+  {
+    "id": "french-onion-soup",
+    "name": "French Onion Soup",
+    "description": "Classic bistro soup with caramelized onions, beef broth, and melted Gruyère cheese on top.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/French_onion_soup"
+    },
+    "image": "/images/dishes/french-onion-soup.jpg"
+  },
+  {
+    "id": "escargot",
+    "name": "Escargot",
+    "description": "Traditional French appetizer of snails cooked in garlic, parsley, and butter. A delicacy.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Snails_as_food"
+    },
+    "image": "/images/dishes/escargot.jpg"
+  },
+  {
+    "id": "creme-brulee",
+    "name": "Crème Brûlée",
+    "description": "Classic French dessert with rich custard base topped with caramelized sugar. Pastry perfection.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Crème_brûlée"
+    },
+    "image": "/images/dishes/creme-brulee.jpg"
+  },
+  {
+    "id": "carbonara",
+    "name": "Carbonara",
+    "description": "Roman pasta dish with eggs, Pecorino Romano cheese, guanciale, and black pepper. No cream in the authentic version.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Carbonara"
+    },
+    "image": "/images/dishes/carbonara.jpg"
+  },
+  {
+    "id": "cacio-e-pepe",
+    "name": "Cacio e Pepe",
+    "description": "Simple Roman pasta with just Pecorino Romano cheese, black pepper, and pasta water. Deceptively difficult to perfect.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Cacio_e_pepe"
+    },
+    "image": "/images/dishes/cacio-e-pepe.jpg"
+  },
+  {
+    "id": "saltimbocca",
+    "name": "Saltimbocca",
+    "description": "Roman veal dish with prosciutto and sage, cooked in white wine. Literally means 'jumps in the mouth'.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Saltimbocca"
+    },
+    "image": "/images/dishes/saltimbocca.jpg"
+  },
+  {
+    "id": "suppli",
+    "name": "Supplì",
+    "description": "Roman street food - fried rice balls stuffed with mozzarella. The cheese stretches like telephone wires when bitten.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Supplì"
+    },
+    "image": "/images/dishes/suppli.jpg"
+  },
+  {
+    "id": "gelato",
+    "name": "Gelato",
+    "description": "Italian ice cream served at warmer temperature than regular ice cream, with intense flavors and creamy texture.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Gelato"
+    },
+    "image": "/images/dishes/gelato.jpg"
+  },
+  {
+    "id": "pizza-margherita",
+    "name": "Pizza Margherita",
+    "description": "The original Neapolitan pizza with tomato sauce, mozzarella di bufala, fresh basil, and olive oil. Represents the Italian flag colors.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Pizza_Margherita"
+    },
+    "image": "/images/dishes/pizza-margherita.jpg"
+  },
+  {
+    "id": "paella",
+    "name": "Paella",
+    "description": "Traditional Spanish rice dish with saffron, vegetables, and either seafood, chicken, or rabbit depending on the style.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Paella"
+    },
+    "image": "/images/dishes/paella.jpg"
+  },
+  {
+    "id": "new-york-pizza",
+    "name": "New York Pizza",
+    "description": "Large, thin-crust pizza sold by the slice. Foldable slices with simple toppings like cheese or pepperoni are classics.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/New_York-style_pizza"
+    },
+    "image": "/images/dishes/new-york-pizza.jpg"
+  },
+  {
+    "id": "bagel-with-lox",
+    "name": "Bagel with Lox",
+    "description": "Breakfast staple - everything bagel with cream cheese, smoked salmon, capers, red onion, and sometimes tomato.",
+    "links": {}
+  },
+  {
+    "id": "pastrami-on-rye",
+    "name": "Pastrami on Rye",
+    "description": "Classic deli sandwich with thick-cut pastrami, mustard, and pickles on rye bread. Deli specialty.",
+    "links": {}
+  },
+  {
+    "id": "cheesecake",
+    "name": "Cheesecake",
+    "description": "Dense, creamy New York-style cheesecake with graham cracker crust. Often served plain or with berry topping.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Cheesecake"
+    },
+    "image": "/images/dishes/cheesecake.jpg"
+  },
+  {
+    "id": "hot-dog",
+    "name": "Hot Dog",
+    "description": "Street cart classic - grilled or steamed frankfurter with mustard, ketchup, onions, and sauerkraut.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Hot_dog"
+    },
+    "image": "/images/dishes/hot-dog.png"
+  },
+  {
+    "id": "tacos-al-pastor",
+    "name": "Tacos al Pastor",
+    "description": "Iconic tacos with marinated pork cooked on a vertical spit, served with pineapple, onion, and cilantro.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Al_pastor"
+    },
+    "image": "/images/dishes/tacos-al-pastor.jpg"
+  },
+  {
+    "id": "chilaquiles",
+    "name": "Chilaquiles",
+    "description": "Traditional Mexican breakfast of fried tortilla chips simmered in salsa, topped with cheese, crema, and onions.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Chilaquiles"
+    },
+    "image": "/images/dishes/chilaquiles.jpg"
+  },
+  {
+    "id": "pozole",
+    "name": "Pozole",
+    "description": "Traditional Mexican soup with hominy corn, pork or chicken, and red chili broth. Often served with radishes and oregano.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Pozole"
+    },
+    "image": "/images/dishes/pozole.jpg"
+  },
+  {
+    "id": "tamales",
+    "name": "Tamales",
+    "description": "Corn dough stuffed with meat, cheese, or vegetables, wrapped in corn husks and steamed. Street food classic.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Tamale"
+    },
+    "image": "/images/dishes/tamales.jpg"
+  },
+  {
+    "id": "churros",
+    "name": "Churros",
+    "description": "Fried dough pastry dusted with cinnamon sugar, often filled with dulce de leche. Popular dessert.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Churro"
+    },
+    "image": "/images/dishes/churros.jpg"
+  },
+  {
+    "id": "crema-catalana",
+    "name": "Crema Catalana",
+    "original": "Crema Cremada",
+    "description": "Traditional Catalan dessert similar to crème brûlée, flavored with lemon zest and cinnamon.",
+    "links": {},
+    "image": "/images/dishes/crema-catalana.jpg"
+  },
+  {
+    "id": "pan-con-tomate",
+    "name": "Pan con Tomate",
+    "original": "Pa amb Tomàquet",
+    "description": "Simple Catalan dish of bread rubbed with tomato, garlic, olive oil, and salt. A breakfast staple.",
+    "links": {}
+  },
+  {
+    "id": "calcots",
+    "name": "Calcots",
+    "original": "Calçots",
+    "description": "Grilled spring onions served with romesco sauce, traditionally eaten during winter months.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Calcots"
+    },
+    "image": "/images/dishes/calcots.jpg"
+  },
+  {
+    "id": "cocido-madrileno",
+    "name": "Cocido Madrileño",
+    "description": "Traditional chickpea stew with vegetables, chorizo, and various meats, served in multiple courses.",
+    "links": {}
+  },
+  {
+    "id": "bocadillo-de-calamares",
+    "name": "Bocadillo de Calamares",
+    "description": "Famous fried squid sandwich, typically served in a crusty bread roll with lemon.",
+    "links": {}
+  },
+  {
+    "id": "torrijas",
+    "name": "Torrijas",
+    "description": "Spanish version of French toast, soaked in milk and wine, then fried and dusted with cinnamon. Easter tradition.",
+    "links": {},
+    "image": "/images/dishes/torrijas.jpg"
+  },
+  {
+    "id": "huevos-rotos",
+    "name": "Huevos Rotos",
+    "description": "Broken eggs over fried potatoes, often with jamón ibérico. Simple but beloved comfort food.",
+    "links": {}
+  },
+  {
+    "id": "patatas-bravas",
+    "name": "Patatas Bravas",
+    "description": "Fried potato cubes served with spicy tomato sauce and aioli. Classic tapas dish.",
+    "links": {}
+  },
+  {
+    "id": "risotto-alla-milanese",
+    "name": "Risotto alla Milanese",
+    "description": "Creamy Milanese rice dish flavored with saffron, butter, and Parmigiano-Reggiano cheese.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Risotto"
+    },
+    "image": "/images/dishes/risotto-alla-milanese.jpg"
+  },
+  {
+    "id": "cotoletta-alla-milanese",
+    "name": "Cotoletta alla Milanese",
+    "description": "Breaded veal cutlet fried in butter, a signature dish dating back to the 12th century.",
+    "links": {}
+  },
+  {
+    "id": "panettone",
+    "name": "Panettone",
+    "description": "Sweet bread loaf with candied fruits and raisins, traditionally eaten at Christmas.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Panettone"
+    },
+    "image": "/images/dishes/panettone.jpg"
+  },
+  {
+    "id": "osso-buco",
+    "name": "Osso Buco",
+    "description": "Braised veal shanks cooked with vegetables, white wine, and broth. Classic comfort food.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Osso_Buco"
+    },
+    "image": "/images/dishes/osso-buco.jpg"
+  },
+  {
+    "id": "currywurst",
+    "name": "Currywurst",
+    "description": "Iconic street food - sliced sausage served with curry-spiced ketchup and fries. Post-war invention.",
+    "links": {},
+    "image": "/images/dishes/currywurst.jpg"
+  },
+  {
+    "id": "doner-kebab",
+    "name": "Döner Kebab",
+    "description": "Turkish-German fusion - rotisserie meat in pita bread with vegetables and sauce. The best döner outside Turkey.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Doner_kebab"
+    },
+    "image": "/images/dishes/doner-kebab.jpg"
+  },
+  {
+    "id": "eisbein",
+    "name": "Eisbein",
+    "description": "Traditional pork knuckle served with sauerkraut and mashed peas. Hearty German comfort food.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Eisbein"
+    },
+    "image": "/images/dishes/eisbein.jpg"
+  },
+  {
+    "id": "berliner-pfannkuchen",
+    "name": "Berliner Pfannkuchen",
+    "description": "Jelly donuts, especially popular during New Year's celebrations. Called 'Berliners' elsewhere in Germany.",
+    "links": {},
+    "image": "/images/dishes/berliner-pfannkuchen.jpg"
+  },
+  {
+    "id": "sauerbraten",
+    "name": "Sauerbraten",
+    "description": "German pot roast marinated in vinegar and spices, served with red cabbage and dumplings.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Sauerbraten"
+    },
+    "image": "/images/dishes/sauerbraten.jpg"
+  },
+  {
+    "id": "nihari",
+    "name": "Nihari",
+    "original": "نہاری",
+    "description": "Slow-cooked stew with beef or mutton, traditionally eaten for breakfast. Rich with spices and bone marrow.",
+    "links": {},
+    "image": "/images/dishes/nihari.jpg"
+  },
+  {
+    "id": "biryani",
+    "name": "Biryani",
+    "original": "بریانی",
+    "description": "Fragrant basmati rice with spiced meat and potatoes. Different from other regional biryanis.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Biryani"
+    },
+    "image": "/images/dishes/biryani.jpg"
+  },
+  {
+    "id": "haleem",
+    "name": "Haleem",
+    "original": "حلیم",
+    "description": "Thick stew of lentils, meat, and spices, slow-cooked to creamy consistency. Popular during Ramadan.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Haleem"
+    },
+    "image": "/images/dishes/haleem.jpg"
+  },
+  {
+    "id": "adobo",
+    "name": "Adobo",
+    "description": "Philippines' national dish - meat braised in vinegar, soy sauce, garlic, and bay leaves. Every Filipino family has their version.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Philippine_adobo"
+    },
+    "image": "/images/dishes/adobo.jpg"
+  },
+  {
+    "id": "lechon",
+    "name": "Lechon",
+    "description": "Whole roasted pig, crispy skin and tender meat. The centerpiece of Filipino celebrations and the most iconic dish.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Lechon"
+    },
+    "image": "/images/dishes/lechon.jpg"
+  },
+  {
+    "id": "halo-halo",
+    "name": "Halo-Halo",
+    "description": "Iconic Filipino dessert with shaved ice, evaporated milk, and various toppings like beans, fruit, and ice cream.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Halo-halo"
+    },
+    "image": "/images/dishes/halo-halo.jpg"
+  },
+  {
+    "id": "rendang",
+    "name": "Rendang",
+    "description": "Spicy slow-cooked beef in coconut milk and spices. Originally from Sumatra but beloved throughout the region.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Rendang"
+    },
+    "image": "/images/dishes/rendang.jpg"
+  },
+  {
+    "id": "nasi-gudeg",
+    "name": "Nasi Gudeg",
+    "description": "Javanese dish of young jackfruit stewed in coconut milk, palm sugar, and spices, served with rice.",
+    "links": {}
+  },
+  {
+    "id": "gado-gado",
+    "name": "Gado-Gado",
+    "description": "Indonesian salad with mixed vegetables, tofu, tempeh, and boiled eggs, served with peanut sauce dressing.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Gado-Gado"
+    },
+    "image": "/images/dishes/gado-gado.jpg"
+  },
+  {
+    "id": "pho",
+    "name": "Pho",
+    "original": "Phở",
+    "description": "Vietnam's famous noodle soup with beef or chicken, herbs, and rice noodles. Southern style is sweeter than northern.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Pho"
+    },
+    "image": "/images/dishes/pho.jpg"
+  },
+  {
+    "id": "banh-mi",
+    "name": "Banh Mi",
+    "original": "Bánh Mì",
+    "description": "Vietnamese sandwich on French baguette with pâté, meat, pickled vegetables, and herbs. French-Vietnamese fusion.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Bánh_mì"
+    },
+    "image": "/images/dishes/banh-mi.jpg"
+  },
+  {
+    "id": "bun-bo-hue",
+    "name": "Bun Bo Hue",
+    "original": "Bún Bò Huế",
+    "description": "Spicy beef noodle soup from central Vietnam. Thicker noodles and lemongrass broth.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Bun_Bo_Hue"
+    },
+    "image": "/images/dishes/bun-bo-hue.jpg"
+  },
+  {
+    "id": "hainanese-chicken-rice",
+    "name": "Hainanese Chicken Rice",
+    "description": "Singapore's national dish - poached chicken with fragrant rice cooked in chicken stock, served with chili and ginger sauce.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Hainanese_Chicken_Rice"
+    },
+    "image": "/images/dishes/hainanese-chicken-rice.jpg"
+  },
+  {
+    "id": "laksa",
+    "name": "Laksa",
+    "description": "Spicy noodle soup with coconut milk, prawns, and rice noodles. Singapore's version is rich and creamy.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Laksa"
+    },
+    "image": "/images/dishes/laksa.jpg"
+  },
+  {
+    "id": "chili-crab",
+    "name": "Chili Crab",
+    "description": "Singapore's signature seafood dish - mud crabs in sweet and savory tomato-chili sauce. Eaten with mantou bread.",
+    "links": {}
+  },
+  {
+    "id": "milk-tea",
+    "name": "Milk Tea",
+    "original": "奶茶",
+    "description": "Hong Kong-style milk tea with black tea and evaporated milk, strained through silk stockings for smoothness.",
+    "links": {},
+    "image": "/images/dishes/milk-tea.jpg"
+  },
+  {
+    "id": "meat-pie",
+    "name": "Meat Pie",
+    "description": "Australian hand-held pie filled with minced meat and gravy. A pub and sporting event staple.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Meat_Pie"
+    },
+    "image": "/images/dishes/meat-pie.jpg"
+  },
+  {
+    "id": "barramundi",
+    "name": "Barramundi",
+    "description": "Australian native fish, grilled or pan-fried. Popular in restaurants for its mild flavor and flaky texture.",
+    "links": {},
+    "image": "/images/dishes/barramundi.jpg"
+  },
+  {
+    "id": "lamington",
+    "name": "Lamington",
+    "description": "Australian sponge cake squares coated in chocolate and coconut. Named after Lord Lamington, Queensland governor.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Lamington"
+    },
+    "image": "/images/dishes/lamington.jpg"
+  },
+  {
+    "id": "kebab",
+    "name": "Kebab",
+    "original": "Kebap",
+    "description": "Turkish grilled meat, the original kebab. Offers countless varieties from döner to şiş kebab.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Kebab"
+    },
+    "image": "/images/dishes/kebab.jpg"
+  },
+  {
+    "id": "turkish-delight",
+    "name": "Turkish Delight",
+    "original": "Lokum",
+    "description": "Sweet confection with starch and sugar, often flavored with rosewater. The most famous sweet treat.",
+    "links": {},
+    "image": "/images/dishes/turkish-delight.jpg"
+  },
+  {
+    "id": "baklava",
+    "name": "Baklava",
+    "description": "Layered pastry with nuts and honey syrup. Features pistachios and delicate phyllo layers.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Baklava"
+    },
+    "image": "/images/dishes/baklava.png"
+  },
+  {
+    "id": "borscht",
+    "name": "Borscht",
+    "original": "Борщ",
+    "description": "Beet soup that's a staple of Russian cuisine. Often includes beef and served with sour cream.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Borscht"
+    },
+    "image": "/images/dishes/borscht.jpg"
+  },
+  {
+    "id": "beef-stroganoff",
+    "name": "Beef Stroganoff",
+    "original": "Бефстроганов",
+    "description": "Tender beef in rich sour cream sauce, served over noodles. Classic Russian comfort food.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Beef_Stroganoff"
+    },
+    "image": "/images/dishes/beef-stroganoff.jpg"
+  },
+  {
+    "id": "blini",
+    "name": "Blini",
+    "original": "Блины",
+    "description": "Thin Russian pancakes served with various toppings like caviar, sour cream, or jam. Breakfast staple.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Blini"
+    },
+    "image": "/images/dishes/blini.jpg"
+  },
+  {
+    "id": "moussaka",
+    "name": "Moussaka",
+    "original": "Μουσακάς",
+    "description": "Layered casserole with eggplant, meat, and béchamel sauce. Greece's most famous dish.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Moussaka"
+    },
+    "image": "/images/dishes/moussaka.jpg"
+  },
+  {
+    "id": "souvlaki",
+    "name": "Souvlaki",
+    "original": "Σουβλάκι",
+    "description": "Grilled meat skewers served with pita, tzatziki, and vegetables. Street food at its finest.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Souvlaki"
+    },
+    "image": "/images/dishes/souvlaki.jpg"
+  },
+  {
+    "id": "greek-salad",
+    "name": "Greek Salad",
+    "original": "Χωριάτικη σαλάτα",
+    "description": "Village salad with tomatoes, cucumbers, olives, and feta cheese. Simple but perfect with olive oil.",
+    "links": {},
+    "image": "/images/dishes/greek-salad.jpg"
+  },
+  {
+    "id": "stroopwafel",
+    "name": "Stroopwafel",
+    "description": "Thin waffle cookies with caramel syrup filling. Best eaten warm over a cup of coffee in cafes.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Stroopwafel"
+    },
+    "image": "/images/dishes/stroopwafel.jpg"
+  },
+  {
+    "id": "herring",
+    "name": "Herring",
+    "original": "Haring",
+    "description": "Raw herring eaten whole with onions and pickles. Traditional street food, eaten by holding the tail.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Herring"
+    },
+    "image": "/images/dishes/herring.png"
+  },
+  {
+    "id": "wiener-schnitzel",
+    "name": "Wiener Schnitzel",
+    "description": "Breaded veal cutlet, Vienna's signature dish. Traditionally served with lemon and potato salad.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Wiener_schnitzel"
+    },
+    "image": "/images/dishes/wiener-schnitzel.jpg"
+  },
+  {
+    "id": "sachertorte",
+    "name": "Sachertorte",
+    "description": "Chocolate cake with apricot jam and chocolate glaze. Created in Vienna and still made at the original Hotel Sacher.",
+    "links": {},
+    "image": "/images/dishes/sachertorte.jpg"
+  },
+  {
+    "id": "apple-strudel",
+    "name": "Apple Strudel",
+    "original": "Apfelstrudel",
+    "description": "Paper-thin pastry filled with spiced apples. Vienna's most beloved dessert, served with vanilla sauce.",
+    "links": {}
+  },
+  {
+    "id": "goulash",
+    "name": "Goulash",
+    "original": "Guláš",
+    "description": "Hearty beef stew with paprika, traditionally served with bread dumplings. The ultimate comfort food.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Goulash"
+    },
+    "image": "/images/dishes/goulash.jpg"
+  },
+  {
+    "id": "svickova",
+    "name": "Svíčková",
+    "description": "Czech beef sirloin in cream sauce with bread dumplings and cranberries. The national dish.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Svíčková"
+    },
+    "image": "/images/dishes/svickova.jpg"
+  },
+  {
+    "id": "meatballs",
+    "name": "Meatballs",
+    "original": "Köttbullar",
+    "description": "Swedish meatballs with cream sauce, lingonberry, and potatoes. The most exported culinary tradition.",
+    "links": {},
+    "image": "/images/dishes/meatballs.jpg"
+  },
+  {
+    "id": "gravlax",
+    "name": "Gravlax",
+    "description": "Cured salmon with dill, sugar, and salt. Traditional Swedish preparation, perfect with mustard sauce.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Gravlax"
+    },
+    "image": "/images/dishes/gravlax.jpg"
+  },
+  {
+    "id": "cinnamon-bun",
+    "name": "Cinnamon Bun",
+    "original": "Kanelbulle",
+    "description": "Swedish cinnamon bun, less sweet than American versions. There's a national cinnamon bun day (October 4).",
+    "links": {},
+    "image": "/images/dishes/cinnamon-bun.jpg"
+  },
+  {
+    "id": "fish-tacos",
+    "name": "Fish Tacos",
+    "description": "Battered fish in corn tortillas with cabbage slaw and crema. Mexican-influenced coastal cuisine at its best.",
+    "links": {}
+  },
+  {
+    "id": "french-dip-sandwich",
+    "name": "French Dip Sandwich",
+    "description": "Roast beef sandwich served with au jus for dipping. Invented in LA in the early 1900s.",
+    "links": {},
+    "image": "/images/dishes/french-dip-sandwich.jpg"
+  },
+  {
+    "id": "deep-dish-pizza",
+    "name": "Deep Dish Pizza",
+    "description": "Chicago's signature thick-crust pizza with cheese on bottom and sauce on top. More like a pie than pizza.",
+    "links": {},
+    "image": "/images/dishes/deep-dish-pizza.jpg"
+  },
+  {
+    "id": "italian-beef",
+    "name": "Italian Beef",
+    "description": "Thinly sliced beef in spicy jus on Italian bread. Chicago's messy but beloved sandwich, often dipped.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Italian_Beef"
+    },
+    "image": "/images/dishes/italian-beef.jpg"
+  },
+  {
+    "id": "chicago-hot-dog",
+    "name": "Chicago Hot Dog",
+    "description": "All-beef hot dog with yellow mustard, onions, relish, tomato, pickle, sport peppers, and celery salt. Never ketchup!",
+    "links": {},
+    "image": "/images/dishes/chicago-hot-dog.jpg"
+  },
+  {
+    "id": "poutine",
+    "name": "Poutine",
+    "description": "French fries with cheese curds and gravy. Quebec's invention, but countless variations have been perfected.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Poutine"
+    },
+    "image": "/images/dishes/poutine.jpg"
+  },
+  {
+    "id": "peameal-bacon-sandwich",
+    "name": "Peameal Bacon Sandwich",
+    "description": "Back bacon rolled in cornmeal, served on a bun. Signature breakfast sandwich at St. Lawrence Market.",
+    "links": {}
+  },
+  {
+    "id": "butter-tart",
+    "name": "Butter Tart",
+    "description": "Sweet pastry tart with butter, sugar, and egg filling. Quintessentially Canadian dessert.",
+    "links": {}
+  },
+  {
+    "id": "sourdough-bread",
+    "name": "Sourdough Bread",
+    "description": "Tangy bread made with wild yeast starter. Gold Rush-era sourdough culture is still alive.",
+    "links": {}
+  },
+  {
+    "id": "dungeness-crab",
+    "name": "Dungeness Crab",
+    "description": "Sweet Pacific crab, best at Fisherman's Wharf. Signature seafood, in season November-June.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Dungeness_Crab"
+    },
+    "image": "/images/dishes/dungeness-crab.jpg"
+  },
+  {
+    "id": "mission-burrito",
+    "name": "Mission Burrito",
+    "description": "Oversized burrito with rice, beans, meat, and salsa. Invented in SF's Mission District, copied worldwide.",
+    "links": {}
+  },
+  {
+    "id": "bagel",
+    "name": "Bagel",
+    "description": "Montreal-style bagels are smaller, denser, and sweeter than New York bagels. Wood-fired and hand-rolled.",
+    "links": {},
+    "image": "/images/dishes/bagel.jpg"
+  },
+  {
+    "id": "smoked-meat",
+    "name": "Smoked Meat",
+    "description": "Cured beef brisket, similar to pastrami but with different spices. Jewish deli tradition since 1884.",
+    "links": {}
+  },
+  {
+    "id": "tourtiere",
+    "name": "Tourtière",
+    "description": "Traditional French-Canadian meat pie, especially popular at Christmas. Quebec's most iconic dish.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Tourtière"
+    },
+    "image": "/images/dishes/tourtiere.jpg"
+  },
+  {
+    "id": "feijoada",
+    "name": "Feijoada",
+    "description": "Brazil's national dish - black bean stew with pork, beef, and sausage. The most elaborate versions are served here.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Feijoada"
+    },
+    "image": "/images/dishes/feijoada.jpg"
+  },
+  {
+    "id": "pastel",
+    "name": "Pastel",
+    "description": "Crispy fried pastry with various fillings like ground meat, mozzarella, and heart of palm. Popular Brazilian street food.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Pastel_(Brazilian_food)"
+    },
+    "image": "/images/dishes/pastel.jpg"
+  },
+  {
+    "id": "brigadeiro",
+    "name": "Brigadeiro",
+    "description": "Chocolate truffle rolled in sprinkles. Brazil's most beloved sweet, essential at every celebration.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Brigadeiro"
+    },
+    "image": "/images/dishes/brigadeiro.jpg"
+  },
+  {
+    "id": "acai-bowl",
+    "name": "Açaí Bowl",
+    "description": "Frozen açaí berries blended into smoothie bowls with granola and fruit. Beach culture essential.",
+    "links": {},
+    "image": "/images/dishes/acai-bowl.jpg"
+  },
+  {
+    "id": "churrasco",
+    "name": "Churrasco",
+    "description": "Brazilian barbecue with various cuts of meat grilled on skewers. Churrasquerias are legendary.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Churrasco"
+    },
+    "image": "/images/dishes/churrasco.jpg"
+  },
+  {
+    "id": "caipirinha",
+    "name": "Caipirinha",
+    "description": "Brazil's national cocktail with cachaça, lime, and sugar. Perfect for beach bars and carnival.",
+    "links": {},
+    "image": "/images/dishes/caipirinha.jpg"
+  },
+  {
+    "id": "asado",
+    "name": "Asado",
+    "description": "Argentine barbecue featuring various cuts of beef grilled over wood fire. This art form was perfected here.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Asado"
+    },
+    "image": "/images/dishes/asado.jpg"
+  },
+  {
+    "id": "empanadas",
+    "name": "Empanadas",
+    "description": "Baked pastries with meat, cheese, or vegetable fillings. Each Argentine province has its style.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Empanada"
+    },
+    "image": "/images/dishes/empanadas.jpg"
+  },
+  {
+    "id": "dulce-de-leche",
+    "name": "Dulce de Leche",
+    "description": "Caramelized milk spread, Argentina's national obsession. Consumed more per capita than anywhere.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Dulce_de_Leche"
+    },
+    "image": "/images/dishes/dulce-de-leche.jpg"
+  },
+  {
+    "id": "ceviche",
+    "name": "Ceviche",
+    "description": "Fresh fish cured in citrus acids with onions and chilies. Lima is the ceviche capital of the world.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Ceviche"
+    },
+    "image": "/images/dishes/ceviche.jpg"
+  },
+  {
+    "id": "lomo-saltado",
+    "name": "Lomo Saltado",
+    "description": "Stir-fried beef with vegetables and fries, served over rice. Peru's Chinese-influenced fusion dish.",
+    "links": {},
+    "image": "/images/dishes/lomo-saltado.jpg"
+  },
+  {
+    "id": "pisco-sour",
+    "name": "Pisco Sour",
+    "description": "Cocktail with pisco brandy, lime juice, syrup, and egg white. Peru's national drink.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Pisco_Sour"
+    },
+    "image": "/images/dishes/pisco-sour.jpg"
+  },
+  {
+    "id": "arepas",
+    "name": "Arepas",
+    "description": "Corn cakes filled with cheese, meat, or vegetables. This version is thicker than Venezuelan arepas.",
+    "links": {},
+    "image": "/images/dishes/arepas.jpg"
+  },
+  {
+    "id": "bandeja-paisa",
+    "name": "Bandeja Paisa",
+    "description": "Hearty platter with beans, rice, meat, plantain, and egg. Colombia's most famous regional dish.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Bandeja_Paisa"
+    },
+    "image": "/images/dishes/bandeja-paisa.jpg"
+  },
+  {
+    "id": "aguardiente",
+    "name": "Aguardiente",
+    "description": "Anise-flavored spirit, Colombia's national liquor. Essential for nightlife and celebrations.",
+    "links": {},
+    "image": "/images/dishes/aguardiente.jpg"
+  },
+  {
+    "id": "empanadas-de-pino",
+    "name": "Empanadas de Pino",
+    "description": "Chilean empanadas with beef, onions, raisins, and olives. This version is the national standard.",
+    "links": {}
+  },
+  {
+    "id": "pastel-de-choclo",
+    "name": "Pastel de Choclo",
+    "description": "Corn casserole with meat, onions, and hard-boiled eggs. Traditional Chilean comfort food.",
+    "links": {}
+  },
+  {
+    "id": "completo",
+    "name": "Completo",
+    "description": "Chilean hot dog loaded with avocado, tomatoes, and mayo. Countless creative variations exist.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Completo"
+    },
+    "image": "/images/dishes/completo.jpg"
+  },
+  {
+    "id": "jollof-rice",
+    "name": "Jollof Rice",
+    "description": "Spiced rice dish with tomatoes, onions, and peppers. The most celebrated version in West Africa.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Jollof_rice"
+    },
+    "image": "/images/dishes/jollof-rice.jpg"
+  },
+  {
+    "id": "suya",
+    "name": "Suya",
+    "description": "Spiced grilled meat skewers, Nigeria's favorite street food. The most creative suya variations.",
+    "links": {},
+    "image": "/images/dishes/suya.jpg"
+  },
+  {
+    "id": "pounded-yam",
+    "name": "Pounded Yam",
+    "original": "Iyan",
+    "description": "Smooth starchy side dish served with soups and stews. Essential comfort food.",
+    "links": {}
+  },
+  {
+    "id": "ful-medames",
+    "name": "Ful Medames",
+    "original": "فول مدمس",
+    "description": "Stewed fava beans with olive oil, garlic, and lemon. Egypt's national dish, eaten daily.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Ful_Medames"
+    },
+    "image": "/images/dishes/ful-medames.jpg"
+  },
+  {
+    "id": "koshary",
+    "name": "Koshary",
+    "original": "كشري",
+    "description": "Mixed rice, lentils, pasta with spicy tomato sauce. The most popular street food dish.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Koshary"
+    },
+    "image": "/images/dishes/koshary.jpg"
+  },
+  {
+    "id": "mahshi",
+    "name": "Mahshi",
+    "original": "محشي",
+    "description": "Stuffed vegetables with rice, herbs, and spices. Traditional family meal, especially grape leaves.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Mahshi"
+    },
+    "image": "/images/dishes/mahshi.jpg"
+  },
+  {
+    "id": "bobotie",
+    "name": "Bobotie",
+    "description": "Spiced meatloaf with egg topping, influenced by Cape Malay cuisine. South Africa's national dish.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Bobotie"
+    },
+    "image": "/images/dishes/bobotie.jpg"
+  },
+  {
+    "id": "biltong",
+    "name": "Biltong",
+    "description": "Dried cured meat, similar to jerky but with different spices. Traditional preservation method.",
+    "links": {},
+    "image": "/images/dishes/biltong.jpg"
+  },
+  {
+    "id": "koeksisters",
+    "name": "Koeksisters",
+    "description": "Twisted fried dough soaked in syrup. Beloved sweet treat, different from Afrikaner version.",
+    "links": {}
+  },
+  {
+    "id": "tagine",
+    "name": "Tagine",
+    "original": "طاجين",
+    "description": "Slow-cooked stew in conical clay pot with meat, vegetables, and preserved lemons. Morocco's signature cooking method.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Tagine"
+    },
+    "image": "/images/dishes/tagine.jpg"
+  },
+  {
+    "id": "couscous",
+    "name": "Couscous",
+    "original": "كسكس",
+    "description": "Steamed semolina grains served with stew. Friday tradition in homes, UNESCO cultural heritage.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Couscous"
+    },
+    "image": "/images/dishes/couscous.jpg"
+  },
+  {
+    "id": "pastilla",
+    "name": "Pastilla",
+    "original": "بسطيلة",
+    "description": "Sweet and savory pie with pigeon or chicken, almonds, and cinnamon in phyllo pastry. Moroccan feast centerpiece.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Pastilla"
+    },
+    "image": "/images/dishes/pastilla.jpg"
+  },
+  {
+    "id": "nyama-choma",
+    "name": "Nyama Choma",
+    "description": "Grilled meat, Kenya's national dish. Carnivore restaurants made this internationally famous.",
+    "links": {}
+  },
+  {
+    "id": "ugali",
+    "name": "Ugali",
+    "description": "Cornmeal staple food eaten with hands alongside stews and vegetables. Essential comfort food.",
+    "links": {},
+    "image": "/images/dishes/ugali.jpg"
+  },
+  {
+    "id": "mandazi",
+    "name": "Mandazi",
+    "description": "Sweet fried bread, East Africa's donut. Perfect with strong chai tea for breakfast.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Mandazi"
+    },
+    "image": "/images/dishes/mandazi.jpg"
+  },
+  {
+    "id": "machboos",
+    "name": "Machboos",
+    "original": "مجبوس",
+    "description": "Spiced rice with meat or fish, Gulf region's signature dish. The most popular traditional meal.",
+    "links": {},
+    "image": "/images/dishes/machboos.jpg"
+  },
+  {
+    "id": "shawarma",
+    "name": "Shawarma",
+    "original": "شاورما",
+    "description": "Roasted meat in pita bread with vegetables and sauce. This Levantine street food has been perfected here.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Shawarma"
+    },
+    "image": "/images/dishes/shawarma.jpg"
+  },
+  {
+    "id": "knafeh",
+    "name": "Knafeh",
+    "original": "كنافة",
+    "description": "Sweet cheese pastry soaked in syrup. Dessert scene features the best knafeh outside the Levant.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Knafeh"
+    },
+    "image": "/images/dishes/knafeh.jpg"
+  },
+  {
+    "id": "hummus",
+    "name": "Hummus",
+    "original": "חומוס",
+    "description": "Chickpea puree with tahini, olive oil, and spices. Hummus culture is unmatched globally.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Hummus"
+    },
+    "image": "/images/dishes/hummus.jpg"
+  },
+  {
+    "id": "falafel",
+    "name": "Falafel",
+    "original": "פלאפל",
+    "description": "Fried chickpea balls in pita with vegetables and tahini. Street food staple and national dish.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Falafel"
+    },
+    "image": "/images/dishes/falafel.jpg"
+  },
+  {
+    "id": "shakshuka",
+    "name": "Shakshuka",
+    "original": "שקשוקה",
+    "description": "Eggs poached in spiced tomato sauce. Breakfast favorite, served with fresh bread.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Shakshouka"
+    },
+    "image": "/images/dishes/shakshuka.jpg"
+  },
+  {
+    "id": "kabsa",
+    "name": "Kabsa",
+    "original": "كبسة",
+    "description": "Spiced rice with meat, vegetables, and aromatic spices. Saudi Arabia's national dish.",
+    "links": {},
+    "image": "/images/dishes/kabsa.jpg"
+  },
+  {
+    "id": "mutabbaq",
+    "name": "Mutabbaq",
+    "original": "مطبق",
+    "description": "Stuffed pancake with meat, vegetables, or sweet fillings. Popular street food, especially during Ramadan.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Mutabbaq"
+    },
+    "image": "/images/dishes/mutabbaq.jpg"
+  },
+  {
+    "id": "maamoul",
+    "name": "Ma'amoul",
+    "original": "معمول",
+    "description": "Date-filled semolina cookies, especially popular during Eid. Traditional sweet served to guests.",
+    "links": {},
+    "image": "/images/dishes/maamoul.jpg"
+  },
+  {
+    "id": "sea-urechis-dumpling",
+    "name": "Sea Urechis Dumpling",
+    "original": "海肠水饺",
+    "description": "Dalian's unique specialty dumplings stuffed with sea urechis (sea worm). Known for umami flavor, slight sweetness and juiciness.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "colorful-snowflake-scallops",
+    "name": "Colorful Snowflake Scallops",
+    "original": "五彩雪花扇贝",
+    "description": "Dalian specialty featuring scallops embraced by snowflake-shaped egg white with seasonal vegetables. Light, tender and delicate.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "men-zi",
+    "name": "Men Zi",
+    "original": "焖子",
+    "description": "Traditional Dalian snack made from pachyrhizus extract, cut into pieces and pan-fried with garlic, sesame and sauce.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "braised-seafood-sweet-potato-jelly",
+    "name": "Braised Seafood with Sweet-potato Jelly",
+    "original": "海鲜焖粉条",
+    "description": "Pan-fried sweet potato jelly braised with local seafood like shrimp and whelk meat. Popular local dish.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "pickled-cabbage-pork-oyster-stew",
+    "name": "Pickled Cabbage, Pork and Oyster Stew",
+    "original": "酸菜排骨海蛎子炖粉条汤",
+    "description": "Dalian favorite balancing sour pickled cabbage with sweet fresh oysters in rich pork rib broth with vermicelli.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "gumbo",
+    "name": "Gumbo",
+    "description": "Rich, hearty stew with okra, meat or seafood, and the holy trinity of vegetables. Signature dish of New Orleans Creole cuisine.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Gumbo"
+    },
+    "image": "/images/dishes/gumbo.jpg"
+  },
+  {
+    "id": "jambalaya",
+    "name": "Jambalaya",
+    "description": "One-pot rice dish with meat, vegetables, and Creole spices. New Orleans comfort food with Spanish and French influences.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Jambalaya"
+    },
+    "image": "/images/dishes/jambalaya.jpg"
+  },
+  {
+    "id": "po-boy",
+    "name": "Po' Boy",
+    "description": "New Orleans submarine sandwich on French bread, traditionally filled with fried seafood or roast beef debris.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Po%27_boy"
+    },
+    "image": "/images/dishes/po-boy.jpg"
+  },
+  {
+    "id": "beignets",
+    "name": "Beignets",
+    "description": "Square French doughnuts covered in powdered sugar. Iconic New Orleans treat, best enjoyed with café au lait.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Beignet"
+    },
+    "image": "/images/dishes/beignets.jpg"
+  },
+  {
+    "id": "red-beans-and-rice",
+    "name": "Red Beans and Rice",
+    "description": "Monday tradition in New Orleans. Red kidney beans slow-cooked with sausage and vegetables, served over rice.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "philly-cheesesteak",
+    "name": "Philly Cheesesteak",
+    "description": "Sliced ribeye steak with melted cheese on a long hoagie roll. Philadelphia's most famous sandwich creation.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Cheesesteak"
+    },
+    "image": "/images/dishes/philly-cheesesteak.jpg"
+  },
+  {
+    "id": "hoagie",
+    "name": "Hoagie",
+    "description": "Philadelphia's submarine sandwich with Italian meats, cheese, lettuce, tomato, onions, and oil & vinegar.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "water-ice",
+    "name": "Water Ice",
+    "description": "Philadelphia's frozen treat, similar to Italian ice. Smooth, flavored ice dessert, especially popular in summer.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "soft-pretzel",
+    "name": "Soft Pretzel",
+    "description": "Large, chewy salted pretzel sold from carts throughout Philadelphia. Often eaten with mustard.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "scrapple",
+    "name": "Scrapple",
+    "description": "Pennsylvania Dutch breakfast meat made from pork scraps and cornmeal. Sliced and pan-fried until crispy.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "hot-chicken",
+    "name": "Nashville Hot Chicken",
+    "description": "Fried chicken coated in spicy paste. Nashville specialty ranging from mild to blazing hot heat levels.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Nashville_hot_chicken"
+    },
+    "image": "/images/dishes/hot-chicken.jpg"
+  },
+  {
+    "id": "meat-and-three",
+    "name": "Meat and Three",
+    "description": "Southern dining tradition: choice of meat with three sides. Nashville comfort food at its finest.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "goo-goo-cluster",
+    "name": "Goo Goo Cluster",
+    "description": "Nashville's original candy bar with marshmallow, caramel, peanuts and chocolate. Made since 1912.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "banana-pudding",
+    "name": "Banana Pudding",
+    "description": "Layered dessert with vanilla wafers, bananas, and pudding. Southern comfort food staple, beloved in Nashville.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "fried-catfish",
+    "name": "Fried Catfish",
+    "description": "Cornmeal-crusted catfish, fried golden. Southern staple often served with hush puppies and coleslaw.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "voodoo-doughnut",
+    "name": "Voodoo Doughnut",
+    "description": "Quirky Portland doughnut shop creation with unique toppings and irreverent designs. Local cultural icon.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "pinot-noir",
+    "name": "Pinot Noir",
+    "description": "Oregon's signature wine grape, particularly from Willamette Valley. Portland's wine culture centerpiece.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "food-truck-cuisine",
+    "name": "Food Truck Cuisine",
+    "description": "Portland's diverse mobile food scene offering everything from Korean tacos to artisanal grilled cheese.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "craft-beer",
+    "name": "Craft Beer",
+    "description": "Portland's renowned beer culture with numerous microbreweries. Often called 'Beervana' for its beer diversity.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "marionberry-pie",
+    "name": "Marionberry Pie",
+    "description": "Oregon's state berry made into delicious pie. Marionberries are a cross between blackberries, unique to Oregon.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "bbq-brisket",
+    "name": "BBQ Brisket",
+    "description": "Slow-smoked beef brisket with dry rub. Austin's barbecue centerpiece, often served with white bread and pickles.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Brisket"
+    },
+    "image": "/images/dishes/bbq-brisket.jpg"
+  },
+  {
+    "id": "breakfast-taco",
+    "name": "Breakfast Taco",
+    "description": "Austin morning staple with eggs, cheese, and various fillings in a flour tortilla. Often from food trucks.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "queso",
+    "name": "Queso",
+    "description": "Tex-Mex cheese dip served warm with tortilla chips. Austin takes this simple pleasure very seriously.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "food-truck-tacos",
+    "name": "Food Truck Tacos",
+    "description": "Austin's mobile taco scene offering authentic Mexican and creative fusion varieties from numerous trucks.",
+    "links": {},
+    "image": null
+  },
+  {
+    "id": "kolaches",
+    "name": "Kolaches",
+    "description": "Czech pastries filled with sweet or savory ingredients. Texas Hill Country influence brought to Austin.",
+    "links": {},
+    "image": null
+  }
+]

@@ -1,0 +1,22 @@
+---
+layout: layouts/base.liquid
+title: "All Dishes"
+permalink: "/dishes/"
+---
+
+<div class="dishes-header">
+  <h1>All Dishes</h1>
+</div>
+
+<div class="image-grid">
+  {% for dish in dishes %}
+    {% if dish.image %}
+      <a href="/dishes/{{ dish.id }}/" class="grid-item">
+        <img src="{{ dish.image }}" alt="{{ dish.name }}" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">{{ dish.name }}</span>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>

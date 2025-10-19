@@ -1,0 +1,643 @@
+// =============================================================================
+// GLOBAL STYLES & IMPORTS
+// =============================================================================
+
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+// =============================================================================
+// BASE TYPOGRAPHY & ELEMENTS
+// =============================================================================
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #1a1a1a;
+  color: #e0e0e0;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+a {
+  color: #66b3ff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #88c5ff;
+  text-decoration: underline;
+}
+
+// =============================================================================
+// LAYOUT COMPONENTS
+// =============================================================================
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0 1rem;
+}
+
+// =============================================================================
+// HEADER & NAVIGATION
+// =============================================================================
+
+header {
+  background: #000;
+  color: white;
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  height: 70px;
+  width: auto;
+}
+
+a .logo {
+  display: block;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+// Navigation menu
+.nav-menu {
+  display: flex;
+  align-items: center;
+  
+  a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: -0.01em;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: #ccc;
+      text-decoration: none;
+    }
+  }
+}
+
+// Mobile menu toggle button
+.mobile-menu-toggle {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  gap: 4px;
+  
+  span {
+    width: 24px;
+    height: 2px;
+    background: white;
+    transition: all 0.3s ease;
+    border-radius: 1px;
+  }
+  
+  &.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  &.active span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  &.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
+}
+
+// Mobile responsive styles
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: flex;
+  }
+  
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: right 0.3s ease;
+    z-index: 1000;
+    
+    a {
+      margin: 1rem 0;
+      font-size: 1.2rem;
+      font-weight: 500;
+      
+      &:hover {
+        color: #66b3ff;
+      }
+    }
+  }
+  
+  // Show menu when active
+  .nav-menu.active {
+    right: 0;
+  }
+}
+
+// =============================================================================
+// HOMEPAGE & ABOUT COMPONENTS
+// =============================================================================
+
+// Homepage hero section
+.hero {
+  text-align: center;
+  margin-bottom: 3rem;
+  
+  .hero-logo {
+    margin-bottom: 2rem;
+    
+    .homepage-logo {
+      width: 400px;
+      height: auto;
+      
+      @media (max-width: 768px) {
+        width: 300px;
+      }
+      
+      @media (max-width: 480px) {
+        width: 250px;
+      }
+    }
+  }
+}
+
+// Site stats cards
+.site-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0;
+  
+  @media (max-width: 768px) {
+    gap: 1rem;
+  }
+  
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1rem 1.5rem;
+  background: #2a2a2a;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  border: 1px solid #333;
+  
+  &:hover {
+    background: #333;
+    border-color: #555;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .stat-icon {
+    font-size: 1.75rem;
+    
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .stat-number {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #66b3ff;
+    
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .stat-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ccc;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    
+    @media (max-width: 768px) {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+// About page styling
+.about-page {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  
+  .about-logo {
+    margin-bottom: 2rem;
+    
+    .homepage-logo {
+      width: 400px;
+      height: auto;
+      
+      @media (max-width: 768px) {
+        width: 300px;
+      }
+      
+      @media (max-width: 480px) {
+        width: 250px;
+      }
+    }
+  }
+  
+  .about-content {
+    text-align: left;
+    
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    
+    h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    p {
+      margin-bottom: 1rem;
+      line-height: 1.7;
+    }
+    
+    ul {
+      margin: 1rem 0;
+      padding-left: 2rem;
+      
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
+    
+    a {
+      color: #66b3ff;
+      
+      &:hover {
+        color: #88c5ff;
+      }
+    }
+  }
+}
+
+// =============================================================================
+// GRID LAYOUTS
+// =============================================================================
+
+// Image grid for city and dish pages
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  margin: 2rem 0;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2rem -2rem;
+  }
+  
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2rem -2rem;
+  }
+}
+
+.grid-item {
+  display: block;
+  aspect-ratio: 1;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.2s ease;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+    color: white;
+    padding: 1rem 0 0 0;
+    transform: translateY(0);
+    transition: transform 0.2s ease;
+    
+    .dish-name {
+      font-size: 0.85rem;
+      font-weight: 500;
+      display: block;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+      background: rgba(0, 0, 0, 0.6);
+      padding: 0.25rem 0;
+      backdrop-filter: blur(2px);
+      text-align: center;
+      width: 100%;
+      margin: 0;
+      letter-spacing: -0.01em;
+    }
+  }
+  
+  &:hover {
+    img {
+      transform: scale(1.05);
+    }
+    
+    .image-overlay {
+      transform: translateY(0);
+    }
+  }
+}
+
+// =============================================================================
+// COUNTRIES PAGE COMPONENTS
+// =============================================================================
+
+// Country cards grid (for all countries page)
+.country-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.75rem;
+  }
+  
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+}
+
+// Simple country card styling
+.country-card-simple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+  background: #2a2a2a;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #e0e0e0;
+  transition: all 0.3s ease;
+  border: 1px solid #333;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  
+  &:hover {
+    background: #333;
+    border-color: #555;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: #e0e0e0;
+  }
+}
+
+// =============================================================================
+// COUNTRY PAGE COMPONENTS
+// =============================================================================
+
+// Cities and dishes sections
+.cities-section, .dishes-section {
+  margin: 2rem 0;
+  
+  h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+// City cards grid
+.city-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.city-card {
+  display: block;
+  background: #2a2a2a;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  border: 1px solid #333;
+  
+  &:hover {
+    background: #333;
+    border-color: #555;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .city-card-image {
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+  }
+  
+  &:hover .city-card-image img {
+    transform: scale(1.05);
+  }
+  
+  .city-card-content {
+    padding: 1.25rem;
+    
+    h3 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #e0e0e0;
+    }
+    
+    .dish-count {
+      margin: 0;
+      color: #66b3ff;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+  }
+}
+
+// =============================================================================
+// DISH PAGE COMPONENTS
+// =============================================================================
+
+// Dish header styling
+.dish-header {
+  margin-bottom: 1rem;
+  
+  h1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .original-name, .locations {
+    margin: 0.25rem 0;
+  }
+}
+
+// Dish content styling
+.dish-image {
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    margin: 0 -1rem;
+    
+    img {
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+    }
+  }
+}
+
+// Dish page navigation
+.dish-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 1rem 0;
+  border-top: 1px solid #333;
+  gap: 1rem;
+  
+  .nav-link {
+    text-decoration: none;
+    color: #e0e0e0;
+    padding: 0.5rem 1rem;
+    border: 1px solid #555;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: -0.01em;
+    text-align: center;
+    flex: 1;
+    
+    &:hover {
+      background: #333;
+      border-color: #777;
+    }
+    
+    &.prev, &.next {
+      font-weight: 500;
+    }
+    
+    &.all {
+      background: #555;
+      color: white;
+      border-color: #555;
+      
+      &:hover {
+        background: #777;
+      }
+    }
+  }
+}
+
+// =============================================================================
+// ICON COMPONENTS
+// =============================================================================
+
+// Wikipedia icon styling
+.wiki-icon {
+  display: inline-flex;
+  align-items: center;
+  color: #66b3ff;
+  margin-left: 0.5rem;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: #88c5ff;
+  }
+  
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}

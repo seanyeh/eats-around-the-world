@@ -1,0 +1,30 @@
+---
+layout: layouts/base.liquid
+title: Eats Around the World - Food from Around the World
+---
+
+<div class="hero">
+  <div class="hero-logo">
+    <img src="/images/logo.svg" alt="Eats Around the World Logo" class="homepage-logo">
+  </div>
+  <h2>Explore exciting eats from around the world!</h2>
+</div>
+
+<div class="site-stats">
+  <a href="/dishes/" class="stat-card">
+    <div class="stat-icon">🍽️</div>
+    <div class="stat-number">{{ dishes.size }}</div>
+    <div class="stat-label">Dishes</div>
+  </a>
+  <a href="/cities/" class="stat-card">
+    <div class="stat-icon">🏙️</div>
+    <div class="stat-number">{{ cities.size }}</div>
+    <div class="stat-label">Cities</div>
+  </a>
+  <a href="/countries/" class="stat-card">
+    <div class="stat-icon">🌍</div>
+    {% assign unique_countries = cities | map: "country" | uniq %}
+    <div class="stat-number">{{ unique_countries.size }}</div>
+    <div class="stat-label">Countries</div>
+  </a>
+</div>

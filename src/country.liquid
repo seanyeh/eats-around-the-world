@@ -1,0 +1,72 @@
+---
+layout: layouts/base.liquid
+pagination:
+  data: countries
+  size: 1
+  alias: country
+permalink: "/countries/{{ country | slugify }}/"
+eleventyComputed:
+  title: "{{ country }}"
+---
+
+<div class="country-header">
+  <h1>{{ country }}</h1>
+</div>
+
+<div class="cities-section">
+  <h2>Cities</h2>
+  <div class="city-cards">
+    {% assign country_cities = cities | where: "country", country %}
+    {% for city in country_cities %}
+      <a href="/cities/{{ city.name | slugify }}/" class="city-card">
+        {% if city.image %}
+          <div class="city-card-image">
+            <img src="{{ city.image }}" alt="{{ city.name }}" loading="lazy">
+          </div>
+        {% endif %}
+        <div class="city-card-content">
+          <h3>{{ city.name }}</h3>
+          <p class="dish-count">{{ city.dishes.size }} dishes</p>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="dishes-section">
+  <h2>All Dishes</h2>
+  <div class="image-grid">
+  {% comment %} Collect all unique dishes from all cities in this country {% endcomment %}
+  {% assign country_dish_ids = "" | split: "" %}
+  
+  {% for country_city in country_cities %}
+    {% for dish_id in country_city.dishes %}
+      {% unless country_dish_ids contains dish_id %}
+        {% assign country_dish_ids = country_dish_ids | push: dish_id %}
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+  
+  {% for dish_id in country_dish_ids %}
+    {% assign dish = dishes | where: "id", dish_id | first %}
+    {% if dish and dish.image %}
+      <a href="/dishes/{{ dish.id }}/" class="grid-item">
+        <img src="{{ dish.image }}" alt="{{ dish.name }}" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">{{ dish.name }}</span>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
+</div>
+
+<nav class="dish-navigation">
+  {% if pagination.href.previous %}
+    <a href="{{ pagination.href.previous }}" class="nav-link prev">← Previous Country</a>
+  {% endif %}
+  
+  {% if pagination.href.next %}
+    <a href="{{ pagination.href.next }}" class="nav-link next">Next Country →</a>
+  {% endif %}
+</nav>

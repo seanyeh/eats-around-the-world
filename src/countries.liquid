@@ -1,0 +1,19 @@
+---
+layout: layouts/base.liquid
+title: "Countries"
+permalink: "/countries/"
+---
+
+<div class="countries-header">
+  <h1>Countries</h1>
+</div>
+
+<div class="country-cards">
+  {% assign unique_countries = cities | map: "country" | uniq | sort %}
+  
+  {% for country in unique_countries %}
+    <a href="/countries/{{ country | slugify }}/" class="country-card-simple">
+      {{ country }}
+    </a>
+  {% endfor %}
+</div>

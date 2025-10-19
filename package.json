@@ -1,0 +1,14 @@
+{
+  "name": "eats-around-the-world",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "dev": "eleventy --serve --watch"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "sass": "^1.80.0"
+  }
+}

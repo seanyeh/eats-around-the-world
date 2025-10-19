@@ -1,0 +1,6 @@
+_site/
+node_modules/
+*.sh
+*.log
+*.txt
+.claude/
