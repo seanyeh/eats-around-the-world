@@ -2,6 +2,7 @@ import * as sass from "sass";
 
 export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("src/CNAME");
   
   eleventyConfig.addTemplateFormats("scss");
   eleventyConfig.addExtension("scss", {
