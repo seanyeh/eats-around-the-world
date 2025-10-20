@@ -531,6 +531,7 @@
     ],
     "dishes": [
       "deep-dish-pizza",
+      "tavern-style-pizza",
       "italian-beef",
       "chicago-hot-dog"
     ],
@@ -685,6 +686,8 @@
     ],
     "dishes": [
       "ful-medames",
+      "hawawshi",
+      "ta-ameya",
       "koshary",
       "mahshi"
     ],

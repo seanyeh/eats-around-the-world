@@ -1219,8 +1219,19 @@
     "id": "deep-dish-pizza",
     "name": "Deep Dish Pizza",
     "description": "Chicago's signature thick-crust pizza with cheese on bottom and sauce on top. More like a pie than pizza.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Chicago-style_pizza#Deep-dish_pizza"
+    },
     "image": "/images/dishes/deep-dish-pizza.jpg"
+  },
+  {
+    "id": "tavern-style-pizza",
+    "name": "Tavern-Style Pizza",
+    "description": "Chicago's thin-crust pizza cut into squares, featuring a crispy, cracker-like crust with toppings spread edge to edge.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Chicago-style_pizza#Tavern-style_pizza"
+    },
+    "image": "/images/dishes/tavern-style-pizza.jpg"
   },
   {
     "id": "italian-beef",
@@ -1480,6 +1491,26 @@
       "wiki": "https://en.wikipedia.org/wiki/Ful_Medames"
     },
     "image": "/images/dishes/ful-medames.jpg"
+  },
+  {
+    "id": "hawawshi",
+    "name": "Hawawshi",
+    "original": "حواوشي",
+    "description": "Egyptian stuffed pita bread filled with seasoned minced meat, onions, and spices, then baked until crispy.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Hawawshi"
+    },
+    "image": "/images/dishes/hawawshi.jpg"
+  },
+  {
+    "id": "ta-ameya",
+    "name": "Ta'ameya",
+    "original": "طعمية",
+    "description": "Egyptian falafel made from fava beans instead of chickpeas, often served in pita with tahini sauce and vegetables.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Falafel#Egypt"
+    },
+    "image": "/images/dishes/ta-ameya.jpg"
   },
   {
     "id": "koshary",
