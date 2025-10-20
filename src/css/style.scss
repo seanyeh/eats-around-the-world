@@ -55,7 +55,7 @@ main {
 header {
   background: #000;
   color: white;
-  padding: 0 0.5rem;
+  padding: 0 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -348,12 +348,12 @@ header h1 {
   
   @media (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
-    margin: 2rem -2rem;
+    margin: 2rem 0;
   }
   
   @media (max-width: 480px) {
     grid-template-columns: repeat(2, 1fr);
-    margin: 2rem -2rem;
+    margin: 2rem 0;
   }
 }
 
