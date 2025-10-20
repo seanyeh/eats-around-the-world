@@ -9,7 +9,8 @@ permalink: "/cities/"
 </div>
 
 <div class="image-grid">
-  {% for city in cities %}
+  {% assign sorted_cities = cities | sort: "name" %}
+  {% for city in sorted_cities %}
     {% if city.image %}
       <a href="/cities/{{ city.name | slugify }}/" class="grid-item">
         <img src="{{ city.image }}" alt="{{ city.name }}" loading="lazy">
