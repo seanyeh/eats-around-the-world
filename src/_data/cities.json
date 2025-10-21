@@ -532,7 +532,8 @@
       "deep-dish-pizza",
       "tavern-style-pizza",
       "italian-beef",
-      "chicago-hot-dog"
+      "chicago-hot-dog",
+      "malort"
     ],
     "image": "/images/cities/chicago.jpg"
   },
@@ -905,8 +906,22 @@
       "toasted-ravioli",
       "gooey-butter-cake",
       "st-louis-style-pizza",
-      "slinger"
+      "slinger",
+      "st-paul-sandwich"
     ],
     "image": "/images/cities/st-louis.jpg"
+  },
+  {
+    "name": "Springfield",
+    "country": "United States",
+    "coordinates": [
+      39.7817,
+      -89.6501
+    ],
+    "dishes": [
+      "horseshoe-sandwich",
+      "pork-tenderloin-sandwich"
+    ],
+    "image": "/images/cities/springfield.jpg"
   }
 ]

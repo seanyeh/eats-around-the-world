@@ -1261,6 +1261,15 @@
     "image": "/images/dishes/chicago-hot-dog.jpg"
   },
   {
+    "id": "malort",
+    "name": "Malört",
+    "description": "Chicago's infamous bitter liqueur flavored with wormwood. Known for its extremely bitter taste, this Swedish-style bäsk has been a Chicago tradition since the 1930s.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Jeppson's_Malört"
+    },
+    "image": "/images/dishes/malort.jpg"
+  },
+  {
     "id": "poutine",
     "name": "Poutine",
     "description": "French fries with cheese curds and gravy. Quebec's invention, but countless variations have been perfected.",
@@ -1833,22 +1842,28 @@
     "id": "meat-and-three",
     "name": "Meat and Three",
     "description": "Southern dining tradition: choice of meat with three sides. Nashville comfort food at its finest.",
-    "links": {},
-    "image": null
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Meat_and_three"
+    },
+    "image": "/images/dishes/meat-and-three.jpg"
   },
   {
     "id": "goo-goo-cluster",
     "name": "Goo Goo Cluster",
     "description": "Nashville's original candy bar with marshmallow, caramel, peanuts and chocolate. Made since 1912.",
-    "links": {},
-    "image": null
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Goo_Goo_Cluster"
+    },
+    "image": "/images/dishes/goo-goo-cluster.jpg"
   },
   {
     "id": "banana-pudding",
     "name": "Banana Pudding",
     "description": "Layered dessert with vanilla wafers, bananas, and pudding. Southern comfort food staple, beloved in Nashville.",
-    "links": {},
-    "image": null
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Banana_pudding"
+    },
+    "image": "/images/dishes/banana-pudding.jpg"
   },
   {
     "id": "fried-catfish",
@@ -1957,5 +1972,32 @@
       "wiki": "https://en.wikipedia.org/wiki/Slinger_(dish)"
     },
     "image": "/images/dishes/slinger.jpg"
+  },
+  {
+    "id": "st-paul-sandwich",
+    "name": "St. Paul Sandwich",
+    "description": "Chinese-American fusion from St. Louis - egg foo young patty with bean sprouts and onions, served with pickles, mayo, and lettuce on white bread. Created in the 1940s.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/St._Paul_sandwich"
+    },
+    "image": "/images/dishes/st-paul-sandwich.jpg"
+  },
+  {
+    "id": "horseshoe-sandwich",
+    "name": "Horseshoe Sandwich",
+    "description": "Springfield, IL specialty - open-faced sandwich with toasted bread, meat (traditionally ham, now often hamburger), French fries, and cheese sauce derived from Welsh rarebit.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Horseshoe_sandwich"
+    },
+    "image": "/images/dishes/horseshoe-sandwich.jpg"
+  },
+  {
+    "id": "pork-tenderloin-sandwich",
+    "name": "Pork Tenderloin Sandwich",
+    "description": "Breaded and fried pork cutlet sandwich popular in the Midwest. The meat is pounded thin, breaded, and deep-fried, served on a bun with the meat overhanging considerably.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Pork_tenderloin_sandwich"
+    },
+    "image": "/images/dishes/pork-tenderloin-sandwich.jpg"
   }
 ]
