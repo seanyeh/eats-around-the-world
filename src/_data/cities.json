@@ -42,8 +42,7 @@
       "xiaolongbao",
       "shengjianbao",
       "red-braised-pork-belly",
-      "scallion-oil-noodles",
-      "white-cut-chicken"
+      "scallion-oil-noodles"
     ],
     "image": "/images/cities/shanghai.jpg"
   },
@@ -240,7 +239,7 @@
     "dishes": [
       "hainanese-chicken-rice",
       "laksa",
-      "chili-crab"
+      "chilli-crab"
     ],
     "image": "/images/cities/singapore.jpg"
   },
@@ -573,7 +572,7 @@
       -73.5673
     ],
     "dishes": [
-      "bagel",
+      "montreal-style-bagel",
       "smoked-meat",
       "tourtiere"
     ],
@@ -601,7 +600,6 @@
       -43.1729
     ],
     "dishes": [
-      "acai-bowl",
       "churrasco",
       "caipirinha"
     ],
@@ -873,7 +871,6 @@
       -122.6784
     ],
     "dishes": [
-      "voodoo-doughnut",
       "pinot-noir",
       "food-truck-cuisine",
       "craft-beer",
@@ -896,5 +893,20 @@
       "kolaches"
     ],
     "image": "/images/cities/austin.jpg"
+  },
+  {
+    "name": "St. Louis",
+    "country": "United States",
+    "coordinates": [
+      38.6270,
+      -90.1994
+    ],
+    "dishes": [
+      "toasted-ravioli",
+      "gooey-butter-cake",
+      "st-louis-style-pizza",
+      "slinger"
+    ],
+    "image": "/images/cities/st-louis.jpg"
   }
 ]

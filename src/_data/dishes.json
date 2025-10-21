@@ -219,21 +219,20 @@
     "name": "Red-Braised Pork Belly",
     "original": "红烧肉",
     "description": "Hong shao rou - pork belly braised in soy sauce, rice wine, and rock sugar until tender and glossy.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Red_braised_pork_belly"
+    },
+    "image": "/images/dishes/red-braised-pork-belly.jpg"
   },
   {
     "id": "scallion-oil-noodles",
     "name": "Scallion Oil Noodles",
     "original": "葱油拌面",
     "description": "Simple noodles tossed with fragrant scallion oil, soy sauce, and sugar. Comfort food that showcases technique over ingredients.",
-    "links": {}
-  },
-  {
-    "id": "white-cut-chicken",
-    "name": "White Cut Chicken",
-    "original": "白切鸡",
-    "description": "Poached whole chicken served cold, sliced and eaten with ginger-scallion sauce. A classic cold dish.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Oil_noodles"
+    },
+    "image": "/images/dishes/scallion-oil-noodles.jpg"
   },
   {
     "id": "peking-duck",
@@ -385,14 +384,20 @@
     "name": "Liangpi Cold Noodles",
     "original": "凉皮",
     "description": "Cold noodles made from wheat or rice starch, served with cucumber, bean sprouts, and spicy sauce.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Liangpi"
+    },
+    "image": "/images/dishes/liangpi-cold-noodles.jpg"
   },
   {
     "id": "yangrou-paomo",
     "name": "Yangrou Paomo",
     "original": "羊肉泡馍",
     "description": "Traditional soup with mutton and hand-torn bread soaked in rich, flavorful broth.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Paomo"
+    },
+    "image": "/images/dishes/yangrou-paomo.jpg"
   },
   {
     "id": "persimmon-cake",
@@ -993,10 +998,13 @@
     "image": "/images/dishes/laksa.jpg"
   },
   {
-    "id": "chili-crab",
-    "name": "Chili Crab",
+    "id": "chilli-crab",
+    "name": "Chilli Crab",
     "description": "Singapore's signature seafood dish - mud crabs in sweet and savory tomato-chili sauce. Eaten with mantou bread.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Chilli_crab"
+    },
+    "image": "/images/dishes/chili-crab.jpg"
   },
   {
     "id": "milk-tea",
@@ -1156,7 +1164,10 @@
     "name": "Apple Strudel",
     "original": "Apfelstrudel",
     "description": "Paper-thin pastry filled with spiced apples. Vienna's most beloved dessert, served with vanilla sauce.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Apple_strudel"
+    },
+    "image": "/images/dishes/apple-strudel.jpg"
   },
   {
     "id": "goulash",
@@ -1292,11 +1303,13 @@
     "links": {}
   },
   {
-    "id": "bagel",
-    "name": "Bagel",
+    "id": "montreal-style-bagel",
+    "name": "Montreal-style Bagel",
     "description": "Montreal-style bagels are smaller, denser, and sweeter than New York bagels. Wood-fired and hand-rolled.",
-    "links": {},
-    "image": "/images/dishes/bagel.jpg"
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Montreal-style_bagel"
+    },
+    "image": "/images/dishes/montreal-bagel.jpg"
   },
   {
     "id": "smoked-meat",
@@ -1339,13 +1352,6 @@
       "wiki": "https://en.wikipedia.org/wiki/Brigadeiro"
     },
     "image": "/images/dishes/brigadeiro.jpg"
-  },
-  {
-    "id": "acai-bowl",
-    "name": "Açaí Bowl",
-    "description": "Frozen açaí berries blended into smoothie bowls with granola and fruit. Beach culture essential.",
-    "links": {},
-    "image": "/images/dishes/acai-bowl.jpg"
   },
   {
     "id": "churrasco",
@@ -1711,8 +1717,10 @@
     "name": "Men Zi",
     "original": "焖子",
     "description": "Traditional Dalian snack made from pachyrhizus extract, cut into pieces and pan-fried with garlic, sesame and sauce.",
-    "links": {},
-    "image": null
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Menzi_(food)"
+    },
+    "image": "/images/dishes/menzi.jpg"
   },
   {
     "id": "braised-seafood-sweet-potato-jelly",
@@ -1807,8 +1815,10 @@
     "id": "scrapple",
     "name": "Scrapple",
     "description": "Pennsylvania Dutch breakfast meat made from pork scraps and cornmeal. Sliced and pan-fried until crispy.",
-    "links": {},
-    "image": null
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Scrapple"
+    },
+    "image": "/images/dishes/scrapple.jpg"
   },
   {
     "id": "hot-chicken",
@@ -1844,13 +1854,6 @@
     "id": "fried-catfish",
     "name": "Fried Catfish",
     "description": "Cornmeal-crusted catfish, fried golden. Southern staple often served with hush puppies and coleslaw.",
-    "links": {},
-    "image": null
-  },
-  {
-    "id": "voodoo-doughnut",
-    "name": "Voodoo Doughnut",
-    "description": "Quirky Portland doughnut shop creation with unique toppings and irreverent designs. Local cultural icon.",
     "links": {},
     "image": null
   },
@@ -1918,5 +1921,41 @@
     "description": "Czech pastries filled with sweet or savory ingredients. Texas Hill Country influence brought to Austin.",
     "links": {},
     "image": null
+  },
+  {
+    "id": "toasted-ravioli",
+    "name": "Toasted Ravioli",
+    "description": "St. Louis specialty - breaded and deep-fried ravioli filled with meat, served with marinara sauce. Created accidentally in the 1940s on The Hill.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Toasted_ravioli"
+    },
+    "image": "/images/dishes/toasted-ravioli.jpg"
+  },
+  {
+    "id": "gooey-butter-cake",
+    "name": "Gooey Butter Cake",
+    "description": "Dense, buttery St. Louis coffee cake with powdered sugar. Originated in 1930s German bakeries from a baker's flour-butter mix-up.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Gooey_butter_cake"
+    },
+    "image": "/images/dishes/gooey-butter-cake.jpg"
+  },
+  {
+    "id": "st-louis-style-pizza",
+    "name": "St. Louis-Style Pizza",
+    "description": "Ultra-thin cracker crust pizza topped with Provel cheese blend, cut into squares instead of triangular slices.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/St._Louis-style_pizza"
+    },
+    "image": "/images/dishes/st-louis-style-pizza.jpg"
+  },
+  {
+    "id": "slinger",
+    "name": "The Slinger",
+    "description": "St. Louis diner staple - hamburger patty topped with hash browns, two eggs, chili, and shredded cheese.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Slinger_(dish)"
+    },
+    "image": "/images/dishes/slinger.jpg"
   }
 ]
