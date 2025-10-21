@@ -675,7 +675,10 @@
     "id": "pastrami-on-rye",
     "name": "Pastrami on Rye",
     "description": "Classic deli sandwich with thick-cut pastrami, mustard, and pickles on rye bread. Deli specialty.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Pastrami_on_rye"
+    },
+    "image": "/images/dishes/pastrami-on-rye.jpg"
   },
   {
     "id": "cheesecake",
@@ -753,7 +756,10 @@
     "name": "Pan con Tomate",
     "original": "Pa amb Tomàquet",
     "description": "Simple Catalan dish of bread rubbed with tomato, garlic, olive oil, and salt. A breakfast staple.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Pa_amb_tomàquet"
+    },
+    "image": "/images/dishes/pan-con-tomate.jpg"
   },
   {
     "id": "calcots",
@@ -1134,14 +1140,14 @@
     "image": "/images/dishes/stroopwafel.jpg"
   },
   {
-    "id": "herring",
-    "name": "Herring",
+    "id": "soused-herring",
+    "name": "Soused Herring",
     "original": "Haring",
     "description": "Raw herring eaten whole with onions and pickles. Traditional street food, eaten by holding the tail.",
     "links": {
-      "wiki": "https://en.wikipedia.org/wiki/Herring"
+      "wiki": "https://en.wikipedia.org/wiki/Soused_herring"
     },
-    "image": "/images/dishes/herring.png"
+    "image": "/images/dishes/herring.jpg"
   },
   {
     "id": "wiener-schnitzel",
@@ -1787,8 +1793,10 @@
     "id": "red-beans-and-rice",
     "name": "Red Beans and Rice",
     "description": "Monday tradition in New Orleans. Red kidney beans slow-cooked with sausage and vegetables, served over rice.",
-    "links": {},
-    "image": null
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Red_beans_and_rice"
+    },
+    "image": "/images/dishes/red-beans-and-rice.jpg"
   },
   {
     "id": "philly-cheesesteak",
