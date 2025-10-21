@@ -1653,7 +1653,10 @@
     "id": "koeksisters",
     "name": "Koeksisters",
     "description": "Twisted fried dough soaked in syrup. Beloved sweet treat, different from Afrikaner version.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Koeksister"
+    },
+    "image": "/images/dishes/koeksisters.jpg"
   },
   {
     "id": "tagine",
