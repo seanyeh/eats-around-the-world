@@ -296,21 +296,28 @@
     "name": "Wonton Noodle Soup",
     "original": "云吞面",
     "description": "Cantonese soup with thin egg noodles and wontons filled with shrimp and pork in a clear, light broth.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Wonton_noodles"
+    },
+    "image": "/images/dishes/wonton-noodle-soup.jpg"
   },
   {
     "id": "char-siu",
     "name": "Char Siu",
     "original": "叉烧",
     "description": "Cantonese barbecued pork with a sweet and savory glaze, traditionally roasted on skewers over an open fire.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Char_siu"
+    },
+    "image": "/images/dishes/char-siu.jpg"
   },
   {
     "id": "steamed-spare-ribs-with-black-bean",
     "name": "Steamed Spare Ribs with Black Bean",
     "original": "豉汁排骨",
     "description": "Classic Cantonese dim sum dish of pork ribs marinated in fermented black bean sauce and steamed until tender.",
-    "links": {}
+    "links": {},
+    "image": "/images/dishes/steamed-spare-ribs-with-black-bean.jpg"
   },
   {
     "id": "mapo-tofu",
@@ -357,7 +364,10 @@
     "name": "Twice-Cooked Pork",
     "original": "回锅肉",
     "description": "Sichuan dish of pork belly first boiled then stir-fried with cabbage, peppers, and fermented bean paste.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Twice-cooked_pork"
+    },
+    "image": "/images/dishes/twice-cooked-pork.jpg"
   },
   {
     "id": "biang-biang-noodles",
@@ -519,7 +529,10 @@
     "id": "bangers-and-mash",
     "name": "Bangers and Mash",
     "description": "Traditional British comfort food of sausages with mashed potatoes and onion gravy. A pub classic.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Bangers_and_mash"
+    },
+    "image": "/images/dishes/bangers-and-mash.jpg"
   },
   {
     "id": "beef-wellington",
@@ -748,7 +761,9 @@
     "name": "Crema Catalana",
     "original": "Crema Cremada",
     "description": "Traditional Catalan dessert similar to crème brûlée, flavored with lemon zest and cinnamon.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Crema_catalana"
+    },
     "image": "/images/dishes/crema-catalana.jpg"
   },
   {
@@ -787,7 +802,9 @@
     "id": "torrijas",
     "name": "Torrijas",
     "description": "Spanish version of French toast, soaked in milk and wine, then fried and dusted with cinnamon. Easter tradition.",
-    "links": {},
+    "links": {
+      "wiki": "https://es.wikipedia.org/wiki/Torrija"
+    },
     "image": "/images/dishes/torrijas.jpg"
   },
   {
@@ -839,7 +856,9 @@
     "id": "currywurst",
     "name": "Currywurst",
     "description": "Iconic street food - sliced sausage served with curry-spiced ketchup and fries. Post-war invention.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Currywurst"
+    },
     "image": "/images/dishes/currywurst.jpg"
   },
   {
@@ -864,7 +883,9 @@
     "id": "berliner-pfannkuchen",
     "name": "Berliner Pfannkuchen",
     "description": "Jelly donuts, especially popular during New Year's celebrations. Called 'Berliners' elsewhere in Germany.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Berliner_(doughnut)"
+    },
     "image": "/images/dishes/berliner-pfannkuchen.jpg"
   },
   {
@@ -881,7 +902,9 @@
     "name": "Nihari",
     "original": "نہاری",
     "description": "Slow-cooked stew with beef or mutton, traditionally eaten for breakfast. Rich with spices and bone marrow.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Nihari"
+    },
     "image": "/images/dishes/nihari.jpg"
   },
   {
@@ -941,10 +964,13 @@
     "image": "/images/dishes/rendang.jpg"
   },
   {
-    "id": "nasi-gudeg",
-    "name": "Nasi Gudeg",
+    "id": "gudeg",
+    "name": "Gudeg",
     "description": "Javanese dish of young jackfruit stewed in coconut milk, palm sugar, and spices, served with rice.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Gudeg"
+    },
+    "image": "/images/dishes/gudeg.jpg"
   },
   {
     "id": "gado-gado",
@@ -1017,7 +1043,9 @@
     "name": "Milk Tea",
     "original": "奶茶",
     "description": "Hong Kong-style milk tea with black tea and evaporated milk, strained through silk stockings for smoothness.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Hong_Kong–style_milk_tea"
+    },
     "image": "/images/dishes/milk-tea.jpg"
   },
   {
@@ -1033,7 +1061,9 @@
     "id": "barramundi",
     "name": "Barramundi",
     "description": "Australian native fish, grilled or pan-fried. Popular in restaurants for its mild flavor and flaky texture.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Barramundi"
+    },
     "image": "/images/dishes/barramundi.jpg"
   },
   {
@@ -1060,7 +1090,9 @@
     "name": "Turkish Delight",
     "original": "Lokum",
     "description": "Sweet confection with starch and sugar, often flavored with rosewater. The most famous sweet treat.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Turkish_delight"
+    },
     "image": "/images/dishes/turkish-delight.jpg"
   },
   {
@@ -1127,7 +1159,9 @@
     "name": "Greek Salad",
     "original": "Χωριάτικη σαλάτα",
     "description": "Village salad with tomatoes, cucumbers, olives, and feta cheese. Simple but perfect with olive oil.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Greek_salad"
+    },
     "image": "/images/dishes/greek-salad.jpg"
   },
   {
@@ -1162,7 +1196,9 @@
     "id": "sachertorte",
     "name": "Sachertorte",
     "description": "Chocolate cake with apricot jam and chocolate glaze. Created in Vienna and still made at the original Hotel Sacher.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Sachertorte"
+    },
     "image": "/images/dishes/sachertorte.jpg"
   },
   {
@@ -1199,7 +1235,9 @@
     "name": "Meatballs",
     "original": "Köttbullar",
     "description": "Swedish meatballs with cream sauce, lingonberry, and potatoes. The most exported culinary tradition.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Meatball"
+    },
     "image": "/images/dishes/meatballs.jpg"
   },
   {
@@ -1216,7 +1254,9 @@
     "name": "Cinnamon Bun",
     "original": "Kanelbulle",
     "description": "Swedish cinnamon bun, less sweet than American versions. There's a national cinnamon bun day (October 4).",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Kanelbulle"
+    },
     "image": "/images/dishes/cinnamon-bun.jpg"
   },
   {
@@ -1229,7 +1269,9 @@
     "id": "french-dip-sandwich",
     "name": "French Dip Sandwich",
     "description": "Roast beef sandwich served with au jus for dipping. Invented in LA in the early 1900s.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/French_dip"
+    },
     "image": "/images/dishes/french-dip-sandwich.jpg"
   },
   {
@@ -1263,7 +1305,9 @@
     "id": "chicago-hot-dog",
     "name": "Chicago Hot Dog",
     "description": "All-beef hot dog with yellow mustard, onions, relish, tomato, pickle, sport peppers, and celery salt. Never ketchup!",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Chicago-style_hot_dog"
+    },
     "image": "/images/dishes/chicago-hot-dog.jpg"
   },
   {
@@ -1288,19 +1332,28 @@
     "id": "peameal-bacon-sandwich",
     "name": "Peameal Bacon Sandwich",
     "description": "Back bacon rolled in cornmeal, served on a bun. Signature breakfast sandwich at St. Lawrence Market.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Peameal_bacon#Sandwich"
+    },
+    "image": "/images/dishes/peameal-bacon-sandwich.jpg"
   },
   {
     "id": "butter-tart",
     "name": "Butter Tart",
     "description": "Sweet pastry tart with butter, sugar, and egg filling. Quintessentially Canadian dessert.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Butter_tart"
+    },
+    "image": "/images/dishes/butter-tart.jpg"
   },
   {
     "id": "sourdough-bread",
     "name": "Sourdough Bread",
     "description": "Tangy bread made with wild yeast starter. Gold Rush-era sourdough culture is still alive.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Sourdough"
+    },
+    "image": "/images/dishes/sourdough-bread.jpg"
   },
   {
     "id": "dungeness-crab",
@@ -1315,7 +1368,10 @@
     "id": "mission-burrito",
     "name": "Mission Burrito",
     "description": "Oversized burrito with rice, beans, meat, and salsa. Invented in SF's Mission District, copied worldwide.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Mission_burrito"
+    },
+    "image": "/images/dishes/mission-burrito.jpg"
   },
   {
     "id": "montreal-style-bagel",
@@ -1330,7 +1386,10 @@
     "id": "smoked-meat",
     "name": "Smoked Meat",
     "description": "Cured beef brisket, similar to pastrami but with different spices. Jewish deli tradition since 1884.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Montreal-style_smoked_meat"
+    },
+    "image": "/images/dishes/smoked-meat.jpg"
   },
   {
     "id": "tourtiere",
@@ -1381,7 +1440,9 @@
     "id": "caipirinha",
     "name": "Caipirinha",
     "description": "Brazil's national cocktail with cachaça, lime, and sugar. Perfect for beach bars and carnival.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Caipirinha"
+    },
     "image": "/images/dishes/caipirinha.jpg"
   },
   {
@@ -1424,7 +1485,9 @@
     "id": "lomo-saltado",
     "name": "Lomo Saltado",
     "description": "Stir-fried beef with vegetables and fries, served over rice. Peru's Chinese-influenced fusion dish.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Lomo_saltado"
+    },
     "image": "/images/dishes/lomo-saltado.jpg"
   },
   {
@@ -1440,7 +1503,9 @@
     "id": "arepas",
     "name": "Arepas",
     "description": "Corn cakes filled with cheese, meat, or vegetables. This version is thicker than Venezuelan arepas.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Arepa"
+    },
     "image": "/images/dishes/arepas.jpg"
   },
   {
@@ -1456,20 +1521,28 @@
     "id": "aguardiente",
     "name": "Aguardiente",
     "description": "Anise-flavored spirit, Colombia's national liquor. Essential for nightlife and celebrations.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Aguardiente"
+    },
     "image": "/images/dishes/aguardiente.jpg"
   },
   {
     "id": "empanadas-de-pino",
     "name": "Empanadas de Pino",
     "description": "Chilean empanadas with beef, onions, raisins, and olives. This version is the national standard.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Empanada"
+    },
+    "image": "/images/dishes/empanadas-de-pino.jpg"
   },
   {
     "id": "pastel-de-choclo",
     "name": "Pastel de Choclo",
     "description": "Corn casserole with meat, onions, and hard-boiled eggs. Traditional Chilean comfort food.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Pastel_de_choclo"
+    },
+    "image": "/images/dishes/pastel-de-choclo.jpg"
   },
   {
     "id": "completo",
@@ -1493,7 +1566,9 @@
     "id": "suya",
     "name": "Suya",
     "description": "Spiced grilled meat skewers, Nigeria's favorite street food. The most creative suya variations.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Suya"
+    },
     "image": "/images/dishes/suya.jpg"
   },
   {
@@ -1501,7 +1576,10 @@
     "name": "Pounded Yam",
     "original": "Iyan",
     "description": "Smooth starchy side dish served with soups and stews. Essential comfort food.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Pounded_yam"
+    },
+    "image": "/images/dishes/pounded-yam.jpg"
   },
   {
     "id": "ful-medames",
@@ -1566,7 +1644,9 @@
     "id": "biltong",
     "name": "Biltong",
     "description": "Dried cured meat, similar to jerky but with different spices. Traditional preservation method.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Biltong"
+    },
     "image": "/images/dishes/biltong.jpg"
   },
   {
@@ -1615,7 +1695,9 @@
     "id": "ugali",
     "name": "Ugali",
     "description": "Cornmeal staple food eaten with hands alongside stews and vegetables. Essential comfort food.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Ugali"
+    },
     "image": "/images/dishes/ugali.jpg"
   },
   {
@@ -1632,7 +1714,9 @@
     "name": "Machboos",
     "original": "مجبوس",
     "description": "Spiced rice with meat or fish, Gulf region's signature dish. The most popular traditional meal.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Kabsa"
+    },
     "image": "/images/dishes/machboos.jpg"
   },
   {
@@ -1690,7 +1774,9 @@
     "name": "Kabsa",
     "original": "كبسة",
     "description": "Spiced rice with meat, vegetables, and aromatic spices. Saudi Arabia's national dish.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Kabsa"
+    },
     "image": "/images/dishes/kabsa.jpg"
   },
   {
@@ -1708,7 +1794,9 @@
     "name": "Ma'amoul",
     "original": "معمول",
     "description": "Date-filled semolina cookies, especially popular during Eid. Traditional sweet served to guests.",
-    "links": {},
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Ma'amoul"
+    },
     "image": "/images/dishes/maamoul.jpg"
   },
   {
