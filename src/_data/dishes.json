@@ -2176,14 +2176,14 @@
     "image": "/images/dishes/goubuli-baozi.jpg"
   },
   {
-    "id": "erduoyan-zhagao",
-    "name": "Erduoyan Zhagao",
+    "id": "ear-hole-fried-cake",
+    "name": "Ear-hole Fried Cake",
     "original": "耳朵眼炸糕",
     "description": "Traditional Tianjin fried rice cake with crispy golden exterior and sweet bean paste filling.",
     "links": {
-      "wiki": "https://en.wikipedia.org/wiki/Erduoyan_zhagao"
+      "wiki": "https://en.wikipedia.org/wiki/Ear-hole_fried_cake"
     },
-    "image": "/images/dishes/erduoyan-zhagao.jpg"
+    "image": "/images/dishes/ear-hole-fried-cake.jpg"
   },
   {
     "id": "guobacai",
