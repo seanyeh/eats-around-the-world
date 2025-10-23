@@ -2163,7 +2163,8 @@
     "description": "Sichuan dish of pork belly first boiled then stir-fried with cabbage, peppers, and fermented bean paste.",
     "links": {
       "wiki": "https://en.wikipedia.org/wiki/Twice-cooked_pork"
-    }
+    },
+    "image": "/images/dishes/twice-cooked-pork.jpg"
   },
   {
     "id": "ugali",
