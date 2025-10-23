@@ -883,6 +883,22 @@
     "image": "/images/cities/tel-aviv.jpg"
   },
   {
+    "name": "Tianjin",
+    "country": "China",
+    "coordinates": [
+      39.3434,
+      117.3616
+    ],
+    "dishes": [
+      "jianbing",
+      "goubuli-baozi",
+      "erduoyan-zhagao",
+      "guobacai",
+      "fried-grasshopper"
+    ],
+    "image": "/images/cities/tianjin.jpg"
+  },
+  {
     "name": "Tokyo",
     "country": "Japan",
     "coordinates": [

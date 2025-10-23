@@ -2164,5 +2164,42 @@
       "wiki": "https://en.wikipedia.org/wiki/Pork_tenderloin_sandwich"
     },
     "image": "/images/dishes/pork-tenderloin-sandwich.jpg"
+  },
+  {
+    "id": "goubuli-baozi",
+    "name": "Goubuli Baozi",
+    "original": "狗不理包子",
+    "description": "Famous Tianjin steamed buns with 18 pleats, filled with pork and ginger. Over 160 years of history.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Goubuli"
+    },
+    "image": "/images/dishes/goubuli-baozi.jpg"
+  },
+  {
+    "id": "erduoyan-zhagao",
+    "name": "Erduoyan Zhagao",
+    "original": "耳朵眼炸糕",
+    "description": "Traditional Tianjin fried rice cake with crispy golden exterior and sweet bean paste filling.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Erduoyan_zhagao"
+    },
+    "image": "/images/dishes/erduoyan-zhagao.jpg"
+  },
+  {
+    "id": "guobacai",
+    "name": "Guobacai",
+    "original": "锅巴菜",
+    "description": "Tianjin breakfast dish with crispy pancake pieces in savory sesame paste and soy sauce gravy.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Guobacai"
+    },
+    "image": "/images/dishes/guobacai.jpg"
+  },
+  {
+    "id": "fried-grasshopper",
+    "name": "Fried Grasshopper",
+    "original": "炸蚂蚱",
+    "description": "Crispy fried grasshoppers seasoned with salt and spices, a traditional Tianjin street snack.",
+    "image": "/images/dishes/fried-grasshopper.jpg"
   }
 ]
