@@ -941,7 +941,11 @@
       -0.3763
     ],
     "dishes": [
-      "paella"
+      "paella",
+      "arros-a-banda",
+      "arros-negre",
+      "fideua",
+      "esgarrat"
     ],
     "image": "/images/cities/valencia.jpg"
   },

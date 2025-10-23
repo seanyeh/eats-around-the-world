@@ -37,6 +37,24 @@
     "image": "/images/dishes/arepas.jpg"
   },
   {
+    "id": "arros-a-banda",
+    "name": "Arròs a Banda",
+    "description": "Traditional Valencian rice dish cooked in fish broth, originating from Alicante fishermen. Characteristically served alongside aioli.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Arr%C3%B2s_a_banda"
+    },
+    "image": "/images/dishes/arros-a-banda.jpg"
+  },
+  {
+    "id": "arros-negre",
+    "name": "Arròs Negre",
+    "description": "Traditional Valencian seafood rice dish made with cuttlefish or squid and squid ink, which gives it its distinctive dark color.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Arr%C3%B2s_negre"
+    },
+    "image": "/images/dishes/arros-negre.png"
+  },
+  {
     "id": "asado",
     "name": "Asado",
     "description": "Argentine barbecue featuring various cuts of beef grilled over wood fire. This art form was perfected here.",
@@ -49,7 +67,8 @@
     "id": "bagel-with-lox",
     "name": "Bagel with Lox",
     "description": "Breakfast staple - everything bagel with cream cheese, smoked salmon, capers, red onion, and sometimes tomato.",
-    "links": {}
+    "links": {},
+    "image": "/images/dishes/bagel-with-lox.jpg"
   },
   {
     "id": "baklava",
@@ -735,6 +754,15 @@
     "image": "/images/dishes/escargot.jpg"
   },
   {
+    "id": "esgarrat",
+    "name": "Esgarrat",
+    "description": "Traditional Valencian salad featuring grilled red peppers, salt cod, garlic, and olive oil. Served cold as a tapa with bread.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Esgarrat"
+    },
+    "image": "/images/dishes/esgarrat.jpg"
+  },
+  {
     "id": "falafel",
     "name": "Falafel",
     "original": "פלאפל",
@@ -752,6 +780,15 @@
       "wiki": "https://en.wikipedia.org/wiki/Feijoada"
     },
     "image": "/images/dishes/feijoada.jpg"
+  },
+  {
+    "id": "fideua",
+    "name": "Fideuà",
+    "description": "Seafood pasta dish originating from Valencia, featuring pasta noodles sautéed in stock with fish and shellfish. Similar to paella but using noodles instead of rice.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Fideu%C3%A0"
+    },
+    "image": "/images/dishes/fideua.jpg"
   },
   {
     "id": "fish-and-chips",
