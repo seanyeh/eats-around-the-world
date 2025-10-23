@@ -544,9 +544,13 @@
   },
   {
     "id": "cotoletta-alla-milanese",
-    "name": "Cotoletta alla Milanese",
+    "name": "Veal Milanese",
+    "original": "Cotoletta alla milanese",
     "description": "Breaded veal cutlet fried in butter, a signature dish dating back to the 12th century.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Veal_Milanese"
+    },
+    "image": "/images/dishes/cotoletta-alla-milanese.jpg"
   },
   {
     "id": "couscous",
@@ -796,12 +800,6 @@
     "description": "Cornmeal-crusted catfish, fried golden. Southern staple often served with hush puppies and coleslaw.",
     "links": {},
     "image": null
-  },
-  {
-    "id": "fried-grasshopper",
-    "name": "Fried Grasshopper",
-    "original": "炸蚂蚱",
-    "description": "Crispy fried grasshoppers seasoned with salt and spices, a traditional Tianjin street snack."
   },
   {
     "id": "ful-medames",
@@ -1462,9 +1460,12 @@
   },
   {
     "id": "nyama-choma",
-    "name": "Nyama Choma",
+    "name": "Nyama choma",
     "description": "Grilled meat, Kenya's national dish. Carnivore restaurants made this internationally famous.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Nyama_choma"
+    },
+    "image": "/images/dishes/nyama-choma.jpg"
   },
   {
     "id": "okonomiyaki",
