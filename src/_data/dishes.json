@@ -231,7 +231,10 @@
     "id": "bocadillo-de-calamares",
     "name": "Bocadillo de Calamares",
     "description": "Famous fried squid sandwich, typically served in a crusty bread roll with lemon.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Squid_sandwich"
+    },
+    "image": "/images/dishes/bocadillo-de-calamares.jpg"
   },
   {
     "id": "bombay-duck-curry",
@@ -514,7 +517,10 @@
     "id": "cocido-madrileno",
     "name": "Cocido Madrileño",
     "description": "Traditional chickpea stew with vegetables, chorizo, and various meats, served in multiple courses.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Cocido_madrileño"
+    },
+    "image": "/images/dishes/cocido-madrileno.jpg"
   },
   {
     "id": "colorful-snowflake-scallops",
@@ -1021,7 +1027,10 @@
     "id": "huevos-rotos",
     "name": "Huevos Rotos",
     "description": "Broken eggs over fried potatoes, often with jamón ibérico. Simple but beloved comfort food.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Huevos_rotos"
+    },
+    "image": "/images/dishes/huevos-rotos.jpg"
   },
   {
     "id": "hummus",
@@ -1577,7 +1586,10 @@
     "id": "patatas-bravas",
     "name": "Patatas Bravas",
     "description": "Fried potato cubes served with spicy tomato sauce and aioli. Classic tapas dish.",
-    "links": {}
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Patatas_bravas"
+    },
+    "image": "/images/dishes/patatas-bravas.jpg"
   },
   {
     "id": "pav-bhaji",
