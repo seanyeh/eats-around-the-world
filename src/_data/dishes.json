@@ -975,8 +975,10 @@
     "id": "hoagie",
     "name": "Hoagie",
     "description": "Philadelphia's submarine sandwich with Italian meats, cheese, lettuce, tomato, onions, and oil & vinegar.",
-    "links": {},
-    "image": null
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Submarine_sandwich#Hoagie"
+    },
+    "image": "/images/dishes/hoagie.jpg"
   },
   {
     "id": "horseshoe-sandwich",
