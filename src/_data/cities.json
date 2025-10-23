@@ -105,6 +105,21 @@
     "image": "/images/cities/berlin.jpg"
   },
   {
+    "name": "Bologna",
+    "country": "Italy",
+    "coordinates": [
+      44.4949,
+      11.3426
+    ],
+    "dishes": [
+      "tagliatelle-al-ragu",
+      "tortellini-in-brodo",
+      "mortadella",
+      "lasagne-alla-bolognese"
+    ],
+    "image": "/images/cities/bologna.jpg"
+  },
+  {
     "name": "Bogotá",
     "country": "Colombia",
     "coordinates": [
@@ -268,6 +283,21 @@
       "steamed-spare-ribs-with-black-bean"
     ],
     "image": "/images/cities/guangzhou.jpg"
+  },
+  {
+    "name": "Hanoi",
+    "country": "Vietnam",
+    "coordinates": [
+      21.0285,
+      105.8542
+    ],
+    "dishes": [
+      "pho",
+      "bun-cha",
+      "egg-coffee",
+      "cha-ca-la-vong"
+    ],
+    "image": "/images/cities/hanoi.jpg"
   },
   {
     "name": "Ho Chi Minh City",

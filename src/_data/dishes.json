@@ -195,6 +195,15 @@
     "image": "/images/dishes/misal-pav.jpg"
   },
   {
+    "id": "mortadella",
+    "name": "Mortadella",
+    "description": "Bologna's famous large Italian sausage made with finely ground pork, cubes of pork fat, and pistachios. The original 'bologna'.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Mortadella"
+    },
+    "image": "/images/dishes/mortadella.jpg"
+  },
+  {
     "id": "xiaolongbao",
     "name": "Xiaolongbao",
     "original": "小笼包",
@@ -517,6 +526,24 @@
     "image": "/images/dishes/tteokbokki.jpg"
   },
   {
+    "id": "tagliatelle-al-ragu",
+    "name": "Tagliatelle al Ragù",
+    "description": "The authentic Bolognese dish - fresh egg pasta ribbons with slow-cooked meat ragù. What the world calls 'Bolognese sauce'.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Bolognese_sauce"
+    },
+    "image": "/images/dishes/tagliatelle-al-ragu.jpg"
+  },
+  {
+    "id": "tortellini-in-brodo",
+    "name": "Tortellini in Brodo",
+    "description": "Bologna's traditional Christmas dish - small stuffed pasta rings in rich capon broth. Served in clear broth to appreciate the pasta.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Tortellini"
+    },
+    "image": "/images/dishes/tortellini-in-brodo.jpg"
+  },
+  {
     "id": "fish-and-chips",
     "name": "Fish and Chips",
     "description": "Britain's national dish - battered and deep-fried white fish served with thick-cut chips, mushy peas, and malt vinegar.",
@@ -596,6 +623,16 @@
       "wiki": "https://en.wikipedia.org/wiki/Snails_as_food"
     },
     "image": "/images/dishes/escargot.jpg"
+  },
+  {
+    "id": "egg-coffee",
+    "name": "Egg Coffee",
+    "original": "Cà Phê Trứng",
+    "description": "Hanoi's signature coffee drink with whipped egg yolk, sugar, and condensed milk creating a creamy, dessert-like top.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Egg_coffee"
+    },
+    "image": "/images/dishes/egg-coffee.jpg"
   },
   {
     "id": "creme-brulee",
@@ -1002,6 +1039,16 @@
     "image": "/images/dishes/banh-mi.jpg"
   },
   {
+    "id": "bun-cha",
+    "name": "Bun Cha",
+    "original": "Bún Chả",
+    "description": "Hanoi specialty of grilled pork served with rice noodles, fresh herbs, and nuoc cham dipping sauce.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/B%C3%BAn_ch%E1%BA%A3"
+    },
+    "image": "/images/dishes/bun-cha.jpg"
+  },
+  {
     "id": "bun-bo-hue",
     "name": "Bun Bo Hue",
     "original": "Bún Bò Huế",
@@ -1030,6 +1077,15 @@
     "image": "/images/dishes/laksa.jpg"
   },
   {
+    "id": "lasagne-alla-bolognese",
+    "name": "Lasagne alla Bolognese",
+    "description": "Traditional Bolognese lasagna with ragù, béchamel sauce, and Parmigiano-Reggiano. The authentic version uses green spinach pasta.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Lasagne"
+    },
+    "image": "/images/dishes/lasagne-alla-bolognese.jpg"
+  },
+  {
     "id": "chilli-crab",
     "name": "Chilli Crab",
     "description": "Singapore's signature seafood dish - mud crabs in sweet and savory tomato-chili sauce. Eaten with mantou bread.",
@@ -1037,6 +1093,16 @@
       "wiki": "https://en.wikipedia.org/wiki/Chilli_crab"
     },
     "image": "/images/dishes/chili-crab.jpg"
+  },
+  {
+    "id": "cha-ca-la-vong",
+    "name": "Cha Ca La Vong",
+    "original": "Chả Cá Lã Vọng",
+    "description": "Hanoi's famous turmeric fish with dill, served sizzling at the table with rice noodles and peanuts.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Ch%E1%BA%A3_c%C3%A1"
+    },
+    "image": "/images/dishes/cha-ca-la-vong.jpg"
   },
   {
     "id": "milk-tea",
