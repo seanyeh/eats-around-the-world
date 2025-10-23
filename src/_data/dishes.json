@@ -1883,8 +1883,10 @@
     "id": "soft-pretzel",
     "name": "Soft Pretzel",
     "description": "Large, chewy salted pretzel sold from carts throughout Philadelphia. Often eaten with mustard.",
-    "links": {},
-    "image": null
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Pretzel#United_States"
+    },
+    "image": "/images/dishes/soft-pretzel.jpg"
   },
   {
     "id": "som-tam",
