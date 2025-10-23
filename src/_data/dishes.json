@@ -2100,6 +2100,15 @@
     "image": "/images/dishes/toasted-ravioli.jpg"
   },
   {
+    "id": "tomato-pie",
+    "name": "Tomato Pie",
+    "description": "Philadelphia and Trenton specialty - thick, focaccia-like crust topped with tomato sauce, served at room temperature. Unlike pizza, cheese is optional or goes under the sauce.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Italian_tomato_pie"
+    },
+    "image": "/images/dishes/tomato-pie.jpg"
+  },
+  {
     "id": "tom-yum-goong",
     "name": "Tom Yum Goong",
     "original": "ต้มยำกุ้ง",
@@ -2189,8 +2198,10 @@
     "id": "water-ice",
     "name": "Water Ice",
     "description": "Philadelphia's frozen treat, similar to Italian ice. Smooth, flavored ice dessert, especially popular in summer.",
-    "links": {},
-    "image": null
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Italian_ice"
+    },
+    "image": "/images/dishes/water-ice.jpg"
   },
   {
     "id": "wiener-schnitzel",
