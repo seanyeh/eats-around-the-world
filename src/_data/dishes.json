@@ -399,6 +399,16 @@
     "image": "/images/dishes/chaat.jpg"
   },
   {
+    "id": "chatang",
+    "name": "Chatang",
+    "original": "茶汤",
+    "description": "Tianjin hot beverage made from baked millet and glutinous millet flour mixed with boiling water and sugar.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Chatang"
+    },
+    "image": "/images/dishes/chatang.jpg"
+  },
+  {
     "id": "chanko-nabe",
     "name": "Chanko Nabe",
     "original": "ちゃんこ鍋",
@@ -1262,6 +1272,16 @@
     "image": "/images/dishes/mahshi.jpg"
   },
   {
+    "id": "mahua",
+    "name": "Mahua",
+    "original": "麻花",
+    "description": "Tianjin twisted fried dough with sweet bean paste filling. Can be preserved for months. One of the Three Tianjin Delights.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Mahua_(snack)"
+    },
+    "image": "/images/dishes/mahua.jpg"
+  },
+  {
     "id": "malort",
     "name": "Malört",
     "description": "Chicago's infamous bitter liqueur flavored with wormwood. Known for its extremely bitter taste, this Swedish-style bäsk has been a Chicago tradition since the 1930s.",
@@ -2031,6 +2051,16 @@
     "image": "/images/dishes/tamales.jpg"
   },
   {
+    "id": "tanghulu",
+    "name": "Tanghulu",
+    "original": "糖葫蘆",
+    "description": "Hawthorn berries on bamboo sticks dipped in crystallized sugar syrup. Popular Chinese street snack with a sweet-tart flavor.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Tanghulu"
+    },
+    "image": "/images/dishes/tanghulu.jpg"
+  },
+  {
     "id": "tavern-style-pizza",
     "name": "Tavern-Style Pizza",
     "description": "Chicago's thin-crust pizza cut into squares, featuring a crispy, cracker-like crust with toppings spread edge to edge.",
@@ -2048,6 +2078,16 @@
       "wiki": "https://en.wikipedia.org/wiki/Tempura"
     },
     "image": "/images/dishes/tempura.jpg"
+  },
+  {
+    "id": "tianjin-preserved-vegetable",
+    "name": "Tianjin Preserved Vegetable",
+    "original": "天津冬菜",
+    "description": "Pickled Chinese cabbage fermented with salt and garlic. A traditional Tianjin condiment and ingredient.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Tianjin_preserved_vegetable"
+    },
+    "image": "/images/dishes/tianjin-preserved-vegetable.jpg"
   },
   {
     "id": "toasted-ravioli",
@@ -2188,6 +2228,16 @@
       "wiki": "https://en.wikipedia.org/wiki/Paomo"
     },
     "image": "/images/dishes/yangrou-paomo.jpg"
+  },
+  {
+    "id": "zeng-beng-carp",
+    "name": "Zeng Beng Carp",
+    "original": "罾嘣鯉魚",
+    "description": "Deep-fried carp with sweet and sour sauce, served crispy with edible bones. A classic Tianjin fish dish.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Tianjin_cuisine"
+    },
+    "image": "/images/dishes/zeng-beng-carp.jpg"
   },
   {
     "id": "zhajiangmian",
