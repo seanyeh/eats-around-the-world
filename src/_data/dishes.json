@@ -588,15 +588,6 @@
     "image": "/images/dishes/couscous.jpg"
   },
   {
-    "id": "craft-beer",
-    "name": "Craft Beer",
-    "description": "Portland's renowned beer culture with numerous microbreweries. Often called 'Beervana' for its beer diversity.",
-    "links": {
-      "wiki": "https://en.wikipedia.org/wiki/Craft_beer"
-    },
-    "image": "/images/dishes/craft-beer.jpg"
-  },
-  {
     "id": "crema-catalana",
     "name": "Crema Catalana",
     "original": "Crema Cremada",
@@ -1372,7 +1363,7 @@
     "name": "Marionberry Pie",
     "description": "Oregon's state berry made into delicious pie. Marionberries are a cross between blackberries, unique to Oregon.",
     "links": {},
-    "image": null
+    "image": "/images/dishes/marionberry-pie.jpg"
   },
   {
     "id": "meat-and-three",
