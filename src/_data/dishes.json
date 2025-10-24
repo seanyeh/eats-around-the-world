@@ -496,6 +496,15 @@
     "image": "/images/dishes/chili-crab.jpg"
   },
   {
+    "id": "cioppino",
+    "name": "Cioppino",
+    "description": "San Francisco fish stew with Dungeness crab, clams, shrimp, and mussels in tomato-wine sauce. Italian-American classic.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Cioppino"
+    },
+    "image": "/images/dishes/cioppino.jpg"
+  },
+  {
     "id": "chole-bhature",
     "name": "Chole Bhature",
     "description": "Popular North Indian dish of spicy chickpea curry served with deep-fried bread. A breakfast staple.",
@@ -1939,15 +1948,6 @@
       "wiki": "https://en.wikipedia.org/wiki/Green_papaya_salad"
     },
     "image": "/images/dishes/som-tam.jpg"
-  },
-  {
-    "id": "sourdough-bread",
-    "name": "Sourdough Bread",
-    "description": "Tangy bread made with wild yeast starter. Gold Rush-era sourdough culture is still alive.",
-    "links": {
-      "wiki": "https://en.wikipedia.org/wiki/Sourdough"
-    },
-    "image": "/images/dishes/sourdough-bread.jpg"
   },
   {
     "id": "soused-herring",
