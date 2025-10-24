@@ -192,6 +192,20 @@
     "image": "/images/cities/casablanca.jpg"
   },
   {
+    "name": "Charleston",
+    "country": "United States",
+    "coordinates": [
+      32.7766,
+      -79.9309
+    ],
+    "dishes": [
+      "shrimp-and-grits",
+      "she-crab-soup",
+      "boiled-peanuts"
+    ],
+    "image": "/images/cities/charleston.jpg"
+  },
+  {
     "name": "Chengdu",
     "country": "China",
     "coordinates": [
@@ -222,6 +236,20 @@
       "malort"
     ],
     "image": "/images/cities/chicago.jpg"
+  },
+  {
+    "name": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": [
+      55.6759,
+      12.5655
+    ],
+    "dishes": [
+      "smorrebrod",
+      "frikadeller",
+      "danish-pastry"
+    ],
+    "image": "/images/cities/copenhagen.jpg"
   },
   {
     "name": "Dalian",
@@ -412,6 +440,20 @@
       "chicken-tikka-masala"
     ],
     "image": "/images/cities/london.jpg"
+  },
+  {
+    "name": "Lyon",
+    "country": "France",
+    "coordinates": [
+      45.7485,
+      4.8467
+    ],
+    "dishes": [
+      "quenelles",
+      "salade-lyonnaise",
+      "cervelle-de-canut"
+    ],
+    "image": "/images/cities/lyon.jpg"
   },
   {
     "name": "Los Angeles",
@@ -973,7 +1015,7 @@
       "roujiamo",
       "liangpi-cold-noodles",
       "yangrou-paomo",
-      "persimmon-cake"
+      "hulatang"
     ],
     "image": "/images/cities/xi'an.jpg"
   }

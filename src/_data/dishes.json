@@ -247,6 +247,15 @@
     "image": "/images/dishes/bobotie.jpg"
   },
   {
+    "id": "boiled-peanuts",
+    "name": "Boiled Peanuts",
+    "description": "Raw peanuts boiled in salted water until soft and chewy. Official snack food of South Carolina.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Boiled_peanuts"
+    },
+    "image": "/images/dishes/boiled-peanuts.jpg"
+  },
+  {
     "id": "bocadillo-de-calamares",
     "name": "Bocadillo de Calamares",
     "description": "Famous fried squid sandwich, typically served in a crusty bread roll with lemon.",
@@ -399,6 +408,15 @@
       "wiki": "https://en.wikipedia.org/wiki/Ceviche"
     },
     "image": "/images/dishes/ceviche.jpg"
+  },
+  {
+    "id": "cervelle-de-canut",
+    "name": "Cervelle de Canut",
+    "description": "Lyonnaise cheese spread made with fromage blanc, herbs, shallots, and olive oil. Named for silk workers.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Cervelle_de_canut"
+    },
+    "image": "/images/dishes/cervelle-de-canut.jpg"
   },
   {
     "id": "cha-ca-la-vong",
@@ -644,6 +662,16 @@
     "image": "/images/dishes/dandan-noodles.jpg"
   },
   {
+    "id": "danish-pastry",
+    "name": "Danish Pastry",
+    "original": "Wienerbrød",
+    "description": "Multilayered, laminated sweet pastry with various fillings. Ironically called 'Vienna bread' in Denmark.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Danish_pastry"
+    },
+    "image": "/images/dishes/danish-pastry.jpg"
+  },
+  {
     "id": "deep-dish-pizza",
     "name": "Deep Dish Pizza",
     "description": "Chicago's signature thick-crust pizza with cheese on bottom and sauce on top. More like a pie than pizza.",
@@ -845,6 +873,15 @@
     "description": "Cornmeal-crusted catfish, fried golden. Southern staple often served with hush puppies and coleslaw.",
     "links": {},
     "image": null
+  },
+  {
+    "id": "frikadeller",
+    "name": "Frikadeller",
+    "description": "Danish pan-fried meatballs made from pork and veal, served with potatoes and gravy or creamed cabbage.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Frikadeller"
+    },
+    "image": "/images/dishes/frikadeller.jpg"
   },
   {
     "id": "ful-medames",
@@ -1080,6 +1117,16 @@
       "wiki": "https://en.wikipedia.org/wiki/Hummus"
     },
     "image": "/images/dishes/hummus.jpg"
+  },
+  {
+    "id": "hulatang",
+    "name": "Hulatang",
+    "original": "胡辣汤",
+    "description": "Traditional spicy soup from Henan and Shaanxi provinces with a thick, sticky texture. Made with beef broth, black pepper, chili, vermicelli, and vegetables.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Hulatang"
+    },
+    "image": "/images/dishes/hulatang.jpg"
   },
   {
     "id": "ikayaki",
@@ -1660,13 +1707,6 @@
     "image": "/images/dishes/peking-duck.jpg"
   },
   {
-    "id": "persimmon-cake",
-    "name": "Persimmon Cake",
-    "original": "柿子饼",
-    "description": "Sweet treat made from persimmon pulp and flour, pan-fried until golden and filled with sweet paste.",
-    "links": {}
-  },
-  {
     "id": "philly-cheesesteak",
     "name": "Philly Cheesesteak",
     "description": "Sliced ribeye steak with melted cheese on a long hoagie roll. Philadelphia's most famous sandwich creation.",
@@ -1772,6 +1812,15 @@
     "image": null
   },
   {
+    "id": "quenelles",
+    "name": "Quenelles",
+    "description": "Light dumplings of creamed pike fish with egg binding, poached and served with rich Nantua sauce. Lyon specialty.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Quenelle"
+    },
+    "image": "/images/dishes/quenelles.jpg"
+  },
+  {
     "id": "ramen",
     "name": "Ramen",
     "original": "ラーメン",
@@ -1836,6 +1885,13 @@
       "wiki": "https://en.wikipedia.org/wiki/Sachertorte"
     },
     "image": "/images/dishes/sachertorte.jpg"
+  },
+  {
+    "id": "salade-lyonnaise",
+    "name": "Salade Lyonnaise",
+    "description": "Classic bistro salad with frisée lettuce, bacon lardons, croutons, and a poached egg on top.",
+    "links": {},
+    "image": "/images/dishes/salade-lyonnaise.jpg"
   },
   {
     "id": "saltimbocca",
@@ -1903,6 +1959,15 @@
     "image": "/images/dishes/shawarma.jpg"
   },
   {
+    "id": "she-crab-soup",
+    "name": "She-Crab Soup",
+    "description": "Rich, creamy soup with blue crab meat and roe, finished with sherry. Charleston Lowcountry specialty.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/She-crab_soup"
+    },
+    "image": "/images/dishes/she-crab-soup.jpg"
+  },
+  {
     "id": "shengjianbao",
     "name": "Shengjianbao",
     "original": "生煎包",
@@ -1911,6 +1976,15 @@
       "wiki": "https://en.wikipedia.org/wiki/Shengjianbao"
     },
     "image": "/images/dishes/shengjianbao.jpg"
+  },
+  {
+    "id": "shrimp-and-grits",
+    "name": "Shrimp and Grits",
+    "description": "Sautéed shrimp served over creamy grits. Traditional Lowcountry breakfast turned iconic Charleston dish.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Shrimp_and_grits"
+    },
+    "image": "/images/dishes/shrimp-and-grits.jpg"
   },
   {
     "id": "slinger",
@@ -1929,6 +2003,15 @@
       "wiki": "https://en.wikipedia.org/wiki/Montreal-style_smoked_meat"
     },
     "image": "/images/dishes/smoked-meat.jpg"
+  },
+  {
+    "id": "smorrebrod",
+    "name": "Smørrebrød",
+    "description": "Traditional open-faced sandwiches on buttered rye bread with elaborate toppings like pickled herring, roast beef, or shrimp.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Smørrebrød"
+    },
+    "image": "/images/dishes/smorrebrod.jpg"
   },
   {
     "id": "soft-pretzel",
