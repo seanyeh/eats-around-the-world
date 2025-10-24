@@ -1,5 +1,18 @@
 [
   {
+    "name": "Addis Ababa",
+    "country": "Ethiopia",
+    "coordinates": [
+      9.0320,
+      38.7469
+    ],
+    "dishes": [
+      "injera",
+      "kitfo"
+    ],
+    "image": "/images/cities/addis-ababa.jpg"
+  },
+  {
     "name": "Amsterdam",
     "country": "Netherlands",
     "coordinates": [
@@ -914,6 +927,22 @@
       "brigadeiro"
     ],
     "image": "/images/cities/são-paulo.jpg"
+  },
+  {
+    "name": "Taipei",
+    "country": "Taiwan",
+    "coordinates": [
+      25.0330,
+      121.5654
+    ],
+    "dishes": [
+      "beef-noodle-soup",
+      "bubble-tea",
+      "gua-bao",
+      "oyster-omelette",
+      "stinky-tofu"
+    ],
+    "image": "/images/cities/taipei.jpg"
   },
   {
     "name": "Tel Aviv",

@@ -2459,5 +2459,75 @@
       "wiki": "https://en.wikipedia.org/wiki/Suan_cai_yu"
     },
     "image": "/images/dishes/suancaiyu.jpg"
+  },
+  {
+    "id": "beef-noodle-soup",
+    "name": "Beef Noodle Soup",
+    "original": "牛肉麵",
+    "description": "Taiwan's national dish - tender beef braised in aromatic broth with hand-pulled noodles. Created by Sichuan veterans in Taiwan.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Taiwanese_beef_noodle_soup"
+    },
+    "image": "/images/dishes/beef-noodle-soup.jpg"
+  },
+  {
+    "id": "bubble-tea",
+    "name": "Bubble Tea",
+    "original": "珍珠奶茶",
+    "description": "Taiwan's iconic drink with chewy tapioca pearls, milk tea, and sweetener. Invented in Taiwan and now a global phenomenon.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Bubble_tea"
+    },
+    "image": "/images/dishes/bubble-tea.jpg"
+  },
+  {
+    "id": "gua-bao",
+    "name": "Gua Bao",
+    "original": "刈包",
+    "description": "Taiwanese steamed bun sandwich with braised pork belly, pickled mustard greens, peanut powder, and cilantro. Often called 'Taiwanese hamburger'.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Koah-pau"
+    },
+    "image": "/images/dishes/gua-bao.jpg"
+  },
+  {
+    "id": "oyster-omelette",
+    "name": "Oyster Omelette",
+    "original": "蚵仔煎",
+    "description": "Popular Taiwanese street food with fresh oysters, eggs, and sweet potato starch creating a crispy-soft texture. Served with sweet-savory sauce.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Oyster_omelette"
+    },
+    "image": "/images/dishes/oyster-omelette.jpg"
+  },
+  {
+    "id": "injera",
+    "name": "Injera",
+    "original": "እንጀራ",
+    "description": "Ethiopian sourdough flatbread made from teff flour with a spongy texture. Serves as both plate and utensil for Ethiopian meals.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Injera"
+    },
+    "image": "/images/dishes/injera.jpg"
+  },
+  {
+    "id": "kitfo",
+    "name": "Kitfo",
+    "original": "ክትፎ",
+    "description": "Ethiopian delicacy of minced raw beef marinated in mitmita spice and clarified butter. Traditionally from the Gurage people.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Kitfo"
+    },
+    "image": "/images/dishes/kitfo.jpg"
+  },
+  {
+    "id": "stinky-tofu",
+    "name": "Stinky Tofu",
+    "original": "臭豆腐",
+    "description": "Fermented tofu with a strong odor, usually deep-fried and served at night markets. A polarizing Taiwanese street food delicacy.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Stinky_tofu"
+    },
+    "image": "/images/dishes/stinky-tofu.jpg"
   }
 ]
