@@ -591,8 +591,10 @@
     "id": "craft-beer",
     "name": "Craft Beer",
     "description": "Portland's renowned beer culture with numerous microbreweries. Often called 'Beervana' for its beer diversity.",
-    "links": {},
-    "image": null
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Craft_beer"
+    },
+    "image": "/images/dishes/craft-beer.jpg"
   },
   {
     "id": "crema-catalana",
@@ -2122,6 +2124,15 @@
       "wiki": "https://en.wikipedia.org/wiki/Chicago-style_pizza#Tavern-style_pizza"
     },
     "image": "/images/dishes/tavern-style-pizza.jpg"
+  },
+  {
+    "id": "tater-tots",
+    "name": "Tater Tots",
+    "description": "Crispy, golden-brown cylindrical potato nuggets. A beloved American side dish invented in Oregon.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Tater_tots"
+    },
+    "image": "/images/dishes/tater-tots.png"
   },
   {
     "id": "tempura",
