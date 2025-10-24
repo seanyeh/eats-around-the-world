@@ -2399,5 +2399,65 @@
       "wiki": "https://en.wikipedia.org/wiki/Zhajiangmian"
     },
     "image": "/images/dishes/zhajiangmian.jpg"
+  },
+  {
+    "id": "bonbon-chicken",
+    "name": "Bon Bon Chicken",
+    "original": "棒棒鸡",
+    "description": "Cold Sichuan chicken dish with spicy sesame sauce and peanuts. The name comes from the stick used to tenderize the meat.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Bon_bon_chicken"
+    },
+    "image": "/images/dishes/bonbon-chicken.jpg"
+  },
+  {
+    "id": "fuqi-feipian",
+    "name": "Fuqi Feipian",
+    "original": "夫妻肺片",
+    "description": "Sichuan cold appetizer of thinly sliced beef and offal in spicy chili oil. The name translates to 'husband and wife lung slices'.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Fuqi_feipian"
+    },
+    "image": "/images/dishes/fuqi-feipian.jpg"
+  },
+  {
+    "id": "laziji",
+    "name": "Laziji",
+    "original": "辣子鸡",
+    "description": "Sichuan dry chili chicken with crispy fried chicken pieces buried in a mountain of dried red chilies and Sichuan peppercorns.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Laziji"
+    },
+    "image": "/images/dishes/laziji.jpg"
+  },
+  {
+    "id": "yuxiang-pork",
+    "name": "Yuxiang Shredded Pork",
+    "original": "鱼香肉丝",
+    "description": "Fish-flavored shredded pork with garlic, ginger, and chili bean paste. Despite the name, contains no fish - the sauce is traditionally used for fish dishes.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Yuxiang"
+    },
+    "image": "/images/dishes/yuxiang-pork.jpg"
+  },
+  {
+    "id": "shuizhuyu",
+    "name": "Shuizhuyu",
+    "original": "水煮鱼",
+    "description": "Sichuan water-boiled fish with tender fish fillets poached in fiery chili oil with Sichuan peppercorns. A modern Sichuan classic.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Shuizhu"
+    },
+    "image": "/images/dishes/shuizhuyu.jpg"
+  },
+  {
+    "id": "suancaiyu",
+    "name": "Suancaiyu",
+    "original": "酸菜鱼",
+    "description": "Sichuan fish with pickled mustard greens in a sour and spicy broth. The pickled vegetables add a distinctive tangy flavor.",
+    "links": {
+      "wiki": "https://en.wikipedia.org/wiki/Suan_cai_yu"
+    },
+    "image": "/images/dishes/suancaiyu.jpg"
   }
 ]
