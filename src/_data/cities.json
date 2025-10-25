@@ -80,6 +80,13 @@
     "image": "/images/cities/berlin.jpg"
   },
   {
+    "name": "Bogotá",
+    "country": "Colombia",
+    "coordinates": [4.711, -74.0721],
+    "dishes": ["arepas", "bandeja-paisa", "aguardiente"],
+    "image": "/images/cities/bogotá.jpg"
+  },
+  {
     "name": "Bologna",
     "country": "Italy",
     "coordinates": [44.4949, 11.3426],
@@ -90,13 +97,6 @@
       "lasagne-alla-bolognese"
     ],
     "image": "/images/cities/bologna.jpg"
-  },
-  {
-    "name": "Bogotá",
-    "country": "Colombia",
-    "coordinates": [4.711, -74.0721],
-    "dishes": ["arepas", "bandeja-paisa", "aguardiente"],
-    "image": "/images/cities/bogotá.jpg"
   },
   {
     "name": "Buenos Aires",
@@ -287,18 +287,18 @@
     "image": "/images/cities/london.jpg"
   },
   {
-    "name": "Lyon",
-    "country": "France",
-    "coordinates": [45.7485, 4.8467],
-    "dishes": ["quenelles", "salade-lyonnaise", "cervelle-de-canut"],
-    "image": "/images/cities/lyon.jpg"
-  },
-  {
     "name": "Los Angeles",
     "country": "United States",
     "coordinates": [34.0522, -118.2437],
     "dishes": ["fish-tacos", "french-dip-sandwich"],
     "image": "/images/cities/los-angeles.jpg"
+  },
+  {
+    "name": "Lyon",
+    "country": "France",
+    "coordinates": [45.7485, 4.8467],
+    "dishes": ["quenelles", "salade-lyonnaise", "cervelle-de-canut"],
+    "image": "/images/cities/lyon.jpg"
   },
   {
     "name": "Madrid",
@@ -509,6 +509,13 @@
     "image": "/images/cities/santiago.jpg"
   },
   {
+    "name": "São Paulo",
+    "country": "Brazil",
+    "coordinates": [-23.5505, -46.6333],
+    "dishes": ["feijoada", "pastel", "brigadeiro"],
+    "image": "/images/cities/são-paulo.jpg"
+  },
+  {
     "name": "Seoul",
     "country": "South Korea",
     "coordinates": [37.5665, 126.978],
@@ -573,13 +580,6 @@
     "coordinates": [-33.8688, 151.2093],
     "dishes": ["meat-pie", "barramundi", "lamington"],
     "image": "/images/cities/sydney.jpg"
-  },
-  {
-    "name": "São Paulo",
-    "country": "Brazil",
-    "coordinates": [-23.5505, -46.6333],
-    "dishes": ["feijoada", "pastel", "brigadeiro"],
-    "image": "/images/cities/são-paulo.jpg"
   },
   {
     "name": "Taipei",

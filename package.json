@@ -11,6 +11,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "prettier": "^3.6.2",
+    "prettier-plugin-sort-json-array": "^0.0.2",
     "sass": "^1.80.0"
   }
 }
