@@ -5,10 +5,12 @@
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
-    "dev": "eleventy --serve --watch"
+    "dev": "eleventy --serve --watch",
+    "format": "prettier --write '**/*.json'"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "prettier": "^3.6.2",
     "sass": "^1.80.0"
   }
 }

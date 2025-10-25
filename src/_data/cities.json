@@ -2,50 +2,28 @@
   {
     "name": "Addis Ababa",
     "country": "Ethiopia",
-    "coordinates": [
-      9.0320,
-      38.7469
-    ],
-    "dishes": [
-      "injera",
-      "kitfo"
-    ],
+    "coordinates": [9.032, 38.7469],
+    "dishes": ["injera", "kitfo"],
     "image": "/images/cities/addis-ababa.jpg"
   },
   {
     "name": "Amsterdam",
     "country": "Netherlands",
-    "coordinates": [
-      52.3676,
-      4.9041
-    ],
-    "dishes": [
-      "stroopwafel",
-      "soused-herring"
-    ],
+    "coordinates": [52.3676, 4.9041],
+    "dishes": ["stroopwafel", "soused-herring"],
     "image": "/images/cities/amsterdam.jpg"
   },
   {
     "name": "Athens",
     "country": "Greece",
-    "coordinates": [
-      37.9838,
-      23.7275
-    ],
-    "dishes": [
-      "moussaka",
-      "souvlaki",
-      "greek-salad"
-    ],
+    "coordinates": [37.9838, 23.7275],
+    "dishes": ["moussaka", "souvlaki", "greek-salad"],
     "image": "/images/cities/athens.jpg"
   },
   {
     "name": "Austin",
     "country": "United States",
-    "coordinates": [
-      30.2672,
-      -97.7431
-    ],
+    "coordinates": [30.2672, -97.7431],
     "dishes": [
       "bbq-brisket",
       "breakfast-taco",
@@ -58,10 +36,7 @@
   {
     "name": "Bangkok",
     "country": "Thailand",
-    "coordinates": [
-      13.7563,
-      100.5018
-    ],
+    "coordinates": [13.7563, 100.5018],
     "dishes": [
       "pad-thai",
       "tom-yum-goong",
@@ -74,24 +49,14 @@
   {
     "name": "Barcelona",
     "country": "Spain",
-    "coordinates": [
-      41.3851,
-      2.1734
-    ],
-    "dishes": [
-      "crema-catalana",
-      "pan-con-tomate",
-      "calcots"
-    ],
+    "coordinates": [41.3851, 2.1734],
+    "dishes": ["crema-catalana", "pan-con-tomate", "calcots"],
     "image": "/images/cities/barcelona.jpg"
   },
   {
     "name": "Beijing",
     "country": "China",
-    "coordinates": [
-      39.9042,
-      116.4074
-    ],
+    "coordinates": [39.9042, 116.4074],
     "dishes": [
       "peking-duck",
       "jianbing",
@@ -104,10 +69,7 @@
   {
     "name": "Berlin",
     "country": "Germany",
-    "coordinates": [
-      52.52,
-      13.405
-    ],
+    "coordinates": [52.52, 13.405],
     "dishes": [
       "currywurst",
       "doner-kebab",
@@ -120,10 +82,7 @@
   {
     "name": "Bologna",
     "country": "Italy",
-    "coordinates": [
-      44.4949,
-      11.3426
-    ],
+    "coordinates": [44.4949, 11.3426],
     "dishes": [
       "tagliatelle-al-ragu",
       "tortellini-in-brodo",
@@ -135,96 +94,49 @@
   {
     "name": "Bogotá",
     "country": "Colombia",
-    "coordinates": [
-      4.711,
-      -74.0721
-    ],
-    "dishes": [
-      "arepas",
-      "bandeja-paisa",
-      "aguardiente"
-    ],
+    "coordinates": [4.711, -74.0721],
+    "dishes": ["arepas", "bandeja-paisa", "aguardiente"],
     "image": "/images/cities/bogotá.jpg"
   },
   {
     "name": "Buenos Aires",
     "country": "Argentina",
-    "coordinates": [
-      -34.6118,
-      -58.396
-    ],
-    "dishes": [
-      "asado",
-      "empanadas",
-      "dulce-de-leche"
-    ],
+    "coordinates": [-34.6118, -58.396],
+    "dishes": ["asado", "empanadas", "dulce-de-leche"],
     "image": "/images/cities/buenos-aires.jpg"
   },
   {
     "name": "Cairo",
     "country": "Egypt",
-    "coordinates": [
-      30.0444,
-      31.2357
-    ],
-    "dishes": [
-      "ful-medames",
-      "hawawshi",
-      "ta-ameya",
-      "koshary",
-      "mahshi"
-    ],
+    "coordinates": [30.0444, 31.2357],
+    "dishes": ["ful-medames", "hawawshi", "ta-ameya", "koshary", "mahshi"],
     "image": "/images/cities/cairo.jpg"
   },
   {
     "name": "Cape Town",
     "country": "South Africa",
-    "coordinates": [
-      -33.9249,
-      18.4241
-    ],
-    "dishes": [
-      "bobotie",
-      "biltong",
-      "koeksisters"
-    ],
+    "coordinates": [-33.9249, 18.4241],
+    "dishes": ["bobotie", "biltong", "koeksisters"],
     "image": "/images/cities/cape-town.jpg"
   },
   {
     "name": "Casablanca",
     "country": "Morocco",
-    "coordinates": [
-      33.5731,
-      -7.5898
-    ],
-    "dishes": [
-      "tagine",
-      "couscous",
-      "pastilla"
-    ],
+    "coordinates": [33.5731, -7.5898],
+    "dishes": ["tagine", "couscous", "pastilla"],
     "image": "/images/cities/casablanca.jpg"
   },
   {
     "name": "Charleston",
     "country": "United States",
-    "coordinates": [
-      32.7766,
-      -79.9309
-    ],
-    "dishes": [
-      "shrimp-and-grits",
-      "she-crab-soup",
-      "boiled-peanuts"
-    ],
+    "coordinates": [32.7766, -79.9309],
+    "dishes": ["shrimp-and-grits", "she-crab-soup", "boiled-peanuts"],
     "image": "/images/cities/charleston.jpg"
   },
   {
     "name": "Chengdu",
     "country": "China",
-    "coordinates": [
-      30.5728,
-      104.0668
-    ],
+    "coordinates": [30.5728, 104.0668],
     "dishes": [
       "mapo-tofu",
       "kung-pao-chicken",
@@ -243,10 +155,7 @@
   {
     "name": "Chicago",
     "country": "United States",
-    "coordinates": [
-      41.8781,
-      -87.6298
-    ],
+    "coordinates": [41.8781, -87.6298],
     "dishes": [
       "deep-dish-pizza",
       "tavern-style-pizza",
@@ -259,24 +168,14 @@
   {
     "name": "Copenhagen",
     "country": "Denmark",
-    "coordinates": [
-      55.6759,
-      12.5655
-    ],
-    "dishes": [
-      "smorrebrod",
-      "frikadeller",
-      "danish-pastry"
-    ],
+    "coordinates": [55.6759, 12.5655],
+    "dishes": ["smorrebrod", "frikadeller", "danish-pastry"],
     "image": "/images/cities/copenhagen.jpg"
   },
   {
     "name": "Dalian",
     "country": "China",
-    "coordinates": [
-      38.914,
-      121.6147
-    ],
+    "coordinates": [38.914, 121.6147],
     "dishes": [
       "sea-urechis-dumpling",
       "colorful-snowflake-scallops",
@@ -289,10 +188,7 @@
   {
     "name": "Delhi",
     "country": "India",
-    "coordinates": [
-      28.7041,
-      77.1025
-    ],
+    "coordinates": [28.7041, 77.1025],
     "dishes": [
       "butter-chicken",
       "chole-bhature",
@@ -305,24 +201,14 @@
   {
     "name": "Dubai",
     "country": "United Arab Emirates",
-    "coordinates": [
-      25.2048,
-      55.2708
-    ],
-    "dishes": [
-      "machboos",
-      "shawarma",
-      "knafeh"
-    ],
+    "coordinates": [25.2048, 55.2708],
+    "dishes": ["machboos", "shawarma", "knafeh"],
     "image": "/images/cities/dubai.jpg"
   },
   {
     "name": "Guangzhou",
     "country": "China",
-    "coordinates": [
-      23.1291,
-      113.2644
-    ],
+    "coordinates": [23.1291, 113.2644],
     "dishes": [
       "dim-sum",
       "wonton-noodle-soup",
@@ -334,123 +220,63 @@
   {
     "name": "Hanoi",
     "country": "Vietnam",
-    "coordinates": [
-      21.0285,
-      105.8542
-    ],
-    "dishes": [
-      "pho",
-      "bun-cha",
-      "egg-coffee",
-      "cha-ca-la-vong"
-    ],
+    "coordinates": [21.0285, 105.8542],
+    "dishes": ["pho", "bun-cha", "egg-coffee", "cha-ca-la-vong"],
     "image": "/images/cities/hanoi.jpg"
   },
   {
     "name": "Ho Chi Minh City",
     "country": "Vietnam",
-    "coordinates": [
-      10.8231,
-      106.6297
-    ],
-    "dishes": [
-      "pho",
-      "banh-mi",
-      "bun-bo-hue"
-    ],
+    "coordinates": [10.8231, 106.6297],
+    "dishes": ["pho", "banh-mi", "bun-bo-hue"],
     "image": "/images/cities/ho-chi-minh-city.jpg"
   },
   {
     "name": "Hong Kong",
     "country": "Hong Kong",
-    "coordinates": [
-      22.3193,
-      114.1694
-    ],
-    "dishes": [
-      "milk-tea",
-      "dim-sum",
-      "char-siu"
-    ],
+    "coordinates": [22.3193, 114.1694],
+    "dishes": ["milk-tea", "dim-sum", "char-siu"],
     "image": "/images/cities/hong-kong.jpg"
   },
   {
     "name": "Istanbul",
     "country": "Turkey",
-    "coordinates": [
-      41.0082,
-      28.9784
-    ],
-    "dishes": [
-      "kebab",
-      "turkish-delight",
-      "baklava"
-    ],
+    "coordinates": [41.0082, 28.9784],
+    "dishes": ["kebab", "turkish-delight", "baklava"],
     "image": "/images/cities/istanbul.jpg"
   },
   {
     "name": "Jakarta",
     "country": "Indonesia",
-    "coordinates": [
-      -6.2088,
-      106.8456
-    ],
-    "dishes": [
-      "rendang",
-      "gudeg",
-      "gado-gado"
-    ],
+    "coordinates": [-6.2088, 106.8456],
+    "dishes": ["rendang", "gudeg", "gado-gado"],
     "image": "/images/cities/jakarta.jpg"
   },
   {
     "name": "Karachi",
     "country": "Pakistan",
-    "coordinates": [
-      24.8607,
-      67.0011
-    ],
-    "dishes": [
-      "nihari",
-      "biryani",
-      "haleem"
-    ],
+    "coordinates": [24.8607, 67.0011],
+    "dishes": ["nihari", "biryani", "haleem"],
     "image": "/images/cities/karachi.jpg"
   },
   {
     "name": "Lagos",
     "country": "Nigeria",
-    "coordinates": [
-      6.5244,
-      3.3792
-    ],
-    "dishes": [
-      "jollof-rice",
-      "suya",
-      "pounded-yam"
-    ],
+    "coordinates": [6.5244, 3.3792],
+    "dishes": ["jollof-rice", "suya", "pounded-yam"],
     "image": "/images/cities/lagos.jpg"
   },
   {
     "name": "Lima",
     "country": "Peru",
-    "coordinates": [
-      -12.0464,
-      -77.0428
-    ],
-    "dishes": [
-      "ceviche",
-      "lomo-saltado",
-      "pisco-sour"
-    ],
+    "coordinates": [-12.0464, -77.0428],
+    "dishes": ["ceviche", "lomo-saltado", "pisco-sour"],
     "image": "/images/cities/lima.jpg"
   },
   {
     "name": "London",
     "country": "United Kingdom",
-    "coordinates": [
-      51.5074,
-      -0.1278
-    ],
+    "coordinates": [51.5074, -0.1278],
     "dishes": [
       "fish-and-chips",
       "bangers-and-mash",
@@ -463,37 +289,21 @@
   {
     "name": "Lyon",
     "country": "France",
-    "coordinates": [
-      45.7485,
-      4.8467
-    ],
-    "dishes": [
-      "quenelles",
-      "salade-lyonnaise",
-      "cervelle-de-canut"
-    ],
+    "coordinates": [45.7485, 4.8467],
+    "dishes": ["quenelles", "salade-lyonnaise", "cervelle-de-canut"],
     "image": "/images/cities/lyon.jpg"
   },
   {
     "name": "Los Angeles",
     "country": "United States",
-    "coordinates": [
-      34.0522,
-      -118.2437
-    ],
-    "dishes": [
-      "fish-tacos",
-      "french-dip-sandwich"
-    ],
+    "coordinates": [34.0522, -118.2437],
+    "dishes": ["fish-tacos", "french-dip-sandwich"],
     "image": "/images/cities/los-angeles.jpg"
   },
   {
     "name": "Madrid",
     "country": "Spain",
-    "coordinates": [
-      40.4168,
-      -3.7038
-    ],
+    "coordinates": [40.4168, -3.7038],
     "dishes": [
       "cocido-madrileno",
       "bocadillo-de-calamares",
@@ -506,24 +316,14 @@
   {
     "name": "Manila",
     "country": "Philippines",
-    "coordinates": [
-      14.5995,
-      120.9842
-    ],
-    "dishes": [
-      "adobo",
-      "lechon",
-      "halo-halo"
-    ],
+    "coordinates": [14.5995, 120.9842],
+    "dishes": ["adobo", "lechon", "halo-halo"],
     "image": "/images/cities/manila.jpg"
   },
   {
     "name": "Mexico City",
     "country": "Mexico",
-    "coordinates": [
-      19.4326,
-      -99.1332
-    ],
+    "coordinates": [19.4326, -99.1332],
     "dishes": [
       "tacos-al-pastor",
       "chilaquiles",
@@ -536,10 +336,7 @@
   {
     "name": "Milan",
     "country": "Italy",
-    "coordinates": [
-      45.4642,
-      9.19
-    ],
+    "coordinates": [45.4642, 9.19],
     "dishes": [
       "risotto-alla-milanese",
       "cotoletta-alla-milanese",
@@ -551,38 +348,21 @@
   {
     "name": "Montreal",
     "country": "Canada",
-    "coordinates": [
-      45.5017,
-      -73.5673
-    ],
-    "dishes": [
-      "montreal-style-bagel",
-      "smoked-meat",
-      "tourtiere"
-    ],
+    "coordinates": [45.5017, -73.5673],
+    "dishes": ["montreal-style-bagel", "smoked-meat", "tourtiere"],
     "image": "/images/cities/montreal.jpg"
   },
   {
     "name": "Moscow",
     "country": "Russia",
-    "coordinates": [
-      55.7558,
-      37.6176
-    ],
-    "dishes": [
-      "borscht",
-      "beef-stroganoff",
-      "blini"
-    ],
+    "coordinates": [55.7558, 37.6176],
+    "dishes": ["borscht", "beef-stroganoff", "blini"],
     "image": "/images/cities/moscow.jpg"
   },
   {
     "name": "Mumbai",
     "country": "India",
-    "coordinates": [
-      19.076,
-      72.8777
-    ],
+    "coordinates": [19.076, 72.8777],
     "dishes": [
       "vada-pav",
       "pav-bhaji",
@@ -595,36 +375,21 @@
   {
     "name": "Nairobi",
     "country": "Kenya",
-    "coordinates": [
-      -1.2921,
-      36.8219
-    ],
-    "dishes": [
-      "nyama-choma",
-      "ugali",
-      "mandazi"
-    ],
+    "coordinates": [-1.2921, 36.8219],
+    "dishes": ["nyama-choma", "ugali", "mandazi"],
     "image": "/images/cities/nairobi.jpg"
   },
   {
     "name": "Naples",
     "country": "Italy",
-    "coordinates": [
-      40.8518,
-      14.2681
-    ],
-    "dishes": [
-      "pizza-margherita"
-    ],
+    "coordinates": [40.8518, 14.2681],
+    "dishes": ["pizza-margherita"],
     "image": "/images/cities/naples.jpg"
   },
   {
     "name": "Nashville",
     "country": "United States",
-    "coordinates": [
-      36.1627,
-      -86.7816
-    ],
+    "coordinates": [36.1627, -86.7816],
     "dishes": [
       "hot-chicken",
       "meat-and-three",
@@ -637,10 +402,7 @@
   {
     "name": "New Orleans",
     "country": "United States",
-    "coordinates": [
-      29.9511,
-      -90.0715
-    ],
+    "coordinates": [29.9511, -90.0715],
     "dishes": [
       "gumbo",
       "jambalaya",
@@ -653,10 +415,7 @@
   {
     "name": "New York City",
     "country": "United States",
-    "coordinates": [
-      40.7128,
-      -74.006
-    ],
+    "coordinates": [40.7128, -74.006],
     "dishes": [
       "new-york-pizza",
       "bagel-with-lox",
@@ -669,26 +428,14 @@
   {
     "name": "Osaka",
     "country": "Japan",
-    "coordinates": [
-      34.6937,
-      135.5023
-    ],
-    "dishes": [
-      "takoyaki",
-      "okonomiyaki",
-      "kushikatsu",
-      "ikayaki",
-      "butaman"
-    ],
+    "coordinates": [34.6937, 135.5023],
+    "dishes": ["takoyaki", "okonomiyaki", "kushikatsu", "ikayaki", "butaman"],
     "image": "/images/cities/osaka.jpg"
   },
   {
     "name": "Paris",
     "country": "France",
-    "coordinates": [
-      48.8566,
-      2.3522
-    ],
+    "coordinates": [48.8566, 2.3522],
     "dishes": [
       "croissant",
       "coq-au-vin",
@@ -701,10 +448,7 @@
   {
     "name": "Philadelphia",
     "country": "United States",
-    "coordinates": [
-      39.9526,
-      -75.1652
-    ],
+    "coordinates": [39.9526, -75.1652],
     "dishes": [
       "philly-cheesesteak",
       "hoagie",
@@ -718,107 +462,56 @@
   {
     "name": "Portland",
     "country": "United States",
-    "coordinates": [
-      45.5152,
-      -122.6784
-    ],
-    "dishes": [
-      "marionberry-pie",
-      "tater-tots"
-    ],
+    "coordinates": [45.5152, -122.6784],
+    "dishes": ["marionberry-pie", "tater-tots"],
     "image": "/images/cities/portland.jpg"
   },
   {
     "name": "Prague",
     "country": "Czechia",
-    "coordinates": [
-      50.0755,
-      14.4378
-    ],
-    "dishes": [
-      "goulash",
-      "svickova"
-    ],
+    "coordinates": [50.0755, 14.4378],
+    "dishes": ["goulash", "svickova"],
     "image": "/images/cities/prague.jpg"
   },
   {
     "name": "Rio de Janeiro",
     "country": "Brazil",
-    "coordinates": [
-      -22.9068,
-      -43.1729
-    ],
-    "dishes": [
-      "churrasco",
-      "caipirinha"
-    ],
+    "coordinates": [-22.9068, -43.1729],
+    "dishes": ["churrasco", "caipirinha"],
     "image": "/images/cities/rio-de-janeiro.jpg"
   },
   {
     "name": "Riyadh",
     "country": "Saudi Arabia",
-    "coordinates": [
-      24.7136,
-      46.6753
-    ],
-    "dishes": [
-      "kabsa",
-      "mutabbaq",
-      "maamoul"
-    ],
+    "coordinates": [24.7136, 46.6753],
+    "dishes": ["kabsa", "mutabbaq", "maamoul"],
     "image": "/images/cities/riyadh.jpg"
   },
   {
     "name": "Rome",
     "country": "Italy",
-    "coordinates": [
-      41.9028,
-      12.4964
-    ],
-    "dishes": [
-      "carbonara",
-      "cacio-e-pepe",
-      "saltimbocca",
-      "suppli",
-      "gelato"
-    ],
+    "coordinates": [41.9028, 12.4964],
+    "dishes": ["carbonara", "cacio-e-pepe", "saltimbocca", "suppli", "gelato"],
     "image": "/images/cities/rome.jpg"
   },
   {
     "name": "San Francisco",
     "country": "United States",
-    "coordinates": [
-      37.7749,
-      -122.4194
-    ],
-    "dishes": [
-      "dungeness-crab",
-      "mission-burrito",
-      "cioppino"
-    ],
+    "coordinates": [37.7749, -122.4194],
+    "dishes": ["dungeness-crab", "mission-burrito", "cioppino"],
     "image": "/images/cities/san-francisco.jpg"
   },
   {
     "name": "Santiago",
     "country": "Chile",
-    "coordinates": [
-      -33.4489,
-      -70.6693
-    ],
-    "dishes": [
-      "empanadas-de-pino",
-      "pastel-de-choclo",
-      "completo"
-    ],
+    "coordinates": [-33.4489, -70.6693],
+    "dishes": ["empanadas-de-pino", "pastel-de-choclo", "completo"],
     "image": "/images/cities/santiago.jpg"
   },
   {
     "name": "Seoul",
     "country": "South Korea",
-    "coordinates": [
-      37.5665,
-      126.978
-    ],
+    "coordinates": [37.5665, 126.978],
     "dishes": [
       "kimchi-jjigae",
       "bulgogi",
@@ -831,10 +524,7 @@
   {
     "name": "Shanghai",
     "country": "China",
-    "coordinates": [
-      31.2304,
-      121.4737
-    ],
+    "coordinates": [31.2304, 121.4737],
     "dishes": [
       "xiaolongbao",
       "shengjianbao",
@@ -846,37 +536,21 @@
   {
     "name": "Singapore",
     "country": "Singapore",
-    "coordinates": [
-      1.3521,
-      103.8198
-    ],
-    "dishes": [
-      "hainanese-chicken-rice",
-      "laksa",
-      "chilli-crab"
-    ],
+    "coordinates": [1.3521, 103.8198],
+    "dishes": ["hainanese-chicken-rice", "laksa", "chilli-crab"],
     "image": "/images/cities/singapore.jpg"
   },
   {
     "name": "Springfield",
     "country": "United States",
-    "coordinates": [
-      39.7817,
-      -89.6501
-    ],
-    "dishes": [
-      "horseshoe-sandwich",
-      "pork-tenderloin-sandwich"
-    ],
+    "coordinates": [39.7817, -89.6501],
+    "dishes": ["horseshoe-sandwich", "pork-tenderloin-sandwich"],
     "image": "/images/cities/springfield.jpg"
   },
   {
     "name": "St. Louis",
     "country": "United States",
-    "coordinates": [
-      38.627,
-      -90.1994
-    ],
+    "coordinates": [38.627, -90.1994],
     "dishes": [
       "toasted-ravioli",
       "gooey-butter-cake",
@@ -889,52 +563,28 @@
   {
     "name": "Stockholm",
     "country": "Sweden",
-    "coordinates": [
-      59.3293,
-      18.0686
-    ],
-    "dishes": [
-      "meatballs",
-      "gravlax",
-      "cinnamon-bun"
-    ],
+    "coordinates": [59.3293, 18.0686],
+    "dishes": ["meatballs", "gravlax", "cinnamon-bun"],
     "image": "/images/cities/stockholm.jpg"
   },
   {
     "name": "Sydney",
     "country": "Australia",
-    "coordinates": [
-      -33.8688,
-      151.2093
-    ],
-    "dishes": [
-      "meat-pie",
-      "barramundi",
-      "lamington"
-    ],
+    "coordinates": [-33.8688, 151.2093],
+    "dishes": ["meat-pie", "barramundi", "lamington"],
     "image": "/images/cities/sydney.jpg"
   },
   {
     "name": "São Paulo",
     "country": "Brazil",
-    "coordinates": [
-      -23.5505,
-      -46.6333
-    ],
-    "dishes": [
-      "feijoada",
-      "pastel",
-      "brigadeiro"
-    ],
+    "coordinates": [-23.5505, -46.6333],
+    "dishes": ["feijoada", "pastel", "brigadeiro"],
     "image": "/images/cities/são-paulo.jpg"
   },
   {
     "name": "Taipei",
     "country": "Taiwan",
-    "coordinates": [
-      25.0330,
-      121.5654
-    ],
+    "coordinates": [25.033, 121.5654],
     "dishes": [
       "beef-noodle-soup",
       "bubble-tea",
@@ -947,24 +597,14 @@
   {
     "name": "Tel Aviv",
     "country": "Israel",
-    "coordinates": [
-      32.0853,
-      34.7818
-    ],
-    "dishes": [
-      "hummus",
-      "falafel",
-      "shakshuka"
-    ],
+    "coordinates": [32.0853, 34.7818],
+    "dishes": ["hummus", "falafel", "shakshuka"],
     "image": "/images/cities/tel-aviv.jpg"
   },
   {
     "name": "Tianjin",
     "country": "China",
-    "coordinates": [
-      39.3434,
-      117.3616
-    ],
+    "coordinates": [39.3434, 117.3616],
     "dishes": [
       "jianbing",
       "goubuli-baozi",
@@ -981,70 +621,35 @@
   {
     "name": "Tokyo",
     "country": "Japan",
-    "coordinates": [
-      35.6762,
-      139.6503
-    ],
-    "dishes": [
-      "ramen",
-      "sushi",
-      "tempura",
-      "monjayaki",
-      "chanko-nabe"
-    ],
+    "coordinates": [35.6762, 139.6503],
+    "dishes": ["ramen", "sushi", "tempura", "monjayaki", "chanko-nabe"],
     "image": "/images/cities/tokyo.jpg"
   },
   {
     "name": "Toronto",
     "country": "Canada",
-    "coordinates": [
-      43.6532,
-      -79.3832
-    ],
-    "dishes": [
-      "poutine",
-      "peameal-bacon-sandwich",
-      "butter-tart"
-    ],
+    "coordinates": [43.6532, -79.3832],
+    "dishes": ["poutine", "peameal-bacon-sandwich", "butter-tart"],
     "image": "/images/cities/toronto.jpg"
   },
   {
     "name": "Valencia",
     "country": "Spain",
-    "coordinates": [
-      39.4699,
-      -0.3763
-    ],
-    "dishes": [
-      "paella",
-      "arros-a-banda",
-      "arros-negre",
-      "fideua",
-      "esgarrat"
-    ],
+    "coordinates": [39.4699, -0.3763],
+    "dishes": ["paella", "arros-a-banda", "arros-negre", "fideua", "esgarrat"],
     "image": "/images/cities/valencia.jpg"
   },
   {
     "name": "Vienna",
     "country": "Austria",
-    "coordinates": [
-      48.2082,
-      16.3738
-    ],
-    "dishes": [
-      "wiener-schnitzel",
-      "sachertorte",
-      "apple-strudel"
-    ],
+    "coordinates": [48.2082, 16.3738],
+    "dishes": ["wiener-schnitzel", "sachertorte", "apple-strudel"],
     "image": "/images/cities/vienna.jpg"
   },
   {
     "name": "Xi'an",
     "country": "China",
-    "coordinates": [
-      34.3416,
-      108.9398
-    ],
+    "coordinates": [34.3416, 108.9398],
     "dishes": [
       "biang-biang-noodles",
       "roujiamo",
