@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Eats Around the World | New Orleans, United States</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <a href="/"><img src="/images/logo_globe.svg" alt="Eats Around the World Logo" class="logo"></a>
+      <h1>Eats Around the World</h1>
+    </div>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <a href="/">Home</a>
+      <a href="/dishes/">Dishes</a>
+      <a href="/cities/">Cities</a>
+      <a href="/countries/">Countries</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  
+  <main>
+    
+<div class="city-header">
+  <h1>New Orleans</h1>
+  <p class="country-link">
+    <a href="/countries/united-states/">United States</a>
+  </p>
+</div>
+
+
+  <div class="image-grid">
+    
+      
+      
+        <a href="/dishes/gumbo/" class="grid-item">
+          
+            <img src="/images/dishes/gumbo.jpg" alt="Gumbo" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Gumbo</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/jambalaya/" class="grid-item">
+          
+            <img src="/images/dishes/jambalaya.jpg" alt="Jambalaya" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Jambalaya</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/po-boy/" class="grid-item">
+          
+            <img src="/images/dishes/po-boy.jpg" alt="Po' Boy" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Po' Boy</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/beignets/" class="grid-item">
+          
+            <img src="/images/dishes/beignets.jpg" alt="Beignets" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Beignets</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/red-beans-and-rice/" class="grid-item">
+          
+            <img src="/images/dishes/red-beans-and-rice.jpg" alt="Red Beans and Rice" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Red Beans and Rice</span>
+          </div>
+        </a>
+      
+    
+  </div>
+
+
+<nav class="dish-navigation">
+  
+    <a href="/cities/nashville/" class="nav-link prev">← Previous City</a>
+  
+  
+  
+    <a href="/cities/new-york-city/" class="nav-link next">Next City →</a>
+  
+</nav>
+  </main>
+  
+  <script>
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.mobile-menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (toggleButton && navMenu) {
+        toggleButton.addEventListener('click', function() {
+          toggleButton.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        navMenu.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

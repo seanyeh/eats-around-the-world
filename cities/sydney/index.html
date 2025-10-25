@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Eats Around the World | Sydney, Australia</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <a href="/"><img src="/images/logo_globe.svg" alt="Eats Around the World Logo" class="logo"></a>
+      <h1>Eats Around the World</h1>
+    </div>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <a href="/">Home</a>
+      <a href="/dishes/">Dishes</a>
+      <a href="/cities/">Cities</a>
+      <a href="/countries/">Countries</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  
+  <main>
+    
+<div class="city-header">
+  <h1>Sydney</h1>
+  <p class="country-link">
+    <a href="/countries/australia/">Australia</a>
+  </p>
+</div>
+
+
+  <div class="image-grid">
+    
+      
+      
+        <a href="/dishes/meat-pie/" class="grid-item">
+          
+            <img src="/images/dishes/meat-pie.jpg" alt="Meat Pie" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Meat Pie</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/barramundi/" class="grid-item">
+          
+            <img src="/images/dishes/barramundi.jpg" alt="Barramundi" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Barramundi</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/lamington/" class="grid-item">
+          
+            <img src="/images/dishes/lamington.jpg" alt="Lamington" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Lamington</span>
+          </div>
+        </a>
+      
+    
+  </div>
+
+
+<nav class="dish-navigation">
+  
+    <a href="/cities/stockholm/" class="nav-link prev">← Previous City</a>
+  
+  
+  
+    <a href="/cities/taipei/" class="nav-link next">Next City →</a>
+  
+</nav>
+  </main>
+  
+  <script>
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.mobile-menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (toggleButton && navMenu) {
+        toggleButton.addEventListener('click', function() {
+          toggleButton.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        navMenu.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

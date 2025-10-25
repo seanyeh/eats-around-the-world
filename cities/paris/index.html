@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Eats Around the World | Paris, France</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <a href="/"><img src="/images/logo_globe.svg" alt="Eats Around the World Logo" class="logo"></a>
+      <h1>Eats Around the World</h1>
+    </div>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <a href="/">Home</a>
+      <a href="/dishes/">Dishes</a>
+      <a href="/cities/">Cities</a>
+      <a href="/countries/">Countries</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  
+  <main>
+    
+<div class="city-header">
+  <h1>Paris</h1>
+  <p class="country-link">
+    <a href="/countries/france/">France</a>
+  </p>
+</div>
+
+
+  <div class="image-grid">
+    
+      
+      
+        <a href="/dishes/croissant/" class="grid-item">
+          
+            <img src="/images/dishes/croissant.jpg" alt="Croissant" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Croissant</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/coq-au-vin/" class="grid-item">
+          
+            <img src="/images/dishes/coq-au-vin.jpg" alt="Coq au Vin" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Coq au Vin</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/french-onion-soup/" class="grid-item">
+          
+            <img src="/images/dishes/french-onion-soup.jpg" alt="French Onion Soup" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">French Onion Soup</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/escargot/" class="grid-item">
+          
+            <img src="/images/dishes/escargot.jpg" alt="Escargot" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Escargot</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/creme-brulee/" class="grid-item">
+          
+            <img src="/images/dishes/creme-brulee.jpg" alt="Crème Brûlée" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Crème Brûlée</span>
+          </div>
+        </a>
+      
+    
+  </div>
+
+
+<nav class="dish-navigation">
+  
+    <a href="/cities/osaka/" class="nav-link prev">← Previous City</a>
+  
+  
+  
+    <a href="/cities/philadelphia/" class="nav-link next">Next City →</a>
+  
+</nav>
+  </main>
+  
+  <script>
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.mobile-menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (toggleButton && navMenu) {
+        toggleButton.addEventListener('click', function() {
+          toggleButton.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        navMenu.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

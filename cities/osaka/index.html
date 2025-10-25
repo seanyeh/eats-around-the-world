@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Eats Around the World | Osaka, Japan</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <a href="/"><img src="/images/logo_globe.svg" alt="Eats Around the World Logo" class="logo"></a>
+      <h1>Eats Around the World</h1>
+    </div>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <a href="/">Home</a>
+      <a href="/dishes/">Dishes</a>
+      <a href="/cities/">Cities</a>
+      <a href="/countries/">Countries</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  
+  <main>
+    
+<div class="city-header">
+  <h1>Osaka</h1>
+  <p class="country-link">
+    <a href="/countries/japan/">Japan</a>
+  </p>
+</div>
+
+
+  <div class="image-grid">
+    
+      
+      
+        <a href="/dishes/takoyaki/" class="grid-item">
+          
+            <img src="/images/dishes/takoyaki.jpg" alt="Takoyaki" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Takoyaki</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/okonomiyaki/" class="grid-item">
+          
+            <img src="/images/dishes/okonomiyaki.jpg" alt="Okonomiyaki" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Okonomiyaki</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/kushikatsu/" class="grid-item">
+          
+            <img src="/images/dishes/kushikatsu.jpg" alt="Kushikatsu" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Kushikatsu</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/ikayaki/" class="grid-item">
+          
+            <img src="/images/dishes/ikayaki.jpg" alt="Ikayaki" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Ikayaki</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/butaman/" class="grid-item">
+          
+            <img src="/images/dishes/butaman.jpg" alt="Butaman" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Butaman</span>
+          </div>
+        </a>
+      
+    
+  </div>
+
+
+<nav class="dish-navigation">
+  
+    <a href="/cities/new-york-city/" class="nav-link prev">← Previous City</a>
+  
+  
+  
+    <a href="/cities/paris/" class="nav-link next">Next City →</a>
+  
+</nav>
+  </main>
+  
+  <script>
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.mobile-menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (toggleButton && navMenu) {
+        toggleButton.addEventListener('click', function() {
+          toggleButton.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        navMenu.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Eats Around the World | Vietnam</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <a href="/"><img src="/images/logo_globe.svg" alt="Eats Around the World Logo" class="logo"></a>
+      <h1>Eats Around the World</h1>
+    </div>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <a href="/">Home</a>
+      <a href="/dishes/">Dishes</a>
+      <a href="/cities/">Cities</a>
+      <a href="/countries/">Countries</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  
+  <main>
+    
+<div class="country-header">
+  <h1>Vietnam</h1>
+</div>
+
+<div class="cities-section">
+  <h2>Cities</h2>
+  <div class="city-cards">
+    
+    
+      <a href="/cities/hanoi/" class="city-card">
+        
+          <div class="city-card-image">
+            <img src="/images/cities/hanoi.jpg" alt="Hanoi" loading="lazy">
+          </div>
+        
+        <div class="city-card-content">
+          <h3>Hanoi</h3>
+          <p class="dish-count">4 dishes</p>
+        </div>
+      </a>
+    
+      <a href="/cities/ho-chi-minh-city/" class="city-card">
+        
+          <div class="city-card-image">
+            <img src="/images/cities/ho-chi-minh-city.jpg" alt="Ho Chi Minh City" loading="lazy">
+          </div>
+        
+        <div class="city-card-content">
+          <h3>Ho Chi Minh City</h3>
+          <p class="dish-count">3 dishes</p>
+        </div>
+      </a>
+    
+  </div>
+</div>
+
+<div class="dishes-section">
+  <h2>All Dishes</h2>
+  <div class="image-grid">
+  
+  
+  
+  
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+  
+    
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+  
+  
+  
+    
+    
+      <a href="/dishes/pho/" class="grid-item">
+        <img src="/images/dishes/pho.jpg" alt="Pho" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Pho</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/bun-cha/" class="grid-item">
+        <img src="/images/dishes/bun-cha.jpg" alt="Bun Cha" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Bun Cha</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/egg-coffee/" class="grid-item">
+        <img src="/images/dishes/egg-coffee.jpg" alt="Egg Coffee" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Egg Coffee</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/cha-ca-la-vong/" class="grid-item">
+        <img src="/images/dishes/cha-ca-la-vong.jpg" alt="Cha Ca La Vong" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Cha Ca La Vong</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/banh-mi/" class="grid-item">
+        <img src="/images/dishes/banh-mi.jpg" alt="Banh Mi" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Banh Mi</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/bun-bo-hue/" class="grid-item">
+        <img src="/images/dishes/bun-bo-hue.jpg" alt="Bun Bo Hue" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Bun Bo Hue</span>
+        </div>
+      </a>
+    
+  
+</div>
+</div>
+
+<nav class="dish-navigation">
+  
+    <a href="/countries/united-states/" class="nav-link prev">← Previous Country</a>
+  
+  
+  
+</nav>
+  </main>
+  
+  <script>
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.mobile-menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (toggleButton && navMenu) {
+        toggleButton.addEventListener('click', function() {
+          toggleButton.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        navMenu.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

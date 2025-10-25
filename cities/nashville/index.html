@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Eats Around the World | Nashville, United States</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <a href="/"><img src="/images/logo_globe.svg" alt="Eats Around the World Logo" class="logo"></a>
+      <h1>Eats Around the World</h1>
+    </div>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <a href="/">Home</a>
+      <a href="/dishes/">Dishes</a>
+      <a href="/cities/">Cities</a>
+      <a href="/countries/">Countries</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  
+  <main>
+    
+<div class="city-header">
+  <h1>Nashville</h1>
+  <p class="country-link">
+    <a href="/countries/united-states/">United States</a>
+  </p>
+</div>
+
+
+  <div class="image-grid">
+    
+      
+      
+        <a href="/dishes/hot-chicken/" class="grid-item">
+          
+            <img src="/images/dishes/hot-chicken.jpg" alt="Nashville Hot Chicken" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Nashville Hot Chicken</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/meat-and-three/" class="grid-item">
+          
+            <img src="/images/dishes/meat-and-three.jpg" alt="Meat and Three" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Meat and Three</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/goo-goo-cluster/" class="grid-item">
+          
+            <img src="/images/dishes/goo-goo-cluster.jpg" alt="Goo Goo Cluster" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Goo Goo Cluster</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/banana-pudding/" class="grid-item">
+          
+            <img src="/images/dishes/banana-pudding.jpg" alt="Banana Pudding" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Banana Pudding</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/fried-catfish/" class="grid-item">
+          
+            <img src="/images/no_image_placeholder.svg" alt="Fried Catfish" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Fried Catfish</span>
+          </div>
+        </a>
+      
+    
+  </div>
+
+
+<nav class="dish-navigation">
+  
+    <a href="/cities/naples/" class="nav-link prev">← Previous City</a>
+  
+  
+  
+    <a href="/cities/new-orleans/" class="nav-link next">Next City →</a>
+  
+</nav>
+  </main>
+  
+  <script>
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.mobile-menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (toggleButton && navMenu) {
+        toggleButton.addEventListener('click', function() {
+          toggleButton.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        navMenu.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
