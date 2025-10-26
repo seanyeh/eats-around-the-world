@@ -474,6 +474,13 @@
     "image": "/images/cities/prague.jpg"
   },
   {
+    "name": "Reykjavik",
+    "country": "Iceland",
+    "coordinates": [64.1466, -21.9426],
+    "dishes": ["hakarl", "kjötsúpa", "skyr", "rugbraud", "pylsur"],
+    "image": "/images/cities/reykjavik.jpg"
+  },
+  {
     "name": "Rio de Janeiro",
     "country": "Brazil",
     "coordinates": [-22.9068, -43.1729],

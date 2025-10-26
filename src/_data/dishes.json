@@ -865,6 +865,13 @@
     "image": "/images/dishes/hainanese-chicken-rice.jpg"
   },
   {
+    "id": "hakarl",
+    "name": "Hákarl",
+    "description": "Traditional fermented shark with a strong ammonia smell and fishy taste. An acquired taste, often served with brennivín.",
+    "links": { "wiki": "https://en.wikipedia.org/wiki/Hákarl" },
+    "image": "/images/dishes/hakarl.jpg"
+  },
+  {
     "id": "haleem",
     "name": "Haleem",
     "original": "حلیم",
@@ -1032,6 +1039,13 @@
     "description": "Ethiopian delicacy of minced raw beef marinated in mitmita spice and clarified butter. Traditionally from the Gurage people.",
     "links": { "wiki": "https://en.wikipedia.org/wiki/Kitfo" },
     "image": "/images/dishes/kitfo.jpg"
+  },
+  {
+    "id": "kjötsúpa",
+    "name": "Kjötsúpa",
+    "description": "Traditional Icelandic lamb soup with root vegetables. A hearty comfort food perfect for cold winters.",
+    "links": { "wiki": "https://en.wikipedia.org/wiki/Icelandic_cuisine" },
+    "image": "/images/dishes/kjötsúpa.jpg"
   },
   {
     "id": "knafeh",
@@ -1527,6 +1541,13 @@
     "image": "/images/dishes/pozole.jpg"
   },
   {
+    "id": "pylsur",
+    "name": "Pylsur",
+    "description": "Icelandic hot dogs made from lamb, pork, and beef. Served with raw and fried onions, ketchup, mustard, and remoulade.",
+    "links": { "wiki": "https://en.wikipedia.org/wiki/Icelandic_hot_dog" },
+    "image": "/images/dishes/pylsur.jpg"
+  },
+  {
     "id": "quenelles",
     "name": "Quenelles",
     "description": "Light dumplings of creamed pike fish with egg binding, poached and served with rich Nantua sauce. Lyon specialty.",
@@ -1584,6 +1605,13 @@
     "description": "Chinese hamburger with slow-cooked spiced pork stuffed in a crispy flatbread.",
     "links": { "wiki": "https://en.wikipedia.org/wiki/Roujiamo" },
     "image": "/images/dishes/roujiamo.jpg"
+  },
+  {
+    "id": "rugbraud",
+    "name": "Rúgbrauð",
+    "description": "Dark, dense rye bread traditionally baked underground near hot springs. Moist with a slightly sweet taste.",
+    "links": { "wiki": "https://en.wikipedia.org/wiki/Icelandic_cuisine" },
+    "image": "/images/dishes/rugbraud.jpg"
   },
   {
     "id": "sachertorte",
@@ -1681,6 +1709,13 @@
     "description": "Sichuan water-boiled fish with tender fish fillets poached in fiery chili oil with Sichuan peppercorns. A modern Sichuan classic.",
     "links": { "wiki": "https://en.wikipedia.org/wiki/Shuizhu" },
     "image": "/images/dishes/shuizhuyu.jpg"
+  },
+  {
+    "id": "skyr",
+    "name": "Skyr",
+    "description": "Traditional cultured dairy product similar to strained yogurt but milder. High-protein, low-fat, often served with berries.",
+    "links": { "wiki": "https://en.wikipedia.org/wiki/Skyr" },
+    "image": "/images/dishes/skyr.jpg"
   },
   {
     "id": "slinger",
