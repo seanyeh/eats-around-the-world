@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Eats Around the World | India</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <a href="/"><img src="/images/logo_globe.svg" alt="Eats Around the World Logo" class="logo"></a>
+      <h1>Eats Around the World</h1>
+    </div>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <a href="/">Home</a>
+      <a href="/dishes/">Dishes</a>
+      <a href="/cities/">Cities</a>
+      <a href="/countries/">Countries</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  
+  <main>
+    
+<div class="country-header">
+  <h1>India</h1>
+</div>
+
+<div class="cities-section">
+  <h2>Cities</h2>
+  <div class="city-cards">
+    
+    
+      <a href="/cities/delhi/" class="city-card">
+        
+          <div class="city-card-image">
+            <img src="/images/cities/delhi.jpg" alt="Delhi" loading="lazy">
+          </div>
+        
+        <div class="city-card-content">
+          <h3>Delhi</h3>
+          <p class="dish-count">5 dishes</p>
+        </div>
+      </a>
+    
+      <a href="/cities/mumbai/" class="city-card">
+        
+          <div class="city-card-image">
+            <img src="/images/cities/mumbai.jpg" alt="Mumbai" loading="lazy">
+          </div>
+        
+        <div class="city-card-content">
+          <h3>Mumbai</h3>
+          <p class="dish-count">5 dishes</p>
+        </div>
+      </a>
+    
+  </div>
+</div>
+
+<div class="dishes-section">
+  <h2>All Dishes</h2>
+  <div class="image-grid">
+  
+  
+  
+  
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+  
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+  
+  
+  
+    
+    
+      <a href="/dishes/butter-chicken/" class="grid-item">
+        <img src="/images/dishes/butter-chicken.jpg" alt="Butter Chicken" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Butter Chicken</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/chole-bhature/" class="grid-item">
+        <img src="/images/dishes/chole-bhature.jpg" alt="Chole Bhature" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Chole Bhature</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/kebabs/" class="grid-item">
+        <img src="/images/dishes/kebabs.jpg" alt="Kebabs" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Kebabs</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/parathas/" class="grid-item">
+        <img src="/images/dishes/parathas.jpg" alt="Parathas" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Parathas</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/chaat/" class="grid-item">
+        <img src="/images/dishes/chaat.jpg" alt="Chaat" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Chaat</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/vada-pav/" class="grid-item">
+        <img src="/images/dishes/vada-pav.jpg" alt="Vada Pav" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Vada Pav</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/pav-bhaji/" class="grid-item">
+        <img src="/images/dishes/pav-bhaji.jpg" alt="Pav Bhaji" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Pav Bhaji</span>
+        </div>
+      </a>
+    
+  
+    
+    
+  
+    
+    
+      <a href="/dishes/bhel-puri/" class="grid-item">
+        <img src="/images/dishes/bhel-puri.jpg" alt="Bhel Puri" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Bhel Puri</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/misal-pav/" class="grid-item">
+        <img src="/images/dishes/misal-pav.jpg" alt="Misal Pav" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Misal Pav</span>
+        </div>
+      </a>
+    
+  
+</div>
+</div>
+
+<nav class="dish-navigation">
+  
+    <a href="/countries/iceland/" class="nav-link prev">← Previous Country</a>
+  
+  
+  
+    <a href="/countries/indonesia/" class="nav-link next">Next Country →</a>
+  
+</nav>
+  </main>
+  
+  <script>
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.mobile-menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (toggleButton && navMenu) {
+        toggleButton.addEventListener('click', function() {
+          toggleButton.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        navMenu.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

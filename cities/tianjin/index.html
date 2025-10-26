@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Eats Around the World | Tianjin, China</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <a href="/"><img src="/images/logo_globe.svg" alt="Eats Around the World Logo" class="logo"></a>
+      <h1>Eats Around the World</h1>
+    </div>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <a href="/">Home</a>
+      <a href="/dishes/">Dishes</a>
+      <a href="/cities/">Cities</a>
+      <a href="/countries/">Countries</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  
+  <main>
+    
+<div class="city-header">
+  <h1>Tianjin</h1>
+  <p class="country-link">
+    <a href="/countries/china/">China</a>
+  </p>
+</div>
+
+
+  <div class="image-grid">
+    
+      
+      
+        <a href="/dishes/jianbing/" class="grid-item">
+          
+            <img src="/images/dishes/jianbing.jpg" alt="Jianbing" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Jianbing</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/goubuli-baozi/" class="grid-item">
+          
+            <img src="/images/dishes/goubuli-baozi.jpg" alt="Goubuli Baozi" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Goubuli Baozi</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/ear-hole-fried-cake/" class="grid-item">
+          
+            <img src="/images/dishes/ear-hole-fried-cake.jpg" alt="Ear-hole Fried Cake" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Ear-hole Fried Cake</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/guobacai/" class="grid-item">
+          
+            <img src="/images/dishes/guobacai.jpg" alt="Guobacai" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Guobacai</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/chatang/" class="grid-item">
+          
+            <img src="/images/dishes/chatang.jpg" alt="Chatang" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Chatang</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/mahua/" class="grid-item">
+          
+            <img src="/images/dishes/mahua.jpg" alt="Mahua" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Mahua</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/tanghulu/" class="grid-item">
+          
+            <img src="/images/dishes/tanghulu.jpg" alt="Tanghulu" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Tanghulu</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/tianjin-preserved-vegetable/" class="grid-item">
+          
+            <img src="/images/dishes/tianjin-preserved-vegetable.jpg" alt="Tianjin Preserved Vegetable" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Tianjin Preserved Vegetable</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/zeng-beng-carp/" class="grid-item">
+          
+            <img src="/images/dishes/zeng-beng-carp.jpg" alt="Zeng Beng Carp" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Zeng Beng Carp</span>
+          </div>
+        </a>
+      
+    
+  </div>
+
+
+<nav class="dish-navigation">
+  
+    <a href="/cities/tel-aviv/" class="nav-link prev">← Previous City</a>
+  
+  
+  
+    <a href="/cities/tokyo/" class="nav-link next">Next City →</a>
+  
+</nav>
+  </main>
+  
+  <script>
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.mobile-menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (toggleButton && navMenu) {
+        toggleButton.addEventListener('click', function() {
+          toggleButton.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        navMenu.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

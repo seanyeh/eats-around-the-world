@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Eats Around the World | Chicago, United States</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <a href="/"><img src="/images/logo_globe.svg" alt="Eats Around the World Logo" class="logo"></a>
+      <h1>Eats Around the World</h1>
+    </div>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <a href="/">Home</a>
+      <a href="/dishes/">Dishes</a>
+      <a href="/cities/">Cities</a>
+      <a href="/countries/">Countries</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  
+  <main>
+    
+<div class="city-header">
+  <h1>Chicago</h1>
+  <p class="country-link">
+    <a href="/countries/united-states/">United States</a>
+  </p>
+</div>
+
+
+  <div class="image-grid">
+    
+      
+      
+        <a href="/dishes/deep-dish-pizza/" class="grid-item">
+          
+            <img src="/images/dishes/deep-dish-pizza.jpg" alt="Deep Dish Pizza" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Deep Dish Pizza</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/tavern-style-pizza/" class="grid-item">
+          
+            <img src="/images/dishes/tavern-style-pizza.jpg" alt="Tavern-Style Pizza" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Tavern-Style Pizza</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/italian-beef/" class="grid-item">
+          
+            <img src="/images/dishes/italian-beef.jpg" alt="Italian Beef" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Italian Beef</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/chicago-hot-dog/" class="grid-item">
+          
+            <img src="/images/dishes/chicago-hot-dog.jpg" alt="Chicago Hot Dog" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Chicago Hot Dog</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/malort/" class="grid-item">
+          
+            <img src="/images/dishes/malort.jpg" alt="Malört" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Malört</span>
+          </div>
+        </a>
+      
+    
+  </div>
+
+
+<nav class="dish-navigation">
+  
+    <a href="/cities/chengdu/" class="nav-link prev">← Previous City</a>
+  
+  
+  
+    <a href="/cities/copenhagen/" class="nav-link next">Next City →</a>
+  
+</nav>
+  </main>
+  
+  <script>
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.mobile-menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (toggleButton && navMenu) {
+        toggleButton.addEventListener('click', function() {
+          toggleButton.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        navMenu.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

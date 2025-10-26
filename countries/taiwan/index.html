@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Eats Around the World | Taiwan</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <a href="/"><img src="/images/logo_globe.svg" alt="Eats Around the World Logo" class="logo"></a>
+      <h1>Eats Around the World</h1>
+    </div>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <a href="/">Home</a>
+      <a href="/dishes/">Dishes</a>
+      <a href="/cities/">Cities</a>
+      <a href="/countries/">Countries</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  
+  <main>
+    
+<div class="country-header">
+  <h1>Taiwan</h1>
+</div>
+
+<div class="cities-section">
+  <h2>Cities</h2>
+  <div class="city-cards">
+    
+    
+      <a href="/cities/taipei/" class="city-card">
+        
+          <div class="city-card-image">
+            <img src="/images/cities/taipei.jpg" alt="Taipei" loading="lazy">
+          </div>
+        
+        <div class="city-card-content">
+          <h3>Taipei</h3>
+          <p class="dish-count">5 dishes</p>
+        </div>
+      </a>
+    
+  </div>
+</div>
+
+<div class="dishes-section">
+  <h2>All Dishes</h2>
+  <div class="image-grid">
+  
+  
+  
+  
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+  
+  
+  
+    
+    
+      <a href="/dishes/beef-noodle-soup/" class="grid-item">
+        <img src="/images/dishes/beef-noodle-soup.jpg" alt="Beef Noodle Soup" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Beef Noodle Soup</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/bubble-tea/" class="grid-item">
+        <img src="/images/dishes/bubble-tea.jpg" alt="Bubble Tea" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Bubble Tea</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/gua-bao/" class="grid-item">
+        <img src="/images/dishes/gua-bao.jpg" alt="Gua Bao" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Gua Bao</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/oyster-omelette/" class="grid-item">
+        <img src="/images/dishes/oyster-omelette.jpg" alt="Oyster Omelette" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Oyster Omelette</span>
+        </div>
+      </a>
+    
+  
+    
+    
+      <a href="/dishes/stinky-tofu/" class="grid-item">
+        <img src="/images/dishes/stinky-tofu.jpg" alt="Stinky Tofu" loading="lazy">
+        <div class="image-overlay">
+          <span class="dish-name">Stinky Tofu</span>
+        </div>
+      </a>
+    
+  
+</div>
+</div>
+
+<nav class="dish-navigation">
+  
+    <a href="/countries/sweden/" class="nav-link prev">← Previous Country</a>
+  
+  
+  
+    <a href="/countries/thailand/" class="nav-link next">Next Country →</a>
+  
+</nav>
+  </main>
+  
+  <script>
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.mobile-menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (toggleButton && navMenu) {
+        toggleButton.addEventListener('click', function() {
+          toggleButton.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        navMenu.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Globe/Earth ball -->
+  <circle cx="100" cy="100" r="80" fill="#A8D8EA"/>
+  
+  <!-- Continents on globe -->
+  <path d="M 55 70 Q 65 60, 75 70 Q 85 85, 95 70 Q 110 60, 125 70 L 125 95 Q 110 110, 95 95 Q 85 110, 75 95 L 75 78 Z" fill="#7BC96F"/>
+  <path d="M 130 120 Q 145 115, 160 120 Q 175 135, 160 150 Q 145 155, 130 150 Z" fill="#7BC96F"/>
+  <ellipse cx="70" cy="135" rx="20" ry="15" fill="#7BC96F"/>
+  
+  <!-- Happy face -->
+  <circle cx="85" cy="90" r="6" fill="#333"/>
+  <circle cx="115" cy="90" r="6" fill="#333"/>
+  
+  <!-- Big smile -->
+  <path d="M 85 110 A 15 15 0 0 0 115 110" stroke="#333" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>

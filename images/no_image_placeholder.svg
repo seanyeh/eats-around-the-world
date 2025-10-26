@@ -1,0 +1,10 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#F5F5F5"/>
+  
+  <!-- Plate outline -->
+  <circle cx="150" cy="150" r="80" fill="none" stroke="#D0D0D0" stroke-width="3" stroke-dasharray="8,6"/>
+  
+  <!-- Question mark -->
+  <text x="150" y="165" font-family="Arial, sans-serif" font-size="48" fill="#C0C0C0" text-anchor="middle" font-weight="bold">?</text>
+</svg>

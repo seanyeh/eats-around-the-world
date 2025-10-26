@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Eats Around the World | Barcelona, Spain</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <a href="/"><img src="/images/logo_globe.svg" alt="Eats Around the World Logo" class="logo"></a>
+      <h1>Eats Around the World</h1>
+    </div>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <a href="/">Home</a>
+      <a href="/dishes/">Dishes</a>
+      <a href="/cities/">Cities</a>
+      <a href="/countries/">Countries</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  
+  <main>
+    
+<div class="city-header">
+  <h1>Barcelona</h1>
+  <p class="country-link">
+    <a href="/countries/spain/">Spain</a>
+  </p>
+</div>
+
+
+  <div class="image-grid">
+    
+      
+      
+        <a href="/dishes/crema-catalana/" class="grid-item">
+          
+            <img src="/images/dishes/crema-catalana.jpg" alt="Crema Catalana" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Crema Catalana</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/pan-con-tomate/" class="grid-item">
+          
+            <img src="/images/dishes/pan-con-tomate.jpg" alt="Pan con Tomate" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Pan con Tomate</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/calcots/" class="grid-item">
+          
+            <img src="/images/dishes/calcots.jpg" alt="Calcots" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Calcots</span>
+          </div>
+        </a>
+      
+    
+  </div>
+
+
+<nav class="dish-navigation">
+  
+    <a href="/cities/bangkok/" class="nav-link prev">← Previous City</a>
+  
+  
+  
+    <a href="/cities/beijing/" class="nav-link next">Next City →</a>
+  
+</nav>
+  </main>
+  
+  <script>
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.mobile-menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (toggleButton && navMenu) {
+        toggleButton.addEventListener('click', function() {
+          toggleButton.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        navMenu.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

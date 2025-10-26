@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Eats Around the World | Milan, Italy</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <a href="/"><img src="/images/logo_globe.svg" alt="Eats Around the World Logo" class="logo"></a>
+      <h1>Eats Around the World</h1>
+    </div>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <a href="/">Home</a>
+      <a href="/dishes/">Dishes</a>
+      <a href="/cities/">Cities</a>
+      <a href="/countries/">Countries</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  
+  <main>
+    
+<div class="city-header">
+  <h1>Milan</h1>
+  <p class="country-link">
+    <a href="/countries/italy/">Italy</a>
+  </p>
+</div>
+
+
+  <div class="image-grid">
+    
+      
+      
+        <a href="/dishes/risotto-alla-milanese/" class="grid-item">
+          
+            <img src="/images/dishes/risotto-alla-milanese.jpg" alt="Risotto alla Milanese" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Risotto alla Milanese</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/cotoletta-alla-milanese/" class="grid-item">
+          
+            <img src="/images/dishes/cotoletta-alla-milanese.jpg" alt="Veal Milanese" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Veal Milanese</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/panettone/" class="grid-item">
+          
+            <img src="/images/dishes/panettone.jpg" alt="Panettone" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Panettone</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/osso-buco/" class="grid-item">
+          
+            <img src="/images/dishes/osso-buco.jpg" alt="Osso Buco" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Osso Buco</span>
+          </div>
+        </a>
+      
+    
+  </div>
+
+
+<nav class="dish-navigation">
+  
+    <a href="/cities/mexico-city/" class="nav-link prev">← Previous City</a>
+  
+  
+  
+    <a href="/cities/montreal/" class="nav-link next">Next City →</a>
+  
+</nav>
+  </main>
+  
+  <script>
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.mobile-menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (toggleButton && navMenu) {
+        toggleButton.addEventListener('click', function() {
+          toggleButton.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        navMenu.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

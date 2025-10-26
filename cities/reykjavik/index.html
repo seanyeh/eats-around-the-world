@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Eats Around the World | Reykjavik, Iceland</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <a href="/"><img src="/images/logo_globe.svg" alt="Eats Around the World Logo" class="logo"></a>
+      <h1>Eats Around the World</h1>
+    </div>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <a href="/">Home</a>
+      <a href="/dishes/">Dishes</a>
+      <a href="/cities/">Cities</a>
+      <a href="/countries/">Countries</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  
+  <main>
+    
+<div class="city-header">
+  <h1>Reykjavik</h1>
+  <p class="country-link">
+    <a href="/countries/iceland/">Iceland</a>
+  </p>
+</div>
+
+
+  <div class="image-grid">
+    
+      
+      
+        <a href="/dishes/hakarl/" class="grid-item">
+          
+            <img src="/images/dishes/hakarl.jpg" alt="Hákarl" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Hákarl</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/kjötsúpa/" class="grid-item">
+          
+            <img src="/images/dishes/kjötsúpa.jpg" alt="Kjötsúpa" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Kjötsúpa</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/skyr/" class="grid-item">
+          
+            <img src="/images/dishes/skyr.jpg" alt="Skyr" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Skyr</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/rugbraud/" class="grid-item">
+          
+            <img src="/images/dishes/rugbraud.jpg" alt="Rúgbrauð" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Rúgbrauð</span>
+          </div>
+        </a>
+      
+    
+      
+      
+        <a href="/dishes/pylsur/" class="grid-item">
+          
+            <img src="/images/dishes/pylsur.jpg" alt="Pylsur" loading="lazy">
+          
+          <div class="image-overlay">
+            <span class="dish-name">Pylsur</span>
+          </div>
+        </a>
+      
+    
+  </div>
+
+
+<nav class="dish-navigation">
+  
+    <a href="/cities/prague/" class="nav-link prev">← Previous City</a>
+  
+  
+  
+    <a href="/cities/rio-de-janeiro/" class="nav-link next">Next City →</a>
+  
+</nav>
+  </main>
+  
+  <script>
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.mobile-menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (toggleButton && navMenu) {
+        toggleButton.addEventListener('click', function() {
+          toggleButton.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        navMenu.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

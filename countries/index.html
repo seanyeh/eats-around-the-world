@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Eats Around the World | Countries</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <header>
+    <div class="header-brand">
+      <a href="/"><img src="/images/logo_globe.svg" alt="Eats Around the World Logo" class="logo"></a>
+      <h1>Eats Around the World</h1>
+    </div>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <a href="/">Home</a>
+      <a href="/dishes/">Dishes</a>
+      <a href="/cities/">Cities</a>
+      <a href="/countries/">Countries</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+  
+  <main>
+    
+<div class="countries-header">
+  <h1>Countries</h1>
+</div>
+
+<div class="country-cards">
+  
+  
+  
+    <a href="/countries/argentina/" class="country-card-simple">
+      Argentina
+    </a>
+  
+    <a href="/countries/australia/" class="country-card-simple">
+      Australia
+    </a>
+  
+    <a href="/countries/austria/" class="country-card-simple">
+      Austria
+    </a>
+  
+    <a href="/countries/brazil/" class="country-card-simple">
+      Brazil
+    </a>
+  
+    <a href="/countries/canada/" class="country-card-simple">
+      Canada
+    </a>
+  
+    <a href="/countries/chile/" class="country-card-simple">
+      Chile
+    </a>
+  
+    <a href="/countries/china/" class="country-card-simple">
+      China
+    </a>
+  
+    <a href="/countries/colombia/" class="country-card-simple">
+      Colombia
+    </a>
+  
+    <a href="/countries/czechia/" class="country-card-simple">
+      Czechia
+    </a>
+  
+    <a href="/countries/denmark/" class="country-card-simple">
+      Denmark
+    </a>
+  
+    <a href="/countries/egypt/" class="country-card-simple">
+      Egypt
+    </a>
+  
+    <a href="/countries/ethiopia/" class="country-card-simple">
+      Ethiopia
+    </a>
+  
+    <a href="/countries/france/" class="country-card-simple">
+      France
+    </a>
+  
+    <a href="/countries/germany/" class="country-card-simple">
+      Germany
+    </a>
+  
+    <a href="/countries/greece/" class="country-card-simple">
+      Greece
+    </a>
+  
+    <a href="/countries/hong-kong/" class="country-card-simple">
+      Hong Kong
+    </a>
+  
+    <a href="/countries/iceland/" class="country-card-simple">
+      Iceland
+    </a>
+  
+    <a href="/countries/india/" class="country-card-simple">
+      India
+    </a>
+  
+    <a href="/countries/indonesia/" class="country-card-simple">
+      Indonesia
+    </a>
+  
+    <a href="/countries/israel/" class="country-card-simple">
+      Israel
+    </a>
+  
+    <a href="/countries/italy/" class="country-card-simple">
+      Italy
+    </a>
+  
+    <a href="/countries/japan/" class="country-card-simple">
+      Japan
+    </a>
+  
+    <a href="/countries/kenya/" class="country-card-simple">
+      Kenya
+    </a>
+  
+    <a href="/countries/mexico/" class="country-card-simple">
+      Mexico
+    </a>
+  
+    <a href="/countries/morocco/" class="country-card-simple">
+      Morocco
+    </a>
+  
+    <a href="/countries/netherlands/" class="country-card-simple">
+      Netherlands
+    </a>
+  
+    <a href="/countries/nigeria/" class="country-card-simple">
+      Nigeria
+    </a>
+  
+    <a href="/countries/pakistan/" class="country-card-simple">
+      Pakistan
+    </a>
+  
+    <a href="/countries/peru/" class="country-card-simple">
+      Peru
+    </a>
+  
+    <a href="/countries/philippines/" class="country-card-simple">
+      Philippines
+    </a>
+  
+    <a href="/countries/russia/" class="country-card-simple">
+      Russia
+    </a>
+  
+    <a href="/countries/saudi-arabia/" class="country-card-simple">
+      Saudi Arabia
+    </a>
+  
+    <a href="/countries/singapore/" class="country-card-simple">
+      Singapore
+    </a>
+  
+    <a href="/countries/south-africa/" class="country-card-simple">
+      South Africa
+    </a>
+  
+    <a href="/countries/south-korea/" class="country-card-simple">
+      South Korea
+    </a>
+  
+    <a href="/countries/spain/" class="country-card-simple">
+      Spain
+    </a>
+  
+    <a href="/countries/sweden/" class="country-card-simple">
+      Sweden
+    </a>
+  
+    <a href="/countries/taiwan/" class="country-card-simple">
+      Taiwan
+    </a>
+  
+    <a href="/countries/thailand/" class="country-card-simple">
+      Thailand
+    </a>
+  
+    <a href="/countries/turkey/" class="country-card-simple">
+      Turkey
+    </a>
+  
+    <a href="/countries/united-arab-emirates/" class="country-card-simple">
+      United Arab Emirates
+    </a>
+  
+    <a href="/countries/united-kingdom/" class="country-card-simple">
+      United Kingdom
+    </a>
+  
+    <a href="/countries/united-states/" class="country-card-simple">
+      United States
+    </a>
+  
+    <a href="/countries/vietnam/" class="country-card-simple">
+      Vietnam
+    </a>
+  
+</div>
+  </main>
+  
+  <script>
+    // Mobile menu toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.mobile-menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (toggleButton && navMenu) {
+        toggleButton.addEventListener('click', function() {
+          toggleButton.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        navMenu.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!toggleButton.contains(e.target) && !navMenu.contains(e.target)) {
+            toggleButton.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
