@@ -1044,7 +1044,7 @@
     "id": "kjötsúpa",
     "name": "Kjötsúpa",
     "description": "Traditional Icelandic lamb soup with root vegetables. A hearty comfort food perfect for cold winters.",
-    "links": { "wiki": "https://en.wikipedia.org/wiki/Icelandic_cuisine" },
+    "links": { "wiki": "https://is.wikipedia.org/wiki/Íslensk_kjötsúpa" },
     "image": "/images/dishes/kjötsúpa.jpg"
   },
   {
@@ -1610,7 +1610,7 @@
     "id": "rugbraud",
     "name": "Rúgbrauð",
     "description": "Dark, dense rye bread traditionally baked underground near hot springs. Moist with a slightly sweet taste.",
-    "links": { "wiki": "https://en.wikipedia.org/wiki/Icelandic_cuisine" },
+    "links": { "wiki": "https://en.wikipedia.org/wiki/Rúgbrauð" },
     "image": "/images/dishes/rugbraud.jpg"
   },
   {
